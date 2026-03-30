@@ -1,0 +1,15 @@
+Stat,Value,Notes
+Age,6,시작 나이
+Month,1,시작 월
+Turn,1,시작 턴
+HP,50,체력
+Charm,50,매력
+Int,50,지능
+Art,50,기품
+Morality,50,도덕성
+Stress,0,스트레스
+Sweets,500,초기 자금
+NPC_Ino,30,이노 초기 호감도
+NPC_Aileen,20,아이린 초기 호감도
+NPC_Kyle,20,카일 초기 호감도
+NPC_Lian,0,리안 초기 호감도 (13세에 등장)

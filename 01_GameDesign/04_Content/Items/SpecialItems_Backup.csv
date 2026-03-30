@@ -1,0 +1,13 @@
+﻿Special_ID,Name,Category,Effect,Description,Unlock_Condition
+SPECIAL_001,고대의 책,퀘스트,HIDDEN:EVENT:1,왕국의 고대 역사가 담긴 책,BOOKSTORE:SPECIAL:EVENT
+SPECIAL_002,신비한 돌,퀘스트,RIAN:EVENT,차원의 힘이 담긴 돌,AGE:12:EVENT
+SPECIAL_003,여왕의 편지,퀘스트,QUEEN:EVENT,현 여왕이 직접 쓴 편지,MAIL:DELIVERY
+SPECIAL_004,차원의 열쇠,퀘스트,HIDDEN:ENDING:2:CONDITION,차원을 넘나드는 열쇠,RIAN:FAVORABILITY:100:EVENT
+SPECIAL_005,성장의 비약,성장,STAT:ALL+20,순간적인 성장을 돕는 비약,SPECIAL:SHOP
+SPECIAL_006,지혜의 서,성장,STAT:INT+30,모든 지식이 담긴 전설의 서,QUEST:REWARD
+SPECIAL_007,미인의 비밀,성장,STAT:CHARM+30,아름다움의 비밀이 담긴 보석,SPECIAL:SHOP
+SPECIAL_008,체력의 수정,성장,STAT:HP+30,무한한 활력을 주는 수정,SPECIAL:SHOP
+SPECIAL_009,처음 받은 인형,기념품,STAT:STRESS-5,6세 생일에 받은 인형,AGE:6:BIRTHDAYEVENT
+SPECIAL_010,졸업식 꽃다발,기념품,MEMORY:EVENT,초등학교 졸업 기념,AGE:10:EVENT
+SPECIAL_011,여행 사진,기념품,MEMORY:EVENT,첫 여행의 추억,FIRST:TRAVEL
+SPECIAL_012,가족 사진,기념품,MEMORY:EVENT,이노와 함께 찍은 사진,SPECIAL:EVENT

@@ -1,0 +1,19 @@
+Location_ID,Name_KO,Name_EN,Category,Unlock_Condition,Related_NPC,Event_Types,Seasonal_Events,Description,Is_Hidden
+# 일반 장소
+LOC_Home,집,Home,Normal,NONE,Ino,Rest;Daily;Story,Winter_Christmas,이노와 루아가 함께 사는 곳. 차원의 문이 열린 곳.,FALSE
+LOC_School,학교,School,Normal,AGE:6,None;Lian;Teachers,School;Study;Social,Spring_Entrance;Autumn_Sports,루아가 인간 아이들과 함께 교육받는 곳. 6~18세까지 이용 가능.,FALSE
+LOC_Park,공원,Park,Normal,NONE,Kyle,Rest;Walk;Nature,Spring_Cherry;Autumn_Leaves,산책과 휴식을 위한 공간. 계절별로 다른 풍경을 제공.,FALSE
+LOC_Shopping,상점가,Shopping Street,Normal,NONE,Aileen,Shop;Social;Fashion,All,다양한 상점이 모여있는 곳. 쇼핑과 NPC 만남.,FALSE
+LOC_Library,도서관,Library,Normal,NONE,Lian,Study;Quiet;Research,All,조용한 독서 공간. 지능 향상과 리안 만남.,FALSE
+# 특별 장소
+LOC_Kingdom,디저트 왕국,Dessert Kingdom,Special,EVENT:Return,All,Story;Festival;Royal,Autumn_Festival,디저트들이 사는 왕국. 인간에게는 보이지 않음.,FALSE
+LOC_Gate,차원의 문,Dimensional Gate,Special,PROLOGUE,None,Story;Hidden,Winter,두 세계를 잇는 문. 프로로그 및 특별 이벤트.,FALSE
+LOC_Beach,바다/해변,Beach,Seasonal,AGE:8,Ino;Aileen,Rest;Summer;Swimming,Summer,여름 휴가지. 6~8월에만 접근 가능.,FALSE
+LOC_Mountain,산/등산로,Mountain,Seasonal,AGE:8,Ino;Kyle,Hiking;Nature;Climbing,Spring;Autumn,등산 및 단풍 구경. 봄/가을에만 접근 가능.,FALSE
+# NPC 관련 장소
+LOC_Aileen_Home,아이린의 집,Aileen's House,Special,Favor:40,Aileen,Social;Fashion;Story,All,디저트 왕국에 위치한 아이린의 거주지. 화려한 인테리어.,FALSE
+LOC_Kyle_Hideout,카일의 은신처,Kyle's Hideout,Special,Favor:60,Kyle,Guard;Watch;Secret,All,카일이 루아를 지켜보는 비밀 장소. 드물게 오픈.,FALSE
+LOC_Lian_Home,리안의 집,Lian's House,Special,Favor:50,Lian,Social;Human;Daily,All,인간 세계의 평범한 가정. 루아가 인간의 일상을 경험하는 곳.,FALSE
+# 히든 장소
+LOC_Secret_Garden,비밀의 정원,Secret Garden,Hidden,QUEST:Q_004,None,Hidden;Special;Rare,All,공원 깊숙이 있는 비밀 정원. 히든 엔딩 1 관련.,TRUE
+LOC_Dimension_Station,차원의 정거장,Dimension Station,Hidden,FLAG:Hidden_2,None,Hidden;Ending,Winter,차원의 문 근처에 있는 특별 공간. 히든 엔딩 2 관련.,TRUE

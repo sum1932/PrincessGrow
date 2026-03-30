@@ -1,0 +1,15 @@
+# 디저트 왕국 시뮬레이션 의존성
+# Python 3.8+ 필요
+
+# 기본 라이브러리만 사용 (내장 모듈)
+# - dataclasses
+# - typing
+# - csv
+# - random
+# - datetime
+# - os
+# - sys
+# - argparse
+# - copy
+
+# 추가 설치 필요 없음

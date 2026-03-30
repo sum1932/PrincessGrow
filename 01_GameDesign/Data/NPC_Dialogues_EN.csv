@@ -1,0 +1,92 @@
+Dialogue_ID,Text_Type,Sequence,Text_Content
+# Ino - Level 1 Event 1: First Meeting
+D_Ino_L1_001,Dialogue,1,"Um, um... Hello? I'm Ino."
+D_Ino_L1_001,Dialogue,2,"This happened so suddenly... You must be surprised? I was surprised too."
+D_Ino_L1_001,Dialogue,3,"But don't worry! I'll take good care of you!"
+D_Ino_L1_001,Choice,1,"Thank you..."
+D_Ino_L1_001,Choice,2,"...Are you really okay?"
+D_Ino_L1_001,Result,1,"Favor +3, Stress -5"
+D_Ino_L1_001,Result,2,"Favor +5, Stress -3"
+
+# Ino - Level 1 Event 2: First Breakfast
+D_Ino_L1_002,Dialogue,1,"Here, breakfast! I specially made... huh?"
+D_Ino_L1_002,Dialogue,2,"...Why is the egg still in its shell?"
+D_Ino_L1_002,Dialogue,3,"Oh, I forgot to peel it! Haha..."
+D_Ino_L1_002,Choice,1,"It's okay, I'll peel it for you"
+D_Ino_L1_002,Choice,2,"...Please be more careful next time"
+D_Ino_L1_002,Result,1,"Favor +5, Morality +2"
+D_Ino_L1_002,Result,2,"Favor +3"
+
+# Ino - Level 1 Event 3: Going Out Together
+D_Ino_L1_003,Dialogue,1,"The weather is nice today! Shall we go to the park?"
+D_Ino_L1_003,Dialogue,2,"Oh, but... I fell there last time..."
+D_Ino_L1_003,Dialogue,3,"No, no! It'll be fine this time! Probably...?"
+D_Ino_L1_003,Choice,1,"Let's be careful"
+D_Ino_L1_003,Choice,2,"I'll stay home"
+D_Ino_L1_003,Result,1,"Favor +5, HP +3"
+
+# Ino - Level 1 Event 4: Worry Consultation
+D_Ino_L1_004,Dialogue,1,"You seem to be having a hard time lately..."
+D_Ino_L1_004,Dialogue,2,"I don't know much, but I think it's important to take breaks when you're tired."
+D_Ino_L1_004,Dialogue,3,"Don't overdo it. I'll be by your side."
+D_Ino_L1_004,Choice,1,"Thank you, Ino"
+D_Ino_L1_004,Choice,2,"It's okay, I'll handle it alone"
+D_Ino_L1_004,Result,1,"Favor +8, Stress -10"
+D_Ino_L1_004,Result,2,"Stress -5"
+
+# Ino - Level 2 Event 1: Investigation Schedule Worries
+D_Ino_L2_001,Dialogue,1,"I've been busy with investigation schedules lately... I feel like I haven't spent much time with you."
+D_Ino_L2_001,Dialogue,2,"I'm sorry. I should take better care of you."
+D_Ino_L2_001,Dialogue,3,"But I can stay with you all day today!"
+D_Ino_L2_001,Choice,1,"Thank you for caring despite being busy"
+D_Ino_L2_001,Choice,2,"I'll try not to disturb your work"
+D_Ino_L2_001,Result,1,"Favor +10"
+D_Ino_L2_001,Result,2,"Favor +5, Morality +3"
+
+# Ino - Level 2 Event 2: Dinner Together
+D_Ino_L2_002,Dialogue,1,"I tried cooking today!"
+D_Ino_L2_002,Dialogue,2,"The presentation might be... but it should taste good!"
+D_Ino_L2_002,Dialogue,3,"...Maybe?"
+D_Ino_L2_002,Choice,1,"I'll enjoy it!"
+D_Ino_L2_002,Choice,2,"Should we order delivery?"
+D_Ino_L2_002,Result,1,"Favor +8, HP +5"
+D_Ino_L2_002,Result,2,"Favor +3"
+
+# Ino - Level 2 Event 3: Lua's Birthday
+D_Ino_L2_003,Dialogue,1,"Happy birthday, Lua!"
+D_Ino_L2_003,Dialogue,2,"Here... I made a lemon cake!"
+D_Ino_L2_003,Dialogue,3,"...I don't know if it's edible, but I put my heart into it!"
+D_Ino_L2_003,Choice,1,"Thank you so much! I'll cherish it"
+D_Ino_L2_003,Choice,2,"Let's eat together!"
+D_Ino_L2_003,Result,1,"Favor +15"
+D_Ino_L2_003,Result,2,"Favor +10, Stress -5"
+
+# Ino - Level 2 Event 4: Kingdom Communication
+D_Ino_L2_004,Dialogue,1,"A letter came from the kingdom. They seem to be asking about your well-being."
+D_Ino_L2_004,Dialogue,2,"What are your thoughts about becoming queen... these days?"
+D_Ino_L2_004,Dialogue,3,"I guess it's still a difficult question..."
+D_Ino_L2_004,Choice,1,"...I don't really know"
+D_Ino_L2_004,Choice,2,"I've thought about it"
+D_Ino_L2_004,Result,1,"Favor +5, Stress +3"
+D_Ino_L2_004,Result,2,"Favor +8"
+
+# Ino - Level 5 Event 1: Sincere Confession
+D_Ino_L5_001,Dialogue,1,"Lua... I need to tell you something..."
+D_Ino_L5_001,Dialogue,2,"At first, you were just a child I was asked to take care of..."
+D_Ino_L5_001,Dialogue,3,"But now... I can't imagine my life without you."
+D_Ino_L5_001,Dialogue,4,"I... I really treasure you."
+D_Ino_L5_001,Choice,1,"I like you too, Ino"
+D_Ino_L5_001,Choice,2,"(Hugs while shedding tears)"
+D_Ino_L5_001,Result,1,"Favor +25, Stress -15"
+D_Ino_L5_001,Result,2,"Favor +30"
+
+# Ino - Level 5 Event 2: Final Promise
+D_Ino_L5_002,Dialogue,1,"Lua... You've become 18..."
+D_Ino_L5_002,Dialogue,2,"It's time to make your choice."
+D_Ino_L5_002,Dialogue,3,"Whatever you choose... I support you."
+D_Ino_L5_002,Dialogue,4,"And... I'll be with you in the future you've chosen."
+D_Ino_L5_002,Dialogue,5,"I promise."
+D_Ino_L5_002,Choice,1,"Thank you, Ino. Really, thank you"
+D_Ino_L5_002,Choice,2,"(Holds hands without words)"
+D_Ino_L5_002,Result,1,"Favor +20, All Stats +5"
+D_Ino_L5_002,Result,2,"Favor +25, Special Ending Condition Met"

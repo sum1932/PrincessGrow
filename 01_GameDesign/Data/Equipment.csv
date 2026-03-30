@@ -1,0 +1,16 @@
+Equip_ID,Name_KO,Type,Required_Age,Required_Stat,Effect_JSON,CG_Variation,Price,Description,Unlock_Condition,Rarity
+# 의상 (Body)
+EQ_001,평상복,Body,,,"{}",CG_Body_Casual,0,기본적인 평상복,NONE,1
+EQ_002,귀여운 원피스,Body,,,"{""CHARM"":15}",CG_Body_Cute,300,리본이 달린 귀여운 원피스,NONE,2
+EQ_003,단정한 교복,Body,,,"{""INT"":10,""MORALITY"":5}",CG_Body_Uniform,400,깔끔한 디자인의 교복,NONE,2
+EQ_004,우아한 드레스,Body,,STAT:CHARM:200,"{""CHARM"":25,""ART"":10}",CG_Body_Dress,800,특별한 날 입는 고급 드레스,STAT:CHARM:200,3
+EQ_005,스포츠 웨어,Body,,,"{""HP"":15}",CG_Body_Sports,350,운동하기 좋은 편안한 옷,NONE,2
+EQ_006,예술가의 옷,Body,,STAT:ART:150,"{""ART"":20}",CG_Body_Artist,500,페인트 묻은 예술가의 작업복,STAT:ART:150,3
+EQ_007,특별한 의상,Body,12,,"{""CHARM"":10,""HP"":10,""INT"":10,""ART"":10,""MORALITY"":10}",CG_Body_Special,1500,전설의 디자이너가 만든 의상,AGE:12,4
+
+# 악세서리 (Accessory)
+EQ_101,기본 리본,Accessory,,,"{""CHARM"":5}",CG_Acc_Ribbon,100,머리에 매는 단순한 리본,NONE,1
+EQ_102,은 귀걸이,Accessory,,,"{""CHARM"":10}",CG_Acc_Earring,250,은빛 귀걸이,NONE,2
+EQ_103,지능의 안경,Accessory,,,"{""INT"":8}",CG_Acc_Glasses,200,지적인 인상을 주는 안경,NONE,2
+EQ_104,행운의 팔찌,Accessory,,,"{""RANDOM"":3}",CG_Acc_Bracelet,400,행운을 가져다주는 팔찌,NONE,3
+EQ_105,왕국의 증표,Accessory,,,"{""CHARM"":5,""HP"":5,""INT"":5,""ART"":5,""MORALITY"":5}",CG_Acc_Royal,0,왕궁에서 주는 특별한 악세서리,EVENT:REWARD,5

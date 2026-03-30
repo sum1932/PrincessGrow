@@ -1,0 +1,64 @@
+Dialogue_ID,NPC_ID,NPC_Name,Favor_Level,Event_Order,Event_Name,Condition_Type,Condition_Value,CG_Variation,BGM_ID,Next_Dialogue_ID,Chapter_Note,Choice_Count,Result_ID_1,Result_ID_2
+# 이노 - 레벨 1 (0~20): 첫 만남,,,,,,,,,,,,,,
+D_Ino_L1_001,NPC_Ino,이노,1,1,인사이동 첫날,Story,GameStart,,BGM_Prologue,,첫 만남 시 자동 발생,2,D_Ino_L1_001_Result1,D_Ino_L1_001_Result2
+D_Ino_L1_002,NPC_Ino,이노,1,2,첫 아침 식사,Turn,FirstMonthTurn,,,,월간 첫 번째 턴,2,D_Ino_L1_002_Result1,D_Ino_L1_002_Result2
+D_Ino_L1_003,NPC_Ino,이노,1,3,함께하는 외출,Random,GoOut,,,,외출 선택 시 랜덤,2,D_Ino_L1_003_Result1,EVENT_END
+D_Ino_L1_004,NPC_Ino,이노,1,4,고민 상담,Stat,Stress>=30,,,,스트레스 30 이상,2,D_Ino_L1_004_Result1,D_Ino_L1_004_Result2
+# 이노 - 레벨 2 (21~40): 친구,,,,,,,,,,,,,,
+D_Ino_L2_001,NPC_Ino,이노,2,1,조사 일정 고민,Favor,LevelUp,,,,레벨 2 도달,2,D_Ino_L2_001_Result1,D_Ino_L2_001_Result2
+D_Ino_L2_002,NPC_Ino,이노,2,2,함께하는 저녁 식사,Age,Age>=8,,,,연령 8세 이상,2,D_Ino_L2_002_Result1,D_Ino_L2_002_Result2
+D_Ino_L2_003,NPC_Ino,이노,2,3,루아의 생일,Date,1224,,BGM_Birthday,,12월 24일,2,D_Ino_L2_003_Result1,D_Ino_L2_003_Result2
+D_Ino_L2_004,NPC_Ino,이노,2,4,왕국 통신,Age,Age>=10,,,,연령 10세 이상,2,D_Ino_L2_004_Result1,D_Ino_L2_004_Result2
+# 이노 - 레벨 3 (41~60): 친한 친구,,,,,,,,,,,,,,
+D_Ino_L3_001,NPC_Ino,이노,3,1,루아의 고민 상담,Favor,LevelUp,,,,레벨 3 도달,2,D_Ino_L3_001_Result1,D_Ino_L3_001_Result2
+D_Ino_L3_002,NPC_Ino,이노,3,2,아이린과의 삼자 대면,NPC,Favor_Aileen>=30,,,,아이린과 함께,2,D_Ino_L3_002_Result1,D_Ino_L3_002_Result2
+D_Ino_L3_003,NPC_Ino,이노,3,3,진지한 대화,Time,Night,,,,밤 시간대,2,D_Ino_L3_003_Result1,D_Ino_L3_003_Result2
+D_Ino_L3_004,NPC_Ino,이노,3,4,함께하는 취미,Stat,AnyStat>=200,,,,특정 스탯 200 이상,2,D_Ino_L3_004_Result1,D_Ino_L3_004_Result2
+# 이노 - 레벨 4 (61~80): 높은 신뢰,,,,,,,,,,,,,,
+D_Ino_L4_001,NPC_Ino,이노,4,1,이노의 비밀,Favor,LevelUp,,,,레벨 4 도달,2,D_Ino_L4_001_Result1,D_Ino_L4_001_Result2
+D_Ino_L4_002,NPC_Ino,이노,4,2,특별한 날,Date,SpecialDay,,,,생일/기념일,2,D_Ino_L4_002_Result1,D_Ino_L4_002_Result2
+D_Ino_L4_003,NPC_Ino,이노,4,3,미래에 대한 대화,Age,Age>=16,,,,연령 16세 이상,2,D_Ino_L4_003_Result1,D_Ino_L4_003_Result2
+# 이노 - 레벨 5 (81~100): 깊은 유대,,,,,,,,,,,,,,
+D_Ino_L5_001,NPC_Ino,이노,5,1,진심 어린 고백,Favor,LevelUp,,BGM_Romantic,,레벨 5 도달,2,D_Ino_L5_001_Result1,D_Ino_L5_001_Result2
+D_Ino_L5_002,NPC_Ino,이노,5,2,최후의 약속,Age,Age=18,,BGM_Ending,END_015,18세 최종 선택,2,D_Ino_L5_002_Result1,D_Ino_L5_002_Result2
+# 아이린 - 레벨 1 (0~20): 첫 만남,,,,,,,,,,,,,,
+D_Aileen_L1_001,NPC_Aileen,아이린,1,1,첫 방문,Age,Age>=7,,,,연령 7세 이상,2,D_Aileen_L1_001_Result1,D_Aileen_L1_001_Result2
+D_Aileen_L1_002,NPC_Aileen,아이린,1,2,선물 방문,Random,Visit,,,,랜덤 방문,2,D_Aileen_L1_002_Result1,D_Aileen_L1_002_Result2
+D_Aileen_L1_003,NPC_Aileen,아이린,1,3,쇼핑 제안,Age,Age>=10,,,,연령 10세 이상,2,D_Aileen_L1_003_Result1,D_Aileen_L1_003_Result2
+# 아이린 - 레벨 2 (21~40): 친구,,,,,,,,,,,,,,
+D_Aileen_L2_001,NPC_Aileen,아이린,2,1,여자 대화,Favor,LevelUp,,,,레벨 2 도달,2,D_Aileen_L2_001_Result1,D_Aileen_L2_001_Result2
+D_Aileen_L2_002,NPC_Aileen,아이린,2,2,이노에 대한 이야기,Age,Age>=13,,,,연령 13세 이상,2,D_Aileen_L2_002_Result1,D_Aileen_L2_002_Result2
+D_Aileen_L2_003,NPC_Aileen,아이린,2,3,패션 조언,Stat,CHARM>=150,,,,매력 150 이상,2,D_Aileen_L2_003_Result1,D_Aileen_L2_003_Result2
+# 아이린 - 레벨 3 (41~60): 친한 친구,,,,,,,,,,,,,,
+D_Aileen_L3_001,NPC_Aileen,아이린,3,1,고민 상담,Favor,LevelUp,,,,레벨 3 도달,2,D_Aileen_L3_001_Result1,D_Aileen_L3_001_Result2
+D_Aileen_L3_002,NPC_Aileen,아이린,3,2,특별한 선물,Date,1224,,BGM_Birthday,,루아 생일,2,D_Aileen_L3_002_Result1,D_Aileen_L3_002_Result2
+D_Aileen_L3_003,NPC_Aileen,아이린,3,3,솔직한 대화,Time,Night,,,,밤 시간대 단둘,2,D_Aileen_L3_003_Result1,D_Aileen_L3_003_Result2
+# 아이린 - 레벨 4 (61~80): 높은 신뢰,,,,,,,,,,,,,,
+D_Aileen_L4_001,NPC_Aileen,아이린,4,1,디자인 의뢰,Favor,LevelUp,,,,레벨 4 도달,2,D_Aileen_L4_001_Result1,D_Aileen_L4_001_Result2
+D_Aileen_L4_002,NPC_Aileen,아이린,4,2,왕국 방문 초대,Age,Age>=17,,,,연령 17세 이상,2,D_Aileen_L4_002_Result1,D_Aileen_L4_002_Result2
+# 아이린 - 레벨 5 (81~100): 깊은 유대,,,,,,,,,,,,,,
+D_Aileen_L5_001,NPC_Aileen,아이린,5,1,영원한 우정,Favor,LevelUp,,,,레벨 5 도달,2,D_Aileen_L5_001_Result1,D_Aileen_L5_001_Result2
+# 카일 - 레벨 1 (0~20): 첫 만남,,,,,,,,,,,,,,
+D_Kyle_L1_001,NPC_Kyle,카일,1,1,은밀한 등장,Time,Night,,,,밤 시간대,2,D_Kyle_L1_001_Result1,D_Kyle_L1_001_Result2
+D_Kyle_L1_002,NPC_Kyle,카일,1,2,호위자의 고민,Age,Age>=9,,,,연령 9세 이상,2,D_Kyle_L1_002_Result1,D_Kyle_L1_002_Result2
+# 카일 - 레벨 2 (21~40): 신뢰,,,,,,,,,,,,,,
+D_Kyle_L2_001,NPC_Kyle,카일,2,1,왕국 소식 전달,Favor,LevelUp,,,,레벨 2 도달,2,D_Kyle_L2_001_Result1,D_Kyle_L2_001_Result2
+D_Kyle_L2_002,NPC_Kyle,카일,2,2,비밀 훈련,Stat,HP>=100,,,,체력 100 이상,2,D_Kyle_L2_002_Result1,D_Kyle_L2_002_Result2
+# 카일 - 레벨 3 (41~60): 깊은 신뢰,,,,,,,,,,,,,,
+D_Kyle_L3_001,NPC_Kyle,카일,3,1,진심 어린 조언,Favor,LevelUp,,,,레벨 3 도달,2,D_Kyle_L3_001_Result1,D_Kyle_L3_001_Result2
+D_Kyle_L3_002,NPC_Kyle,카일,3,2,여왕에 대한 이야기,Age,Age>=15,,,,연령 15세 이상,2,D_Kyle_L3_002_Result1,D_Kyle_L3_002_Result2
+# 카일 - 레벨 4 (61~80): 충성,,,,,,,,,,,,,,
+D_Kyle_L4_001,NPC_Kyle,카일,4,1,카일의 비밀,Favor,LevelUp,,,,레벨 4 도달,2,D_Kyle_L4_001_Result1,D_Kyle_L4_001_Result2
+D_Kyle_L4_002,NPC_Kyle,카일,4,2,평생의 맹세,Age,Age>=17,,,,연령 17세 이상,2,D_Kyle_L4_002_Result1,D_Kyle_L4_002_Result2
+# 카일 - 레벨 5 (81~100): 절대 충성,,,,,,,,,,,,,,
+D_Kyle_L5_001,NPC_Kyle,카일,5,1,최후의 보호,Favor,LevelUp,,,,레벨 5 도달,2,D_Kyle_L5_001_Result1,D_Kyle_L5_001_Result2
+# 리안 - 레벨 3 (50~60): 특별한 인연 (13세부터),,,,,,,,,,,,,,
+D_Lian_L3_001,NPC_Lian,리안,3,1,첫 만남 (13세),Age,Age=13,,BGM_Mysterious,,13세 생일 첫 등장,2,D_Lian_L3_001_Result1,D_Lian_L3_001_Result2
+D_Lian_L3_002,NPC_Lian,리안,3,2,비밀의 공유,Event,FirstMeet,,,,첫 만남 후,2,D_Lian_L3_002_Result1,D_Lian_L3_002_Result2
+D_Lian_L3_003,NPC_Lian,리안,3,3,인간 세계의 이야기,Age,Age>=14,,,,연령 14세 이상,2,D_Lian_L3_003_Result1,D_Lian_L3_003_Result2
+# 리안 - 레벨 4 (61~80): 특별한 친구,,,,,,,,,,,,,,
+D_Lian_L4_001,NPC_Lian,리안,4,1,능력의 비밀,Favor,LevelUp,,,,레벨 4 도달,2,D_Lian_L4_001_Result1,D_Lian_L4_001_Result2
+D_Lian_L4_002,NPC_Lian,리안,4,2,솔직한 고백,Time,Night,,,,밤 시간대,2,D_Lian_L4_002_Result1,D_Lian_L4_002_Result2
+# 리안 - 레벨 5 (81~100): 영원한 인연,,,,,,,,,,,,,,
+D_Lian_L5_001,NPC_Lian,리안,5,1,두 세계의 연결자,Favor,LevelUp,,,,레벨 5 도달,2,D_Lian_L5_001_Result1,D_Lian_L5_001_Result2
+D_Lian_L5_002,NPC_Lian,리안,5,2,마지막 약속,Age,Age=18,,BGM_Ending,END_HIDDEN_001,18세 최종 선택,2,D_Lian_L5_002_Result1,D_Lian_L5_002_Result2

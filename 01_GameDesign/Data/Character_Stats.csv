@@ -1,0 +1,9 @@
+Stat_ID,Name_KO,Name_EN,Description,Min_Value,Max_Value,Initial_Value,Growth_Rate,Is_Primary,Icon_Path,Color_Code
+# 밸런스 조정: 초기 스탯 값 증가 (스탯 성장 목표 달성을 위해)
+HP,체력,Health,신체적 건강과 활력. 운동선수 엔딩에 필요,0,999,80,1.0,TRUE,Stats/hp.png,#FF6B6B
+CHARM,매력,Charm,외모와 매력. 아이돌 및 사교적 엔딩에 필요,0,999,70,1.0,TRUE,Stats/charm.png,#FFB347
+INT,지능,Intelligence,학습 능력과 지식. 학자 및 여왕 엔딩에 필요,0,999,70,1.0,TRUE,Stats/int.png,#4ECDC4
+ART,예술,Art,예술적 감각과 창의성. 예술가 엔딩에 필요,0,999,70,1.0,TRUE,Stats/art.png,#9B59B6
+MORALITY,도덕성,Morality,도덕적 기준과 양심. 성녀 및 교사 엔딩에 필요,0,999,80,1.0,TRUE,Stats/morality.png,#F1C40F
+# 밸런스 조정: STRESS 상한 증가 (100 → 150)로 스트레스 조건 달성 여지 확보
+STRESS,스트레스,Stress,정신적 부담과 압박. 낮을수록 좋음 (자유로운 영혼 엔딩),0,150,0,0.5,FALSE,Stats/stress.png,#E74C3C

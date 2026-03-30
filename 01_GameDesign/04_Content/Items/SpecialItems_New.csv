@@ -1,0 +1,18 @@
+Item_ID,Name_KO,Type,Category,Rarity,Price,Description,Effect_HP,Effect_Charm,Effect_Int,Effect_Art,Effect_Morality,Effect_Stress,Effect_Favor_Ino,Effect_Favor_Aileen,Effect_Favor_Kyle,Effect_Favor_Lian,Target_NPC,Icon_Path,Unlock_Condition,Max_Stack,Is_Sellable,Is_Consumable
+# 특별 아이템 - 퀘스트
+ITEM_201,고대의 책,Special,Quest,3,0,왕국의 고대 역사가 담긴 책,0,0,0,0,0,0,0,0,0,0,All,Items/book_ancient.png,EVENT:BOOKSTORE,1,FALSE,FALSE
+ITEM_202,신비한 돌,Special,Quest,4,0,차원의 힘이 담긴 돌,0,0,0,0,0,0,0,0,0,0,All,Items/stone_mystery.png,AGE:12,1,FALSE,FALSE
+ITEM_203,여왕의 편지,Special,Quest,4,0,현 여왕이 직접 쓴 편지,0,0,0,0,0,0,0,0,0,0,All,Items/letter_queen.png,MAIL:DELIVERY,1,FALSE,FALSE
+ITEM_204,차원의 열쇠,Special,Quest,5,0,차원을 넘나드는 열쇠 (히든 엔딩),0,0,0,0,0,0,0,0,0,0,All,Items/key_dimension.png,EVENT:HIDDEN_1,1,FALSE,FALSE
+
+# 특별 아이템 - 성장
+ITEM_211,성장의 비약,Special,Growth,3,5000,순간적인 성장을 돕는 비약,20,20,20,20,20,0,0,0,0,0,All,Items/potion_growth.png,Shop:SPECIAL,10,TRUE,TRUE
+ITEM_212,지혜의 서,Special,Growth,4,8000,모든 지식이 담긴 전설의 서,0,0,30,0,0,0,0,0,0,0,All,Items/book_wisdom.png,QUEST:REWARD,1,TRUE,TRUE
+ITEM_213,미인의 비밀,Special,Growth,4,8000,아름다움의 비밀이 담긴 보석,0,30,0,0,0,0,0,0,0,0,All,Items/gem_beauty.png,Shop:SPECIAL,5,TRUE,TRUE
+ITEM_214,체력의 수정,Special,Growth,4,8000,무한한 활력을 주는 수정,30,0,0,0,0,0,0,0,0,0,All,Items/crystal_hp.png,Shop:SPECIAL,5,TRUE,TRUE
+
+# 특별 아이템 - 기념품
+ITEM_221,처음 받은 인형,Special,Memory,2,0,6세 생일에 받은 인형,0,0,0,0,0,-5,0,0,0,0,All,Items/doll_first.png,AGE:6:BIRTHDAY,1,FALSE,FALSE
+ITEM_222,졸업식 꽃다발,Special,Memory,2,0,초등학교 졸업 기념,0,0,0,0,0,0,0,0,0,0,All,Items/flowers_graduation.png,AGE:10:EVENT,1,FALSE,FALSE
+ITEM_223,여행 사진,Special,Memory,2,0,첫 여행의 추억,0,0,0,0,0,0,0,0,0,0,All,Items/photo_travel.png,FIRST:TRAVEL,1,FALSE,FALSE
+ITEM_224,가족 사진,Special,Memory,2,0,이노와 함께 찍은 사진,0,0,0,0,0,0,0,0,0,0,All,Items/photo_family.png,SPECIAL:EVENT,1,FALSE,FALSE

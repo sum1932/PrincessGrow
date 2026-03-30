@@ -1,0 +1,21 @@
+Quest_ID,Name_KO,Steps,Total_Turns,Trigger_Type,Trigger_Value,Required_NPC,Required_Favor,Required_Age,Required_Stat,Stat_Value,Reward_Type,Reward_Value,Special_Reward,Related_Ending,Description
+# 이노 관련 퀘스트
+Q_001,이노의 요리 교실,3,6,Random_Talk,Ino,Ino,40,9,Stress,<=50,Favor,25,ITEM_Special_Lemon_Scone,None,이노와 함께 요리 연습. 6턴에 걸쳐 3단계 진행
+# 아이린 관련 퀘스트
+Q_002,아이린의 패션 프로젝트,3,8,Random_Talk,Aileen,Aileen,45,11,Charm,>=200,Favor,30,ITEM_Special_Dress,None,아이린과 함께 특별한 옷 제작. 패션쇼 이벤트 포함
+# 카일 관련 퀘스트
+Q_003,카일의 호신술 특훈,2,4,Random_Talk,Kyle,Kyle,50,12,HP,>=150,Favor,20,SKILL_Self_Defense,None,카일에게 호신술 배우기. 실전 테스트 포함
+# 리안 관련 퀘스트 (히든 연계)
+Q_004,리안의 수수께끼,3,99,Random_Talk,Lian,Lian,55,14,Int,>=250,Favor,25,LOCATION_Secret_Garden,Hidden_1,수수께끼 3개 풀기. 히든 엔딩 1 진행도 +20%
+# 계절 이벤트 퀘스트
+Q_005,디저트 페스티벌,2,1,Date,Month=10,None,0,10,None,0,Favor,8_All,ITEM_Festival_Souvenir,None,10월 디저트 왕국 페스티벌. 모든 NPC 호감도 상승
+# 학교 이벤트 퀘스트
+Q_006,학교 축제 준비,3,99,Date,Month=5,None,0,13,None,0,Stat,Charm+15,EVENT_School_Festival,None,5월 학교 축제 준비. 반장 선출 및 운영
+# 랜덤 발생 퀘스트
+Q_007,길 잃은 디저트 정령,3,4,Random_Out,5%,None,0,11,Any_Dessert,>=200,Stat,Morality+10,ITEM_Fairy_Dust,Hidden_1,외출 시 랜덤 발생. 디저트 정령 구출
+# 특별 조건 퀘스트
+Q_008,비밀의 일기장,2,99,Random_Home,Special,None,0,12,Int+Charm,>=400,Stat,Int+20,HINT_Hidden,None,집에서 낡은 일기장 발견. 루아와 관련된 진실
+# 우정 퀘스트
+Q_009,우정의 증표,3,6,Date,Birthday_Minus_1,Any_NPC,65,99,Gold,>=1000,Favor,30_Specific,CG_Unlocked,None,특정 NPC 생일 1달 전 발생. 특별 선물 준비
+# 최종 퀘스트
+Q_010,최종 선택의 준비,2,2,Age,17,None,0,17,Event_Complete,>=70%,Stat,All+10,CHOICE_Hidden,Both_Hidden,17세 마지막 ~ 18세 첫 달. 히든 선택지 해금

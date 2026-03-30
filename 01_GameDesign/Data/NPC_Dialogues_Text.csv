@@ -1,0 +1,93 @@
+Text_ID,Dialogue_ID,Language,Text_Type,Sequence,Text_Content,Voice_Path,Note
+# 이노 - 레벨 1 이벤트 1: 인사이동 첫날
+T_Ino_L1_001_001_KO,D_Ino_L1_001,KO,Dialogue,1,"어, 어... 안녕하세요? 저는 이노라고 합니다.",Voice/Ino/L1_001_001.wav,첫 인사
+T_Ino_L1_001_002_KO,D_Ino_L1_001,KO,Dialogue,2,"갑자기 이런 일이 생겨서... 정말 놀라셨죠? 저도 놀랐어요.",Voice/Ino/L1_001_002.wav,
+T_Ino_L1_001_003_KO,D_Ino_L1_001,KO,Dialogue,3,"하지만 걱정 마세요! 열심히 잘 키워드릴 테니까요!",Voice/Ino/L1_001_003.wav,
+T_Ino_L1_001_001_EN,D_Ino_L1_001,EN,Dialogue,1,"Um, um... Hello? I'm Ino.",Voice/Ino/L1_001_001_en.wav,First greeting
+T_Ino_L1_001_002_EN,D_Ino_L1_001,EN,Dialogue,2,"This happened so suddenly... You must be surprised? I was surprised too.",Voice/Ino/L1_001_002_en.wav,
+T_Ino_L1_001_003_EN,D_Ino_L1_001,EN,Dialogue,3,"But don't worry! I'll take good care of you!",Voice/Ino/L1_001_003_en.wav,
+T_Ino_L1_001_C1_KO,D_Ino_L1_001,KO,Choice,1,"고마워요...",,선택지 1
+T_Ino_L1_001_C2_KO,D_Ino_L1_001,KO,Choice,1,"...정말 괜찮으세요?",,선택지 2
+T_Ino_L1_001_C1_EN,D_Ino_L1_001,EN,Choice,1,"Thank you...",,Choice 1
+T_Ino_L1_001_C2_EN,D_Ino_L1_001,EN,Choice,1,"...Are you really okay?",,Choice 2
+T_Ino_L1_001_R1_KO,D_Ino_L1_001,KO,Result,1,"호감도 +3, 스트레스 -5",,결과 1
+T_Ino_L1_001_R2_KO,D_Ino_L1_001,KO,Result,1,"호감도 +5, 스트레스 -3",,결과 2
+T_Ino_L1_001_R1_EN,D_Ino_L1_001,EN,Result,1,"Favor +3, Stress -5",,Result 1
+T_Ino_L1_001_R2_EN,D_Ino_L1_001,EN,Result,1,"Favor +5, Stress -3",,Result 2
+
+# 이노 - 레벨 1 이벤트 2: 첫 아침 식사
+T_Ino_L1_002_001_KO,D_Ino_L1_002,KO,Dialogue,1,"자, 아침이에요! 제가 특별히 만든... 어라?",Voice/Ino/L1_002_001.wav,
+T_Ino_L1_002_002_KO,D_Ino_L1_002,KO,Dialogue,2,"...왜 계란이 껍데기째로 있죠?",Voice/Ino/L1_002_002.wav,
+T_Ino_L1_002_003_KO,D_Ino_L1_002,KO,Dialogue,3,"아, 까는 걸 깜빡했네요! 하하...",Voice/Ino/L1_002_003.wav,
+T_Ino_L1_002_001_EN,D_Ino_L1_002,EN,Dialogue,1,"Here, breakfast! I specially made... huh?",Voice/Ino/L1_002_001_en.wav,
+T_Ino_L1_002_002_EN,D_Ino_L1_002,EN,Dialogue,2,"...Why is the egg still in its shell?",Voice/Ino/L1_002_002_en.wav,
+T_Ino_L1_002_003_EN,D_Ino_L1_002,EN,Dialogue,3,"Oh, I forgot to peel it! Haha...",Voice/Ino/L1_002_003_en.wav,
+T_Ino_L1_002_C1_KO,D_Ino_L1_002,KO,Choice,1,"괜찮아요, 제가 까줄게요",,선택지 1
+T_Ino_L1_002_C2_KO,D_Ino_L1_002,KO,Choice,1,"...다음부터는 조심해주세요",,선택지 2
+T_Ino_L1_002_C1_EN,D_Ino_L1_002,EN,Choice,1,"It's okay, I'll peel it for you",,
+T_Ino_L1_002_C2_EN,D_Ino_L1_002,EN,Choice,1,"...Please be more careful next time",,
+T_Ino_L1_002_R1_KO,D_Ino_L1_002,KO,Result,1,"호감도 +5, 도덕성 +2",,
+T_Ino_L1_002_R2_KO,D_Ino_L1_002,KO,Result,1,"호감도 +3",,
+
+# 이노 - 레벨 5 이벤트 1: 진심 어린 고백
+T_Ino_L5_001_001_KO,D_Ino_L5_001,KO,Dialogue,1,"루아... 저 말이에요...",Voice/Ino/L5_001_001.wav,
+T_Ino_L5_001_002_KO,D_Ino_L5_001,KO,Dialogue,2,"처음에는 그냥 맡아진 아이였는데...",Voice/Ino/L5_001_002.wav,
+T_Ino_L5_001_003_KO,D_Ino_L5_001,KO,Dialogue,3,"이제는 루아가 없는 삶을 상상할 수 없어요.",Voice/Ino/L5_001_003.wav,
+T_Ino_L5_001_004_KO,D_Ino_L5_001,KO,Dialogue,4,"저... 루아를 정말 소중하게 생각해요.",Voice/Ino/L5_001_004.wav,
+T_Ino_L5_001_001_EN,D_Ino_L5_001,EN,Dialogue,1,"Lua... I need to tell you something...",Voice/Ino/L5_001_001_en.wav,
+T_Ino_L5_001_002_EN,D_Ino_L5_001,EN,Dialogue,2,"At first, you were just a child I was asked to take care of...",Voice/Ino/L5_001_002_en.wav,
+T_Ino_L5_001_003_EN,D_Ino_L5_001,EN,Dialogue,3,"But now... I can't imagine my life without you.",Voice/Ino/L5_001_003_en.wav,
+T_Ino_L5_001_004_EN,D_Ino_L5_001,EN,Dialogue,4,"I... I really treasure you.",Voice/Ino/L5_001_004_en.wav,
+T_Ino_L5_001_C1_KO,D_Ino_L5_001,KO,Choice,1,"나도 이노가 좋아요",,선택지 1 (연인 루트)
+T_Ino_L5_001_C2_KO,D_Ino_L5_001,KO,Choice,1,"(눈물을 흘리며 안아준다)",,선택지 2
+T_Ino_L5_001_C1_EN,D_Ino_L5_001,EN,Choice,1,"I like you too, Ino",,Choice 1 (Lover route)
+T_Ino_L5_001_C2_EN,D_Ino_L5_001,EN,Choice,1,"(Hugs while shedding tears)",,Choice 2
+T_Ino_L5_001_R1_KO,D_Ino_L5_001,KO,Result,1,"호감도 +25, 스트레스 -15",,
+T_Ino_L5_001_R2_KO,D_Ino_L5_001,KO,Result,1,"호감도 +30, 연인 플래그 설정",,
+
+# 아이린 - 레벨 3 이벤트 3: 솔직한 대화
+T_Aileen_L3_003_001_KO,D_Aileen_L3_003,KO,Dialogue,1,"루아... 솔직히 말해도 돼?",Voice/Aileen/L3_003_001.wav,
+T_Aileen_L3_003_002_KO,D_Aileen_L3_003,KO,Dialogue,2,"나는 이노를... 좋아했었어.",Voice/Aileen/L3_003_002.wav,
+T_Aileen_L3_003_003_KO,D_Aileen_L3_003,KO,Dialogue,3,"그런데 지금은 루아랑 함께 있는 모습을 보는 게 더 좋아.",Voice/Aileen/L3_003_003.wav,
+T_Aileen_L3_003_004_KO,D_Aileen_L3_003,KO,Dialogue,4,"너희 둘이 행복하면... 나도 행복해.",Voice/Aileen/L3_003_004.wav,
+T_Aileen_L3_003_C1_KO,D_Aileen_L3_003,KO,Choice,1,"고마워요, 아이린",,
+T_Aileen_L3_003_C2_KO,D_Aileen_L3_003,KO,Choice,1,"우리 셋이 다 함께 있으면 좋겠어요",,
+T_Aileen_L3_003_R1_KO,D_Aileen_L3_003,KO,Result,1,"호감도 +18",,
+T_Aileen_L3_003_R2_KO,D_Aileen_L3_003,KO,Result,1,"호감도 +15, 이노 호감도 +5",,
+
+# 카일 - 레벨 5 이벤트 1: 최후의 보호
+T_Kyle_L5_001_001_KO,D_Kyle_L5_001,KO,Dialogue,1,"루아 님, 18세가 되셨군요...",Voice/Kyle/L5_001_001.wav,
+T_Kyle_L5_001_002_KO,D_Kyle_L5_001,KO,Dialogue,2,"이제 선택의 시간입니다.",Voice/Kyle/L5_001_002.wav,
+T_Kyle_L5_001_003_KO,D_Kyle_L5_001,KO,Dialogue,3,"전 루아 님의 선택을 존중합니다.",Voice/Kyle/L5_001_003.wav,
+T_Kyle_L5_001_004_KO,D_Kyle_L5_001,KO,Dialogue,4,"그리고... 루아 님을 따르겠습니다.",Voice/Kyle/L5_001_004.wav,
+T_Kyle_L5_001_005_KO,D_Kyle_L5_001,KO,Dialogue,5,"어떤 미래라도 함께하겠습니다.",Voice/Kyle/L5_001_005.wav,
+T_Kyle_L5_001_C1_KO,D_Kyle_L5_001,KO,Choice,1,"정말 고마워요",,
+T_Kyle_L5_001_C2_KO,D_Kyle_L5_001,KO,Choice,1,"앞으로도 잘 부탁해요",,
+T_Kyle_L5_001_R1_KO,D_Kyle_L5_001,KO,Result,1,"호감도 +25",,
+T_Kyle_L5_001_R2_KO,D_Kyle_L5_001,KO,Result,1,"호감도 +30, 특별 엔딩 조건",,
+
+# 리안 - 레벨 3 이벤트 1: 첫 만남 (13세)
+T_Lian_L3_001_001_KO,D_Lian_L3_001,KO,Dialogue,1,"어... 너도... 보이는구나?",Voice/Lian/L3_001_001.wav,
+T_Lian_L3_001_002_KO,D_Lian_L3_001,KO,Dialogue,2,"아, 미안해! 갑자기 이상한 소리를 해서...",Voice/Lian/L3_001_002.wav,
+T_Lian_L3_001_003_KO,D_Lian_L3_001,KO,Dialogue,3,"하지만 정말이야. 너는... 평범한 사람이 아니지?",Voice/Lian/L3_001_003.wav,
+T_Lian_L3_001_004_KO,D_Lian_L3_001,KO,Dialogue,4,"나는 리안이야. 그리고 너는... 레몬 냄새가 나는구나.",Voice/Lian/L3_001_004.wav,
+T_Lian_L3_001_001_EN,D_Lian_L3_001,EN,Dialogue,1,"Oh... you can... see me too?",Voice/Lian/L3_001_001_en.wav,
+T_Lian_L3_001_002_EN,D_Lian_L3_001,EN,Dialogue,2,"Sorry! That must have sounded weird...",Voice/Lian/L3_001_002_en.wav,
+T_Lian_L3_001_003_EN,D_Lian_L3_001,EN,Dialogue,3,"But it's true. You're... not an ordinary person, are you?",Voice/Lian/L3_001_003_en.wav,
+T_Lian_L3_001_004_EN,D_Lian_L3_001,EN,Dialogue,4,"I'm Lian. And you... smell like lemons.",Voice/Lian/L3_001_004_en.wav,
+T_Lian_L3_001_C1_KO,D_Lian_L3_001,KO,Choice,1,"너는 누구야?",,선택지 1
+T_Lian_L3_001_C2_KO,D_Lian_L3_001,KO,Choice,1,"나를 볼 수 있는 거야?",,선택지 2
+T_Lian_L3_001_C1_EN,D_Lian_L3_001,EN,Choice,1,"Who are you?",,
+T_Lian_L3_001_C2_EN,D_Lian_L3_001,EN,Choice,1,"You can see me?",,
+T_Lian_L3_001_R1_KO,D_Lian_L3_001,KO,Result,1,"호감도 +5 (시작 50에서), 스트레스 +5",,
+T_Lian_L3_001_R2_KO,D_Lian_L3_001,KO,Result,1,"호감도 +10 (시작 50에서)",,
+
+# 리안 - 레벨 5 이벤트 1: 두 세계의 연결자
+T_Lian_L5_001_001_KO,D_Lian_L5_001,KO,Dialogue,1,"루아, 네가 18세가 되면 선택해야겠지...",Voice/Lian/L5_001_001.wav,
+T_Lian_L5_001_002_KO,D_Lian_L5_001,KO,Dialogue,2,"여왕이 될 것인지, 다른 길을 갈 것인지...",Voice/Lian/L5_001_002.wav,
+T_Lian_L5_001_003_KO,D_Lian_L5_001,KO,Dialogue,3,"하지만 기억해. 어떤 선택을 하든... 나는 네 편이야.",Voice/Lian/L5_001_003.wav,
+T_Lian_L5_001_004_KO,D_Lian_L5_001,KO,Dialogue,4,"인간 세계와 디저트 왕국의 다리가 되어줄게.",Voice/Lian/L5_001_004.wav,
+T_Lian_L5_001_C1_KO,D_Lian_L5_001,KO,Choice,1,"리안이 있어서 다행이야",,
+T_Lian_L5_001_C2_KO,D_Lian_L5_001,KO,Choice,1,"우리가 함께 새로운 시대를 만들자",,
+T_Lian_L5_001_R1_KO,D_Lian_L5_001,KO,Result,1,"호감도 +20",,
+T_Lian_L5_001_R2_KO,D_Lian_L5_001,KO,Result,1,"호감도 +25, 히든 엔딩 조건",,

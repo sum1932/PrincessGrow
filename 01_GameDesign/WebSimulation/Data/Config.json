@@ -1,0 +1,32 @@
+{
+  "game": {
+    "start_age": 6,
+    "end_age": 18,
+    "max_turns": 144,
+    "months_per_year": 12,
+    "start_sweets": 500,
+    "stat_max": 999,
+    "stat_min": 0,
+    "stress_max": 100
+  },
+  "npc": {
+    "max_favor": 200,
+    "lian_max_favor": 180,
+    "lian_unlock_age": 13
+  },
+  "paths": {
+    "actions_csv": "../Data/Actions.csv",
+    "events_csv": "../Data/Events.csv",
+    "endings_csv": "../Data/Ending_Conditions.csv",
+    "npc_favor_csv": "../Data/NPC_Favor.csv",
+    "actions_npc_effects_csv": "./Data/Actions_NPC_Effects.csv",
+    "events_effects_csv": "./Data/Events_Effects.csv",
+    "initial_stats_csv": "./Data/Initial_Stats.csv",
+    "dialogues_csv": "./Data/Dialogues_KO.csv"
+  },
+  "dialogue": {
+    "trigger_interval_months": 3,
+    "min_favor_for_dialogue": 0,
+    "max_dialogues_per_trigger": 1
+  }
+}
