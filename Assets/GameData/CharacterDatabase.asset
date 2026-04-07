@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3323328223076987327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89dd137a1ec08dd4da78062ec83f4565, type: 3}
+  m_Name: CharacterData_0
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.CharacterData
+  CharacterId: Char_Ino
+  NameKO: "\uC774\uB178"
+  NameEN: Ino
+  Essence: "\uD1A0\uD53C\uB11B \uB77C\uB5BC"
+  Age: 21
+  Gender: Male
+  Role: "\uC8FC\uC778\uACF5"
+  PersonalityTraits: "\uC0C1\uB0E5\uD568;\uD65C\uBC1C\uD568;\uC11C\uD22C\uB984;\uC5F4\uC815\uC801"
+  Description: "\uC778\uAC04 \uC138\uACC4 \uC870\uC0AC \uB2F4\uB2F9\uC6D0. 2\uB144\uC9F8
+    \uC778\uAC04 \uC138\uACC4\uC5D0\uC11C \uC784\uBB34 \uC911. \uB8E8\uC544\uB97C
+    \uAC11\uC791\uC2A4\uB7FD\uAC8C \uB9E1\uAC8C \uB428."
+  DefaultLocation: Home
+  FavorMin: 0
+  FavorMax: 100
+  CGVariations: Normal;Happy;Blush;Serious
+  IsRomanceable: 1
+  UnlockCondition: NONE
+--- !u!114 &-200013463813915273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89dd137a1ec08dd4da78062ec83f4565, type: 3}
+  m_Name: CharacterData_3
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.CharacterData
+  CharacterId: Char_Kyle
+  NameKO: "\uCE74\uC77C"
+  NameEN: Kyle
+  Essence: "\uBE14\uB799 \uD2F0"
+  Age: 25
+  Gender: Male
+  Role: NPC
+  PersonalityTraits: "\uC2E0\uC911\uD568;\uCDA9\uC131\uC2EC;\uC5C4\uACA9\uD568;\uB530\uB73B\uD568"
+  Description: "\uB8E8\uC544\uC758 \uD638\uC704 \uAE30\uC0AC. \uC655\uAD81 \uACBD\uD638\uB300
+    \uCD9C\uC2E0\uC73C\uB85C \uB8E8\uC544\uB97C \uC9C4\uC2EC\uC73C\uB85C \uBCF4\uD638."
+  DefaultLocation: Hideout
+  FavorMin: 0
+  FavorMax: 100
+  CGVariations: Normal;Smile
+  IsRomanceable: 0
+  UnlockCondition: NONE
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d93589a70bc7c8498114021c0394470, type: 3}
+  m_Name: CharacterDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.CharacterDatabase
+  _data:
+  - {fileID: -3323328223076987327}
+  - {fileID: 998459245509826145}
+  - {fileID: 1960276866062856055}
+  - {fileID: -200013463813915273}
+  - {fileID: 7008887698733989093}
+--- !u!114 &998459245509826145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89dd137a1ec08dd4da78062ec83f4565, type: 3}
+  m_Name: CharacterData_1
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.CharacterData
+  CharacterId: Char_Lua
+  NameKO: "\uB8E8\uC544"
+  NameEN: Lua
+  Essence: "\uB808\uBAAC \uC2A4\uCF58"
+  Age: 6-18
+  Gender: Female
+  Role: "\uC721\uC131 \uB300\uC0C1"
+  PersonalityTraits: "\uC21C\uC218\uD568;\uD638\uAE30\uC2EC;\uC131\uC7A5\uD615"
+  Description: "\uCC28\uAE30 \uC5EC\uC655 \uD6C4\uBCF4. \uC778\uAC04 \uC138\uACC4\uC5D0\uC11C
+    \uC774\uB178\uC640 \uD568\uAED8 \uC131\uC7A5."
+  DefaultLocation: Home
+  FavorMin: 0
+  FavorMax: 0
+  CGVariations: Child;Teen;Adult
+  IsRomanceable: 0
+  UnlockCondition: NONE
+--- !u!114 &1960276866062856055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89dd137a1ec08dd4da78062ec83f4565, type: 3}
+  m_Name: CharacterData_2
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.CharacterData
+  CharacterId: Char_Aileen
+  NameKO: "\uC544\uC774\uB9B0"
+  NameEN: Aileen
+  Essence: "\uB9C8\uCE74\uB871"
+  Age: 21
+  Gender: Female
+  Role: NPC
+  PersonalityTraits: "\uBC1D\uC74C;\uC0AC\uAD50\uC801;\uC138\uC2EC\uD568;\uC801\uADF9\uC801"
+  Description: "\uC774\uB178\uC758 \uC18C\uAFC9\uCE5C\uAD6C. \uC655\uAD6D\uC5D0\uC11C
+    \uD328\uC158 \uAD00\uB828 \uC77C\uC744 \uD568."
+  DefaultLocation: Shopping_Street
+  FavorMin: 0
+  FavorMax: 100
+  CGVariations: Normal;Happy;Blush
+  IsRomanceable: 1
+  UnlockCondition: NONE
+--- !u!114 &7008887698733989093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89dd137a1ec08dd4da78062ec83f4565, type: 3}
+  m_Name: CharacterData_4
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.CharacterData
+  CharacterId: Char_Lian
+  NameKO: "\uB9AC\uC548"
+  NameEN: Lian
+  Essence: "\uC778\uAC04"
+  Age: 19
+  Gender: Male
+  Role: NPC
+  PersonalityTraits: "\uD638\uAE30\uC2EC;\uCE5C\uC808\uD568;\uC21C\uC218\uD568"
+  Description: "\uD3C9\uBC94\uD55C \uC778\uAC04. \uC5B4\uB9B4 \uB54C\uBD80\uD130
+    \uB514\uC800\uD2B8\uB4E4\uC744 \uBCFC \uC218 \uC788\uB294 \uD2B9\uBCC4\uD55C
+    \uB2A5\uB825 \uBCF4\uC720."
+  DefaultLocation: School
+  FavorMin: 50
+  FavorMax: 100
+  CGVariations: Normal;Happy;Blush
+  IsRomanceable: 1
+  UnlockCondition: AGE:13

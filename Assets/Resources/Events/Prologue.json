@@ -1,0 +1,226 @@
+{
+  "eventId": "EVT_PROLOGUE",
+  "eventName": "프로로그",
+  "backgroundImage": "BG_Room_Night",
+  "bgm": "BGM_Prologue",
+  "lines": [
+    {
+      "text": "휴... 오늘도 조사 일지 정리는 났고...",
+      "characterId": "INO",
+      "characterName": "{PLAYER_NAME}",
+      "portraitPath": "Characters/Portraits/Ino_Normal",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "내일은 어떤 변화가 있을까?",
+      "characterId": "INO",
+      "characterName": "{PLAYER_NAME}",
+      "portraitPath": "Characters/Portraits/Ino_Normal",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "...",
+      "characterId": "NARRATOR",
+      "characterName": "",
+      "portraitPath": "",
+      "displayDuration": 1.0,
+      "effect": null
+    },
+    {
+      "text": "갑자기 방 한가운데에서 빛의 문이 열리기 시작했다.",
+      "characterId": "NARRATOR",
+      "characterName": "",
+      "portraitPath": "",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "이건... 차원의 문? 왜 여기에...?",
+      "characterId": "INO",
+      "characterName": "{PLAYER_NAME}",
+      "portraitPath": "Characters/Portraits/Ino_Surprise",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "문 안에서 작은 금발의 아이가 나타났다.",
+      "characterId": "NARRATOR",
+      "characterName": "",
+      "portraitPath": "",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "동시에 은은한 레몬 향기가 방 안을 가득 채웠다.",
+      "characterId": "NARRATOR",
+      "characterName": "",
+      "portraitPath": "",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "어, 어... 안녕하세요?",
+      "characterId": "INO",
+      "characterName": "{PLAYER_NAME}",
+      "portraitPath": "Characters/Portraits/Ino_Surprise",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "...",
+      "characterId": "LUA",
+      "characterName": "{TARGET_NAME}",
+      "portraitPath": "Characters/Portraits/Lua_Shy",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "아이와 함께 편지 한 장이 바닥에 떨어졌다.",
+      "characterId": "NARRATOR",
+      "characterName": "",
+      "portraitPath": "",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "『이 아이는 {TARGET_NAME}. 우리 왕국의 차기 여왕 후보이다.』",
+      "characterId": "LETTER",
+      "characterName": "편지",
+      "portraitPath": "",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "『인간 세계에 대한 경험이 필요하다고 여왕께서 판단하셨다.』",
+      "characterId": "LETTER",
+      "characterName": "편지",
+      "portraitPath": "",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "『18세가 될 때까지 이 아이를 인간 세계에서 키워주기를 바란다.』",
+      "characterId": "LETTER",
+      "characterName": "편지",
+      "portraitPath": "",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "『단, 이 아이가 여왕이 되고 싶지 않다면 그 뜻을 존중해주길 바란다.』",
+      "characterId": "LETTER",
+      "characterName": "편지",
+      "portraitPath": "",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "『- 왕궁』",
+      "characterId": "LETTER",
+      "characterName": "편지",
+      "portraitPath": "",
+      "displayDuration": 0.5,
+      "effect": null
+    },
+    {
+      "text": "이 아이는 {TARGET_NAME}... 차기 여왕 후보?",
+      "characterId": "INO",
+      "characterName": "{PLAYER_NAME}",
+      "portraitPath": "Characters/Portraits/Ino_Serious",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "인간 세계에서 12년간 키우라고...?",
+      "characterId": "INO",
+      "characterName": "{PLAYER_NAME}",
+      "portraitPath": "Characters/Portraits/Ino_Serious",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "그리고... 여왕이 되고 싶지 않다면 그 뜻을 존중하라고...",
+      "characterId": "INO",
+      "characterName": "{PLAYER_NAME}",
+      "portraitPath": "Characters/Portraits/Ino_Serious",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "...",
+      "characterId": "INO",
+      "characterName": "{PLAYER_NAME}",
+      "portraitPath": "Characters/Portraits/Ino_Normal",
+      "displayDuration": 1.0,
+      "effect": null
+    },
+    {
+      "text": "{PLAYER_NAME}는 {TARGET_NAME}를 보며 깊은 한숨을 내쉬었다.",
+      "characterId": "NARRATOR",
+      "characterName": "",
+      "portraitPath": "",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "...잘 부탁해요, {TARGET_NAME}씨.",
+      "characterId": "INO",
+      "characterName": "{PLAYER_NAME}",
+      "portraitPath": "Characters/Portraits/Ino_Smile",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "...응.",
+      "characterId": "LUA",
+      "characterName": "{TARGET_NAME}",
+      "portraitPath": "Characters/Portraits/Lua_Shy",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "그렇게, 한 소녀의 이야기가 시작되었다.",
+      "characterId": "NARRATOR",
+      "characterName": "",
+      "portraitPath": "",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "디저트 왕국의 운명을 바꿀,",
+      "characterId": "NARRATOR",
+      "characterName": "",
+      "portraitPath": "",
+      "displayDuration": 0,
+      "effect": null
+    },
+    {
+      "text": "그리고 그녀 자신의 운명을 찾아가는 이야기.",
+      "characterId": "NARRATOR",
+      "characterName": "",
+      "portraitPath": "",
+      "displayDuration": 0,
+      "effect": null
+    }
+  ],
+  "choices": [
+    {
+      "text": "(수줍게) 잘 부탁해",
+      "effects": {
+        "favorChanges": {
+          "{PLAYER_NAME}": 5
+        }
+      }
+    },
+    {
+      "text": "(고개만 끄덕인다)",
+      "effects": {
+        "favorChanges": {
+          "{PLAYER_NAME}": 3
+        }
+      }
+    }
+  ]
+}

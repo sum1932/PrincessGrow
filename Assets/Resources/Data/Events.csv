@@ -1,6 +1,5 @@
 Event_ID,Name_KO,Type,Trigger_Type,Trigger_Value,Required_Previous_Event,Age_Min,Age_Max,Month,Day,Stat_Condition,NPC_Condition,Script_Path,CG_ID,BGM_ID,Next_Event,Is_Repeatable,Is_Hidden,Priority,Description
 # 프로롤로그 및 생일 이벤트
-EVT_PROLOGUE,프롤로그,Fixed,Age,Age=6,,6,6,,,,,Events/Prologue.json,CG_Prologue,BGM_Prologue,EVT_BIRTHDAY_006,FALSE,FALSE,10,게임 시작 시 자동 발생
 EVT_BIRTHDAY_006,6세 생일,Special,Date,Date=1224,,6,6,12,24,,,Events/Birthday_006.json,CG_Birthday_006,BGM_Happy,EVT_AGE_006_SCHOOL,FALSE,FALSE,9,루아의 6번째 생일
 EVT_BIRTHDAY_007,7세 생일,Special,Date,Date=1224,,7,7,12,24,,,Events/Birthday_007.json,CG_Birthday_007,BGM_Happy,,FALSE,FALSE,9,루아의 7번째 생일
 EVT_BIRTHDAY_010,10세 생일,Special,Date,Date=1224,,10,10,12,24,,,Events/Birthday_010.json,CG_Birthday_010,BGM_Happy,EVT_AGE_010_MIDDLE,FALSE,FALSE,9,루아의 10번째 생일 (특별 선물)

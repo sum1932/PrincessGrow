@@ -1,0 +1,1074 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8690595662896368502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_24
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_115
+  NameKO: "\uD2B9\uBCC4 \uC120\uBB3C"
+  NameEN: 
+  Type: Gift
+  Description: "\uC544\uC774\uB9B0\uC758 \uCDE8\uD5A5 \uC800\uACA9 \uC120\uBB3C"
+  Price: 300
+  Effect: 
+  IconPath: Items/gift_special_aileen.png
+  IsConsumable: 0
+--- !u!114 &-7900883359564717286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_2
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_003
+  NameKO: "\uC2A4\uD2B8\uB808\uC2A4 \uD574\uC18C\uC81C"
+  NameEN: 
+  Type: Consumable
+  Description: "\uAE34\uC7A5\uC744 \uD480\uC5B4\uC8FC\uB294 \uD2B9\uC81C \uC57D"
+  Price: 200
+  Effect: 
+  IconPath: Items/stress_relief.png
+  IsConsumable: 1
+--- !u!114 &-7320195205374936765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_45
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_223
+  NameKO: "\uC5EC\uD589 \uC0AC\uC9C4"
+  NameEN: 
+  Type: Special
+  Description: "\uCCAB \uC5EC\uD589\uC758 \uCD94\uC5B5"
+  Price: 0
+  Effect: 
+  IconPath: Items/photo_travel.png
+  IsConsumable: 0
+--- !u!114 &-6138952805044486204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_39
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_211
+  NameKO: "\uC131\uC7A5\uC758 \uBE44\uC57D"
+  NameEN: 
+  Type: Special
+  Description: "\uC21C\uAC04\uC801\uC778 \uC131\uC7A5\uC744 \uB3D5\uB294 \uBE44\uC57D"
+  Price: 5000
+  Effect: 
+  IconPath: Items/potion_growth.png
+  IsConsumable: 1
+--- !u!114 &-5997568549936402862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_0
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_001
+  NameKO: "\uC601\uC591\uC81C"
+  NameEN: 
+  Type: Consumable
+  Description: "\uAC74\uAC15\uC744 \uCC59\uAE30\uB294 \uAE30\uBCF8 \uC601\uC591\uC81C"
+  Price: 100
+  Effect: 
+  IconPath: Items/nutrient.png
+  IsConsumable: 1
+--- !u!114 &-5662855524449942720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_42
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_214
+  NameKO: "\uCCB4\uB825\uC758 \uC218\uC815"
+  NameEN: 
+  Type: Special
+  Description: "\uBB34\uD55C\uD55C \uD65C\uB825\uC744 \uC8FC\uB294 \uC218\uC815"
+  Price: 8000
+  Effect: 
+  IconPath: Items/crystal_hp.png
+  IsConsumable: 1
+--- !u!114 &-5497091267481651354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_20
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_111
+  NameKO: "\uD578\uB4DC\uD06C\uB9BC"
+  NameEN: 
+  Type: Gift
+  Description: "\uC608\uC058\uAC8C \uD3EC\uC7A5\uB41C \uD578\uB4DC\uD06C\uB9BC"
+  Price: 100
+  Effect: 
+  IconPath: Items/gift_handcream.png
+  IsConsumable: 0
+--- !u!114 &-5246024647478491835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_44
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_222
+  NameKO: "\uC878\uC5C5\uC2DD \uAF43\uB2E4\uBC1C"
+  NameEN: 
+  Type: Special
+  Description: "\uCD08\uB4F1\uD559\uAD50 \uC878\uC5C5 \uAE30\uB150"
+  Price: 0
+  Effect: 
+  IconPath: Items/flowers_graduation.png
+  IsConsumable: 0
+--- !u!114 &-4588263169321861035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_29
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_125
+  NameKO: "\uD2B9\uBCC4 \uC120\uBB3C"
+  NameEN: 
+  Type: Gift
+  Description: "\uCE74\uC77C\uC774 \uD544\uC694\uD55C \uD2B9\uBCC4\uD55C \uAC83"
+  Price: 300
+  Effect: 
+  IconPath: Items/gift_special_kyle.png
+  IsConsumable: 0
+--- !u!114 &-4519855078947906372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_26
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_122
+  NameKO: "\uBE14\uB799 \uD2F0"
+  NameEN: 
+  Type: Gift
+  Description: "\uCE74\uC77C\uC774 \uC0DD\uAC01\uB098\uB294 \uC120\uBB3C"
+  Price: 200
+  Effect: 
+  IconPath: Items/gift_blacktea.png
+  IsConsumable: 0
+--- !u!114 &-4403651919595262454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_35
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_201
+  NameKO: "\uACE0\uB300\uC758 \uCC45"
+  NameEN: 
+  Type: Special
+  Description: "\uC655\uAD6D\uC758 \uACE0\uB300 \uC5ED\uC0AC\uAC00 \uB2F4\uAE34 \uCC45"
+  Price: 0
+  Effect: 
+  IconPath: Items/book_ancient.png
+  IsConsumable: 0
+--- !u!114 &-3997022247311468241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_37
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_203
+  NameKO: "\uC5EC\uC655\uC758 \uD3B8\uC9C0"
+  NameEN: 
+  Type: Special
+  Description: "\uD604 \uC5EC\uC655\uC774 \uC9C1\uC811 \uC4F4 \uD3B8\uC9C0"
+  Price: 0
+  Effect: 
+  IconPath: Items/letter_queen.png
+  IsConsumable: 0
+--- !u!114 &-3798476365317934510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_27
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_123
+  NameKO: "\uC190\uC218\uAC74"
+  NameEN: 
+  Type: Gift
+  Description: "\uAE54\uB054\uD55C \uC190\uC218\uAC74"
+  Price: 100
+  Effect: 
+  IconPath: Items/gift_handkerchief.png
+  IsConsumable: 0
+--- !u!114 &-3559046289400820183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_10
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_017
+  NameKO: "\uBA85\uC0C1 \uC548\uB0B4\uC11C"
+  NameEN: 
+  Type: Consumable
+  Description: "\uB9C8\uC74C\uC744 \uB2E4\uC2A4\uB9AC\uB294 \uBC29\uBC95"
+  Price: 130
+  Effect: 
+  IconPath: Items/book_meditation.png
+  IsConsumable: 1
+--- !u!114 &-3296240827817062474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_13
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_022
+  NameKO: "\uB7ED\uD0A4 \uCFE0\uD0A4"
+  NameEN: 
+  Type: Consumable
+  Description: "\uC6B4\uC744 \uC810\uCCD0\uC8FC\uB294 \uCFE0\uD0A4 (\uB79C\uB364
+    \uC2A4\uD0EF +5)"
+  Price: 50
+  Effect: 
+  IconPath: Items/cookie_lucky.png
+  IsConsumable: 1
+--- !u!114 &-2642856181299142438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_47
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_225
+  NameKO: "\uC655\uAD6D\uC758 \uD06C\uB9AC\uC2A4\uD0C8"
+  NameEN: 
+  Type: Special
+  Description: "\uC655\uAD6D\uACFC \uC5F0\uACB0\uB418\uB294 \uBCF4\uC11D"
+  Price: 0
+  Effect: 
+  IconPath: Items/crystal_kingdom.png
+  IsConsumable: 0
+--- !u!114 &-1381516419172645010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_4
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_011
+  NameKO: "\uD654\uC7A5\uD488 \uC138\uD2B8"
+  NameEN: 
+  Type: Consumable
+  Description: "\uD53C\uBD80 \uAD00\uB9AC\uC6A9 \uD654\uC7A5\uD488"
+  Price: 150
+  Effect: 
+  IconPath: Items/cosmetics.png
+  IsConsumable: 1
+--- !u!114 &-1129252112605477667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_25
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_121
+  NameKO: "\uCC28 \uC138\uD2B8"
+  NameEN: 
+  Type: Gift
+  Description: "\uACE0\uAE09 \uCC28 \uC138\uD2B8"
+  Price: 150
+  Effect: 
+  IconPath: Items/gift_tea_set.png
+  IsConsumable: 0
+--- !u!114 &-1066342155344640987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_18
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_104
+  NameKO: "\uC218\uC81C \uCFE0\uD0A4"
+  NameEN: 
+  Type: Gift
+  Description: "\uC815\uC131\uAECF \uB9CC\uB4E0 \uCFE0\uD0A4"
+  Price: 100
+  Effect: 
+  IconPath: Items/gift_cookie_homemade.png
+  IsConsumable: 0
+--- !u!114 &-158011806410342812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_12
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_021
+  NameKO: "\uD2B9\uC81C \uAC04\uC2DD"
+  NameEN: 
+  Type: Consumable
+  Description: "\uC774\uB178\uAC00 \uB9CC\uB4E0 \uD2B9\uBCC4\uD55C \uAC04\uC2DD"
+  Price: 80
+  Effect: 
+  IconPath: Items/snack_special.png
+  IsConsumable: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7331159c904f3248a4bc289ead7e7df, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemDatabase
+  _data:
+  - {fileID: -5997568549936402862}
+  - {fileID: 1874535687317114240}
+  - {fileID: -7900883359564717286}
+  - {fileID: 4697701055492953865}
+  - {fileID: -1381516419172645010}
+  - {fileID: 1057214151709247124}
+  - {fileID: 1687407728322236085}
+  - {fileID: 4285918900928082160}
+  - {fileID: 5078161341163481702}
+  - {fileID: 7077664845712968531}
+  - {fileID: -3559046289400820183}
+  - {fileID: 6120609919180459542}
+  - {fileID: -158011806410342812}
+  - {fileID: -3296240827817062474}
+  - {fileID: 4801734566390919850}
+  - {fileID: 6501713058415735575}
+  - {fileID: 4686194814598823070}
+  - {fileID: 174325657830764953}
+  - {fileID: -1066342155344640987}
+  - {fileID: 5876689523391590745}
+  - {fileID: -5497091267481651354}
+  - {fileID: 9222784429733529480}
+  - {fileID: 2122968919100857543}
+  - {fileID: 4804991204799763002}
+  - {fileID: -8690595662896368502}
+  - {fileID: -1129252112605477667}
+  - {fileID: -4519855078947906372}
+  - {fileID: -3798476365317934510}
+  - {fileID: 3760968888985143564}
+  - {fileID: -4588263169321861035}
+  - {fileID: 6103892894291696816}
+  - {fileID: 713456589245414328}
+  - {fileID: 613694046057284793}
+  - {fileID: 5322488934921583423}
+  - {fileID: 6186253311034220279}
+  - {fileID: -4403651919595262454}
+  - {fileID: 4968903277443515749}
+  - {fileID: -3997022247311468241}
+  - {fileID: 2339009251600464537}
+  - {fileID: -6138952805044486204}
+  - {fileID: 5722560542165722286}
+  - {fileID: 1691373423482029167}
+  - {fileID: -5662855524449942720}
+  - {fileID: 3542148701625265259}
+  - {fileID: -5246024647478491835}
+  - {fileID: -7320195205374936765}
+  - {fileID: 2320101181388018492}
+  - {fileID: -2642856181299142438}
+--- !u!114 &174325657830764953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_17
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_103
+  NameKO: "\uBA38\uADF8\uCEF5"
+  NameEN: 
+  Type: Gift
+  Description: "\uC0C8\uB85C\uC6B4 \uBA38\uADF8\uCEF5"
+  Price: 80
+  Effect: 
+  IconPath: Items/gift_mug.png
+  IsConsumable: 0
+--- !u!114 &613694046057284793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_32
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_133
+  NameKO: "\uCC45"
+  NameEN: 
+  Type: Gift
+  Description: "\uB514\uC800\uD2B8 \uC138\uACC4\uC758 \uCC45"
+  Price: 150
+  Effect: 
+  IconPath: Items/gift_book.png
+  IsConsumable: 0
+--- !u!114 &713456589245414328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_31
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_132
+  NameKO: "\uB808\uBAAC \uC2A4\uCF58"
+  NameEN: 
+  Type: Gift
+  Description: "\uB8E8\uC544\uC640 \uAC19\uC740 \uB808\uBAAC \uC2A4\uCF58"
+  Price: 120
+  Effect: 
+  IconPath: Items/gift_lemonscone.png
+  IsConsumable: 0
+--- !u!114 &1057214151709247124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_5
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_012
+  NameKO: "\uBBF8\uC6A9 \uB3C4\uAD6C"
+  NameEN: 
+  Type: Consumable
+  Description: "\uBA38\uB9AC\uC640 \uC190\uD1B1 \uAD00\uB9AC \uB3C4\uAD6C"
+  Price: 200
+  Effect: 
+  IconPath: Items/beauty_tools.png
+  IsConsumable: 1
+--- !u!114 &1687407728322236085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_6
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_013
+  NameKO: "\uBA85\uC791 \uC18C\uC124"
+  NameEN: 
+  Type: Consumable
+  Description: "\uC138\uACC4\uC801\uC778 \uBB38\uD559 \uC791\uD488"
+  Price: 120
+  Effect: 
+  IconPath: Items/book_novel.png
+  IsConsumable: 1
+--- !u!114 &1691373423482029167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_41
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_213
+  NameKO: "\uBBF8\uC778\uC758 \uBE44\uBC00"
+  NameEN: 
+  Type: Special
+  Description: "\uC544\uB984\uB2E4\uC6C0\uC758 \uBE44\uBC00\uC774 \uB2F4\uAE34 \uBCF4\uC11D"
+  Price: 8000
+  Effect: 
+  IconPath: Items/gem_beauty.png
+  IsConsumable: 1
+--- !u!114 &1874535687317114240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_1
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_002
+  NameKO: "\uBE44\uD0C0\uBBFC \uC138\uD2B8"
+  NameEN: 
+  Type: Consumable
+  Description: "\uACE0\uAE09 \uC601\uC591\uC81C \uC138\uD2B8"
+  Price: 180
+  Effect: 
+  IconPath: Items/vitamin.png
+  IsConsumable: 1
+--- !u!114 &2122968919100857543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_22
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_113
+  NameKO: "\uD654\uC7A5\uD488"
+  NameEN: 
+  Type: Gift
+  Description: "\uACE0\uAE09 \uD654\uC7A5\uD488"
+  Price: 250
+  Effect: 
+  IconPath: Items/gift_cosmetics_premium.png
+  IsConsumable: 0
+--- !u!114 &2320101181388018492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_46
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_224
+  NameKO: "\uAC00\uC871 \uC0AC\uC9C4"
+  NameEN: 
+  Type: Special
+  Description: "\uC774\uB178\uC640 \uD568\uAED8 \uCC0D\uC740 \uC0AC\uC9C4"
+  Price: 0
+  Effect: 
+  IconPath: Items/photo_family.png
+  IsConsumable: 0
+--- !u!114 &2339009251600464537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_38
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_204
+  NameKO: "\uCC28\uC6D0\uC758 \uC5F4\uC1E0"
+  NameEN: 
+  Type: Special
+  Description: "\uCC28\uC6D0\uC744 \uB118\uB098\uB4DC\uB294 \uC5F4\uC1E0 (\uD788\uB4E0
+    \uC5D4\uB529)"
+  Price: 0
+  Effect: 
+  IconPath: Items/key_dimension.png
+  IsConsumable: 0
+--- !u!114 &3542148701625265259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_43
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_221
+  NameKO: "\uCC98\uC74C \uBC1B\uC740 \uC778\uD615"
+  NameEN: 
+  Type: Special
+  Description: "6\uC138 \uC0DD\uC77C\uC5D0 \uBC1B\uC740 \uC778\uD615"
+  Price: 0
+  Effect: 
+  IconPath: Items/doll_first.png
+  IsConsumable: 0
+--- !u!114 &3760968888985143564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_28
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_124
+  NameKO: "\uB178\uD2B8"
+  NameEN: 
+  Type: Gift
+  Description: "\uC815\uC7A5 \uB178\uD2B8"
+  Price: 80
+  Effect: 
+  IconPath: Items/gift_notebook.png
+  IsConsumable: 0
+--- !u!114 &4285918900928082160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_7
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_014
+  NameKO: "\uACFC\uD559 \uC7A1\uC9C0"
+  NameEN: 
+  Type: Consumable
+  Description: "\uCD5C\uC2E0 \uACFC\uD559 \uC815\uBCF4\uAC00 \uB2F4\uAE34 \uC7A1\uC9C0"
+  Price: 100
+  Effect: 
+  IconPath: Items/magazine_science.png
+  IsConsumable: 1
+--- !u!114 &4686194814598823070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_16
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_102
+  NameKO: "\uD1A0\uD53C\uB11B \uC2DC\uB7FD"
+  NameEN: 
+  Type: Gift
+  Description: "\uC774\uB178\uAC00 \uC0DD\uAC01\uB098\uB294 \uC120\uBB3C"
+  Price: 150
+  Effect: 
+  IconPath: Items/gift_syrup.png
+  IsConsumable: 0
+--- !u!114 &4697701055492953865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_3
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_004
+  NameKO: "\uC9C4\uC815 \uD2F0\uBC31"
+  NameEN: 
+  Type: Consumable
+  Description: "\uCC28\uBD84\uD55C \uB9C8\uC74C\uC744 \uC8FC\uB294 \uD5C8\uBE0C\uD2F0"
+  Price: 120
+  Effect: 
+  IconPath: Items/tea_relax.png
+  IsConsumable: 1
+--- !u!114 &4801734566390919850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_14
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_023
+  NameKO: "\uC5D0\uB108\uC9C0 \uB4DC\uB9C1\uD06C"
+  NameEN: 
+  Type: Consumable
+  Description: "\uD53C\uB85C\uD68C\uBCF5 \uB300\uC2E0 \uC2A4\uD2B8\uB808\uC2A4 \uC99D\uAC00"
+  Price: 120
+  Effect: 
+  IconPath: Items/drink_energy.png
+  IsConsumable: 1
+--- !u!114 &4804991204799763002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_23
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_114
+  NameKO: "\uADC0\uC5EC\uC6B4 \uC2A4\uD2F0\uCEE4"
+  NameEN: 
+  Type: Gift
+  Description: "\uC608\uC05C \uC2A4\uD2F0\uCEE4 \uBAA8\uC74C"
+  Price: 50
+  Effect: 
+  IconPath: Items/gift_stickers.png
+  IsConsumable: 0
+--- !u!114 &4968903277443515749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_36
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_202
+  NameKO: "\uC2E0\uBE44\uD55C \uB3CC"
+  NameEN: 
+  Type: Special
+  Description: "\uCC28\uC6D0\uC758 \uD798\uC774 \uB2F4\uAE34 \uB3CC"
+  Price: 0
+  Effect: 
+  IconPath: Items/stone_mystery.png
+  IsConsumable: 0
+--- !u!114 &5078161341163481702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_8
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_015
+  NameKO: "\uBBF8\uC220 \uB3C4\uAD6C \uC138\uD2B8"
+  NameEN: 
+  Type: Consumable
+  Description: "\uBD93\uACFC \uBB3C\uAC10 \uC138\uD2B8"
+  Price: 180
+  Effect: 
+  IconPath: Items/art_tools.png
+  IsConsumable: 1
+--- !u!114 &5322488934921583423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_33
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_134
+  NameKO: "\uC5F4\uC1E0\uACE0\uB9AC"
+  NameEN: 
+  Type: Gift
+  Description: "\uADC0\uC5EC\uC6B4 \uC5F4\uC1E0\uACE0\uB9AC"
+  Price: 60
+  Effect: 
+  IconPath: Items/gift_keychain.png
+  IsConsumable: 0
+--- !u!114 &5722560542165722286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_40
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_212
+  NameKO: "\uC9C0\uD61C\uC758 \uC11C"
+  NameEN: 
+  Type: Special
+  Description: "\uBAA8\uB4E0 \uC9C0\uC2DD\uC774 \uB2F4\uAE34 \uC804\uC124\uC758 \uC11C"
+  Price: 8000
+  Effect: 
+  IconPath: Items/book_wisdom.png
+  IsConsumable: 1
+--- !u!114 &5876689523391590745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_19
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_105
+  NameKO: "\uD2B9\uBCC4 \uC120\uBB3C"
+  NameEN: 
+  Type: Gift
+  Description: "\uC774\uB178\uAC00 \uC88B\uC544\uD558\uB294 \uD2B9\uBCC4\uD55C \uAC83"
+  Price: 300
+  Effect: 
+  IconPath: Items/gift_special_ino.png
+  IsConsumable: 0
+--- !u!114 &6103892894291696816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_30
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_131
+  NameKO: "\uB514\uC800\uD2B8"
+  NameEN: 
+  Type: Gift
+  Description: "\uB9DB\uC788\uB294 \uB514\uC800\uD2B8"
+  Price: 80
+  Effect: 
+  IconPath: Items/gift_dessert.png
+  IsConsumable: 0
+--- !u!114 &6120609919180459542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_11
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_018
+  NameKO: "\uBD09\uC0AC \uD65C\uB3D9 \uC548\uB0B4"
+  NameEN: 
+  Type: Consumable
+  Description: "\uC9C0\uC5ED \uBD09\uC0AC \uD65C\uB3D9 \uC815\uBCF4"
+  Price: 80
+  Effect: 
+  IconPath: Items/volunteer_guide.png
+  IsConsumable: 1
+--- !u!114 &6186253311034220279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_34
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_135
+  NameKO: "\uD2B9\uBCC4 \uC120\uBB3C"
+  NameEN: 
+  Type: Gift
+  Description: "\uB9AC\uC548\uACFC\uC758 \uAD00\uACC4\uB97C \uAE4A\uAC8C \uD558\uB294
+    \uC120\uBB3C"
+  Price: 300
+  Effect: 
+  IconPath: Items/gift_special_lian.png
+  IsConsumable: 0
+--- !u!114 &6501713058415735575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_15
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_101
+  NameKO: "\uCEE4\uD53C \uC6D0\uB450"
+  NameEN: 
+  Type: Gift
+  Description: "\uC2E0\uC120\uD55C \uC6D0\uB450 \uCEE4\uD53C"
+  Price: 120
+  Effect: 
+  IconPath: Items/gift_coffee.png
+  IsConsumable: 0
+--- !u!114 &7077664845712968531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_9
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_016
+  NameKO: "\uC74C\uC545 CD"
+  NameEN: 
+  Type: Consumable
+  Description: "\uD074\uB798\uC2DD \uC74C\uC545 \uBAA8\uC74C\uC9D1"
+  Price: 150
+  Effect: 
+  IconPath: Items/cd_music.png
+  IsConsumable: 1
+--- !u!114 &9222784429733529480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a75e3e34ff87ea4b9ef7a746ac96f91, type: 3}
+  m_Name: ItemData_21
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ItemData
+  ItemId: ITEM_112
+  NameKO: "\uB9C8\uCE74\uB871 \uC138\uD2B8"
+  NameEN: 
+  Type: Gift
+  Description: "\uC544\uC774\uB9B0\uC774 \uC0DD\uAC01\uB098\uB294 \uC120\uBB3C"
+  Price: 180
+  Effect: 
+  IconPath: Items/gift_macaron.png
+  IsConsumable: 0

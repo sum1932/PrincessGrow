@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6864497570798557243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_12
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_Secret_Garden
+  NameKO: "\uBE44\uBC00\uC758 \uC815\uC6D0"
+  NameEN: Secret Garden
+  Description: "\uACF5\uC6D0 \uAE4A\uC219\uC774 \uC788\uB294 \uBE44\uBC00 \uC815\uC6D0.
+    \uD788\uB4E0 \uC5D4\uB529 1 \uAD00\uB828."
+  AvailableActions: 
+  UnlockCondition: QUEST:Q_004
+  BackgroundImage: 
+--- !u!114 &-6658532239381709149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_4
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_Library
+  NameKO: "\uB3C4\uC11C\uAD00"
+  NameEN: Library
+  Description: "\uC870\uC6A9\uD55C \uB3C5\uC11C \uACF5\uAC04. \uC9C0\uB2A5 \uD5A5\uC0C1\uACFC
+    \uB9AC\uC548 \uB9CC\uB0A8."
+  AvailableActions: 
+  UnlockCondition: NONE
+  BackgroundImage: 
+--- !u!114 &-5881290211454931309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_3
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_Shopping
+  NameKO: "\uC0C1\uC810\uAC00"
+  NameEN: Shopping Street
+  Description: "\uB2E4\uC591\uD55C \uC0C1\uC810\uC774 \uBAA8\uC5EC\uC788\uB294 \uACF3.
+    \uC1FC\uD551\uACFC NPC \uB9CC\uB0A8."
+  AvailableActions: 
+  UnlockCondition: NONE
+  BackgroundImage: 
+--- !u!114 &-5863892626710137174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_7
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_Beach
+  NameKO: "\uBC14\uB2E4/\uD574\uBCC0"
+  NameEN: Beach
+  Description: "\uC5EC\uB984 \uD734\uAC00\uC9C0. 6~8\uC6D4\uC5D0\uB9CC \uC811\uADFC
+    \uAC00\uB2A5."
+  AvailableActions: 
+  UnlockCondition: AGE:8
+  BackgroundImage: 
+--- !u!114 &-4532615419327963964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_9
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_Aileen_Home
+  NameKO: "\uC544\uC774\uB9B0\uC758 \uC9D1"
+  NameEN: Aileen's House
+  Description: "\uB514\uC800\uD2B8 \uC655\uAD6D\uC5D0 \uC704\uCE58\uD55C \uC544\uC774\uB9B0\uC758
+    \uAC70\uC8FC\uC9C0. \uD654\uB824\uD55C \uC778\uD14C\uB9AC\uC5B4."
+  AvailableActions: 
+  UnlockCondition: Favor:40
+  BackgroundImage: 
+--- !u!114 &-3105425205797701229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_1
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_School
+  NameKO: "\uD559\uAD50"
+  NameEN: School
+  Description: "\uB8E8\uC544\uAC00 \uC778\uAC04 \uC544\uC774\uB4E4\uACFC \uD568\uAED8
+    \uAD50\uC721\uBC1B\uB294 \uACF3. 6~18\uC138\uAE4C\uC9C0 \uC774\uC6A9 \uAC00\uB2A5."
+  AvailableActions: 
+  UnlockCondition: AGE:6
+  BackgroundImage: 
+--- !u!114 &-2034907259784765868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_5
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_Kingdom
+  NameKO: "\uB514\uC800\uD2B8 \uC655\uAD6D"
+  NameEN: Dessert Kingdom
+  Description: "\uB514\uC800\uD2B8\uB4E4\uC774 \uC0AC\uB294 \uC655\uAD6D. \uC778\uAC04\uC5D0\uAC8C\uB294
+    \uBCF4\uC774\uC9C0 \uC54A\uC74C."
+  AvailableActions: 
+  UnlockCondition: EVENT:Return
+  BackgroundImage: 
+--- !u!114 &-1859128112110259962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_0
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_Home
+  NameKO: "\uC9D1"
+  NameEN: Home
+  Description: "\uC774\uB178\uC640 \uB8E8\uC544\uAC00 \uD568\uAED8 \uC0AC\uB294 \uACF3.
+    \uCC28\uC6D0\uC758 \uBB38\uC774 \uC5F4\uB9B0 \uACF3."
+  AvailableActions: 
+  UnlockCondition: NONE
+  BackgroundImage: 
+--- !u!114 &-868086243916254818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_6
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_Gate
+  NameKO: "\uCC28\uC6D0\uC758 \uBB38"
+  NameEN: Dimensional Gate
+  Description: "\uB450 \uC138\uACC4\uB97C \uC787\uB294 \uBB38. \uD504\uB85C\uB85C\uADF8
+    \uBC0F \uD2B9\uBCC4 \uC774\uBCA4\uD2B8."
+  AvailableActions: 
+  UnlockCondition: PROLOGUE
+  BackgroundImage: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 440947f7ada3b7846883e8558822af7d, type: 3}
+  m_Name: LocationDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationDatabase
+  _data:
+  - {fileID: -1859128112110259962}
+  - {fileID: -3105425205797701229}
+  - {fileID: 4258589059075607000}
+  - {fileID: -5881290211454931309}
+  - {fileID: -6658532239381709149}
+  - {fileID: -2034907259784765868}
+  - {fileID: -868086243916254818}
+  - {fileID: -5863892626710137174}
+  - {fileID: 3628439623972172119}
+  - {fileID: -4532615419327963964}
+  - {fileID: 1811912745811520701}
+  - {fileID: 4011029737290009462}
+  - {fileID: -6864497570798557243}
+  - {fileID: 5168794541119079428}
+--- !u!114 &1811912745811520701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_10
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_Kyle_Hideout
+  NameKO: "\uCE74\uC77C\uC758 \uC740\uC2E0\uCC98"
+  NameEN: Kyle's Hideout
+  Description: "\uCE74\uC77C\uC774 \uB8E8\uC544\uB97C \uC9C0\uCF1C\uBCF4\uB294 \uBE44\uBC00
+    \uC7A5\uC18C. \uB4DC\uBB3C\uAC8C \uC624\uD508."
+  AvailableActions: 
+  UnlockCondition: Favor:60
+  BackgroundImage: 
+--- !u!114 &3628439623972172119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_8
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_Mountain
+  NameKO: "\uC0B0/\uB4F1\uC0B0\uB85C"
+  NameEN: Mountain
+  Description: "\uB4F1\uC0B0 \uBC0F \uB2E8\uD48D \uAD6C\uACBD. \uBD04/\uAC00\uC744\uC5D0\uB9CC
+    \uC811\uADFC \uAC00\uB2A5."
+  AvailableActions: 
+  UnlockCondition: AGE:8
+  BackgroundImage: 
+--- !u!114 &4011029737290009462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_11
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_Lian_Home
+  NameKO: "\uB9AC\uC548\uC758 \uC9D1"
+  NameEN: Lian's House
+  Description: "\uC778\uAC04 \uC138\uACC4\uC758 \uD3C9\uBC94\uD55C \uAC00\uC815.
+    \uB8E8\uC544\uAC00 \uC778\uAC04\uC758 \uC77C\uC0C1\uC744 \uACBD\uD5D8\uD558\uB294
+    \uACF3."
+  AvailableActions: 
+  UnlockCondition: Favor:50
+  BackgroundImage: 
+--- !u!114 &4258589059075607000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_2
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_Park
+  NameKO: "\uACF5\uC6D0"
+  NameEN: Park
+  Description: "\uC0B0\uCC45\uACFC \uD734\uC2DD\uC744 \uC704\uD55C \uACF5\uAC04.
+    \uACC4\uC808\uBCC4\uB85C \uB2E4\uB978 \uD48D\uACBD\uC744 \uC81C\uACF5."
+  AvailableActions: 
+  UnlockCondition: NONE
+  BackgroundImage: 
+--- !u!114 &5168794541119079428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a25a13bbe537b34daaa3d9bc845e70f, type: 3}
+  m_Name: LocationData_13
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.LocationData
+  LocationId: LOC_Dimension_Station
+  NameKO: "\uCC28\uC6D0\uC758 \uC815\uAC70\uC7A5"
+  NameEN: Dimension Station
+  Description: "\uCC28\uC6D0\uC758 \uBB38 \uADFC\uCC98\uC5D0 \uC788\uB294 \uD2B9\uBCC4
+    \uACF5\uAC04. \uD788\uB4E0 \uC5D4\uB529 2 \uAD00\uB828."
+  AvailableActions: 
+  UnlockCondition: FLAG:Hidden_2
+  BackgroundImage: 

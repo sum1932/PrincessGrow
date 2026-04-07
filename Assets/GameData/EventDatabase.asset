@@ -1,0 +1,1076 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8467108048538658670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_8
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_AGE_006_SCHOOL
+  NameKO: "6\uC138 \uCCAB \uC785\uD559\uC2DD"
+  Type: Fixed
+  TriggerType: Age
+  TriggerValue: Age=6
+  RequiredPreviousEvent: EVT_BIRTHDAY_006
+  AgeMin: 6
+  AgeMax: 6
+  Month: 4
+  Day: 1
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Age_006_School.json
+  CGId: CG_School_Entrance
+  BGMId: BGM_School
+  NextEvent: EVT_SCHOOL_ENTRANCE
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 8
+  Description: "6\uC138 \uCCAB \uC785\uD559\uC2DD"
+--- !u!114 &-8322295794774228556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_24
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_AILEEN_CONFESSION
+  NameKO: "\uC544\uC774\uB9B0 - \uC774\uB178\uC5D0 \uB300\uD55C \uACE0\uBC31"
+  Type: NPC
+  TriggerType: Favor
+  TriggerValue: Favor_Aileen>=70
+  RequiredPreviousEvent: 
+  AgeMin: 14
+  AgeMax: 18
+  Month: 0
+  Day: 0
+  StatCondition: 
+  NPCCondition: Favor_Aileen>=70
+  ScriptPath: Events/NPC_Aileen_Confession.json
+  CGId: CG_Aileen_Confession
+  BGMId: BGM_Sad
+  NextEvent: 
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 8
+  Description: "\uC544\uC774\uB9B0\uC758 \uACE0\uBC31 \uC774\uBCA4\uD2B8"
+--- !u!114 &-8084645880763096831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_11
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_AGE_015_GRADUATION
+  NameKO: "15\uC138 \uC911\uD559\uAD50 \uC878\uC5C5"
+  Type: Fixed
+  TriggerType: Age
+  TriggerValue: Age=15
+  RequiredPreviousEvent: EVT_BIRTHDAY_015
+  AgeMin: 15
+  AgeMax: 15
+  Month: 3
+  Day: 1
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Age_015_Graduation.json
+  CGId: CG_School_Graduation
+  BGMId: BGM_Happy
+  NextEvent: EVT_SCHOOL_GRADUATION
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 8
+  Description: "15\uC138 \uC911\uD559\uAD50 \uC878\uC5C5\uC2DD"
+--- !u!114 &-6721840024541505294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_26
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_LIAN_SECRET
+  NameKO: "\uB9AC\uC548 - \uD2B9\uBCC4\uD55C \uB2A5\uB825\uC758 \uBE44\uBC00"
+  Type: NPC
+  TriggerType: Favor
+  TriggerValue: Favor_Lian>=60
+  RequiredPreviousEvent: 
+  AgeMin: 15
+  AgeMax: 18
+  Month: 0
+  Day: 0
+  StatCondition: 
+  NPCCondition: Favor_Lian>=60
+  ScriptPath: Events/NPC_Lian_Secret.json
+  CGId: CG_Lian_Secret
+  BGMId: BGM_Mysterious
+  NextEvent: 
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 10
+  Description: "\uB9AC\uC548\uC758 \uBE44\uBC00 \uBC1D\uD600\uC9D0 \uC774\uBCA4\uD2B8"
+--- !u!114 &-5830798250177859100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_1
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_BIRTHDAY_006
+  NameKO: "6\uC138 \uC0DD\uC77C"
+  Type: Special
+  TriggerType: Date
+  TriggerValue: Date=1224
+  RequiredPreviousEvent: 
+  AgeMin: 6
+  AgeMax: 6
+  Month: 12
+  Day: 24
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Birthday_006.json
+  CGId: CG_Birthday_006
+  BGMId: BGM_Happy
+  NextEvent: EVT_AGE_006_SCHOOL
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 9
+  Description: "\uB8E8\uC544\uC758 6\uBC88\uC9F8 \uC0DD\uC77C"
+--- !u!114 &-5296854768378837015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_14
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_NEWYEAR
+  NameKO: "\uC0C8\uD574 (1\uC6D4 1\uC77C)"
+  Type: Fixed
+  TriggerType: Date
+  TriggerValue: Date=0101
+  RequiredPreviousEvent: 
+  AgeMin: 0
+  AgeMax: 0
+  Month: 1
+  Day: 1
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Season_NewYear.json
+  CGId: CG_NewYear
+  BGMId: BGM_Happy
+  NextEvent: 
+  IsRepeatable: 1
+  IsHidden: 0
+  Priority: 5
+  Description: "\uC0C8\uD574 \uCCAB\uB0A0 \uC774\uBCA4\uD2B8 (\uBC18\uBCF5)"
+--- !u!114 &-5072863615527488214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_10
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_AGE_012_PUBERTY
+  NameKO: "12\uC138 \uC0AC\uCD98\uAE30\uC758 \uC2DC\uC791"
+  Type: Fixed
+  TriggerType: Age
+  TriggerValue: Age=12
+  RequiredPreviousEvent: 
+  AgeMin: 12
+  AgeMax: 12
+  Month: 0
+  Day: 0
+  StatCondition: Stress>=30
+  NPCCondition: 
+  ScriptPath: Events/Age_012_Puberty.json
+  CGId: CG_Room_Conflict
+  BGMId: BGM_Sad
+  NextEvent: 
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 7
+  Description: "12\uC138 \uC0AC\uCD98\uAE30 \uAC08\uB4F1 \uC774\uBCA4\uD2B8"
+--- !u!114 &-4445506090898336214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_27
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_HIDDEN_CONNECTOR
+  NameKO: "\uCC28\uC6D0\uC758 \uC5F0\uACB0\uC790 (\uD788\uB4E0 \uC5D4\uB529 1)"
+  Type: Hidden
+  TriggerType: Favor
+  TriggerValue: Favor_Lian>=80
+  RequiredPreviousEvent: EVT_LIAN_SECRET
+  AgeMin: 18
+  AgeMax: 18
+  Month: 0
+  Day: 0
+  StatCondition: 
+  NPCCondition: Favor_Lian>=80
+  ScriptPath: Events/Hidden_Connector.json
+  CGId: CG_Hidden_Connector
+  BGMId: BGM_Hidden
+  NextEvent: END_HIDDEN_001
+  IsRepeatable: 0
+  IsHidden: 1
+  Priority: 1
+  Description: "\uD788\uB4E0 \uC5D4\uB529 1 - \uCC28\uC6D0\uC758 \uC5F0\uACB0\uC790"
+--- !u!114 &-3781758634926981982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_25
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_KYLE_GROWTH
+  NameKO: "\uCE74\uC77C - \uB8E8\uC544\uC758 \uC131\uC7A5"
+  Type: NPC
+  TriggerType: Favor
+  TriggerValue: Favor_Kyle>=60
+  RequiredPreviousEvent: 
+  AgeMin: 15
+  AgeMax: 18
+  Month: 0
+  Day: 0
+  StatCondition: 
+  NPCCondition: Favor_Kyle>=60
+  ScriptPath: Events/NPC_Kyle_Growth.json
+  CGId: CG_Kyle_Respect
+  BGMId: BGM_Dignified
+  NextEvent: 
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 8
+  Description: "\uCE74\uC77C\uC758 \uC131\uC7A5 \uC778\uC815 \uC774\uBCA4\uD2B8"
+--- !u!114 &-3162561726629604612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_6
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_BIRTHDAY_016
+  NameKO: "16\uC138 \uC0DD\uC77C (\uBC18\uC9C0 \uC120\uBB3C)"
+  Type: Special
+  TriggerType: Date
+  TriggerValue: Date=1224
+  RequiredPreviousEvent: 
+  AgeMin: 16
+  AgeMax: 16
+  Month: 12
+  Day: 24
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Birthday_016.json
+  CGId: CG_Birthday_016
+  BGMId: BGM_Romantic
+  NextEvent: EVT_AGE_016_HIGH
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 9
+  Description: "\uB8E8\uC544\uC758 16\uBC88\uC9F8 \uC0DD\uC77C (\uC57D\uC18D\uC758
+    \uBC18\uC9C0)"
+--- !u!114 &-2806793107310306886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_22
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_SCHOOL_ENTRANCE
+  NameKO: "\uC785\uD559\uC2DD"
+  Type: Fixed
+  TriggerType: Event
+  TriggerValue: Story:School_Entrance
+  RequiredPreviousEvent: 
+  AgeMin: 0
+  AgeMax: 0
+  Month: 0
+  Day: 0
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/School_Entrance.json
+  CGId: CG_School_Entrance
+  BGMId: BGM_School
+  NextEvent: 
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 7
+  Description: "\uD559\uAD50 \uC785\uD559\uC2DD"
+--- !u!114 &-2273603435802450816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_2
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_BIRTHDAY_007
+  NameKO: "7\uC138 \uC0DD\uC77C"
+  Type: Special
+  TriggerType: Date
+  TriggerValue: Date=1224
+  RequiredPreviousEvent: 
+  AgeMin: 7
+  AgeMax: 7
+  Month: 12
+  Day: 24
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Birthday_007.json
+  CGId: CG_Birthday_007
+  BGMId: BGM_Happy
+  NextEvent: 
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 9
+  Description: "\uB8E8\uC544\uC758 7\uBC88\uC9F8 \uC0DD\uC77C"
+--- !u!114 &-2132062725697524896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_3
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_BIRTHDAY_010
+  NameKO: "10\uC138 \uC0DD\uC77C"
+  Type: Special
+  TriggerType: Date
+  TriggerValue: Date=1224
+  RequiredPreviousEvent: 
+  AgeMin: 10
+  AgeMax: 10
+  Month: 12
+  Day: 24
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Birthday_010.json
+  CGId: CG_Birthday_010
+  BGMId: BGM_Happy
+  NextEvent: EVT_AGE_010_MIDDLE
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 9
+  Description: "\uB8E8\uC544\uC758 10\uBC88\uC9F8 \uC0DD\uC77C (\uD2B9\uBCC4 \uC120\uBB3C)"
+--- !u!114 &-2075330585243965876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_7
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_BIRTHDAY_018
+  NameKO: "18\uC138 \uC0DD\uC77C (\uCD5C\uC885 \uC120\uD0DD)"
+  Type: Special
+  TriggerType: Date
+  TriggerValue: Date=1224
+  RequiredPreviousEvent: 
+  AgeMin: 18
+  AgeMax: 18
+  Month: 12
+  Day: 24
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Birthday_018.json
+  CGId: CG_Birthday_018
+  BGMId: BGM_Ending
+  NextEvent: 
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 10
+  Description: "\uB8E8\uC544\uC758 18\uBC88\uC9F8 \uC0DD\uC77C - \uCD5C\uC885 \uC5D4\uB529
+    \uBD84\uAE30"
+--- !u!114 &-1966842308773730783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_29
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_RANDOM_STUDY
+  NameKO: "\uB79C\uB364 \uD559\uC2B5 \uC774\uBCA4\uD2B8"
+  Type: Random
+  TriggerType: Random
+  TriggerValue: Random=20%
+  RequiredPreviousEvent: 
+  AgeMin: 6
+  AgeMax: 18
+  Month: 0
+  Day: 0
+  StatCondition: INT<500
+  NPCCondition: 
+  ScriptPath: Events/Random_Study.json
+  CGId: 
+  BGMId: BGM_Calm
+  NextEvent: 
+  IsRepeatable: 1
+  IsHidden: 0
+  Priority: 3
+  Description: "\uB79C\uB364 \uBC1C\uC0DD \uD559\uC2B5 \uAD00\uB828 \uC774\uBCA4\uD2B8"
+--- !u!114 &-1772005318578232467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_23
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_SCHOOL_GRADUATION
+  NameKO: "\uC878\uC5C5\uC2DD"
+  Type: Fixed
+  TriggerType: Event
+  TriggerValue: Story:School_Graduation
+  RequiredPreviousEvent: 
+  AgeMin: 0
+  AgeMax: 0
+  Month: 0
+  Day: 0
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/School_Graduation.json
+  CGId: CG_School_Graduation
+  BGMId: BGM_Graduation
+  NextEvent: 
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 7
+  Description: "\uD559\uAD50 \uC878\uC5C5\uC2DD"
+--- !u!114 &-1208639634638926526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_28
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_HIDDEN_QUEEN
+  NameKO: "\uC0C8\uB85C\uC6B4 \uC5EC\uC655 (\uD788\uB4E0 \uC5D4\uB529 2)"
+  Type: Hidden
+  TriggerType: Favor
+  TriggerValue: Favor_Ino>=80
+  RequiredPreviousEvent: EVT_AILEEN_CONFESSION
+  AgeMin: 18
+  AgeMax: 18
+  Month: 0
+  Day: 0
+  StatCondition: 
+  NPCCondition: Favor_Ino>=80
+  ScriptPath: Events/Hidden_Queen.json
+  CGId: CG_Hidden_Queen
+  BGMId: BGM_Hidden
+  NextEvent: END_HIDDEN_002
+  IsRepeatable: 0
+  IsHidden: 1
+  Priority: 1
+  Description: "\uD788\uB4E0 \uC5D4\uB529 2 - \uC0C8\uB85C\uC6B4 \uC5EC\uC655"
+--- !u!114 &-1070291557985880446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_13
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_AGE_018_ADULT
+  NameKO: "18\uC138 \uC131\uC778\uC2DD"
+  Type: Fixed
+  TriggerType: Age
+  TriggerValue: Age=18
+  RequiredPreviousEvent: EVT_BIRTHDAY_018
+  AgeMin: 18
+  AgeMax: 18
+  Month: 12
+  Day: 24
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Age_018_Adult.json
+  CGId: CG_Adult_Ceremony
+  BGMId: BGM_Ceremony
+  NextEvent: 
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 10
+  Description: "18\uC138 \uC131\uC778\uC2DD \uBC0F \uCD5C\uC885 \uC120\uD0DD"
+--- !u!114 &-869818532456595880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_4
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_BIRTHDAY_013
+  NameKO: "13\uC138 \uC0DD\uC77C (\uB9AC\uC548 \uCCAB \uB4F1\uC7A5)"
+  Type: Special
+  TriggerType: Date
+  TriggerValue: Date=1224
+  RequiredPreviousEvent: 
+  AgeMin: 13
+  AgeMax: 13
+  Month: 12
+  Day: 24
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Birthday_013.json
+  CGId: CG_Birthday_013
+  BGMId: BGM_Happy
+  NextEvent: 
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 9
+  Description: "\uB8E8\uC544\uC758 13\uBC88\uC9F8 \uC0DD\uC77C - \uB9AC\uC548 \uCCAB
+    \uB4F1\uC7A5"
+--- !u!114 &-635421747675744606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_30
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_RANDOM_FRIEND
+  NameKO: "\uB79C\uB364 \uCE5C\uAD6C \uC774\uBCA4\uD2B8"
+  Type: Random
+  TriggerType: Random
+  TriggerValue: Random=15%
+  RequiredPreviousEvent: 
+  AgeMin: 6
+  AgeMax: 18
+  Month: 0
+  Day: 0
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Random_Friend.json
+  CGId: 
+  BGMId: BGM_Happy
+  NextEvent: 
+  IsRepeatable: 1
+  IsHidden: 0
+  Priority: 3
+  Description: "\uB79C\uB364 \uBC1C\uC0DD \uCE5C\uAD6C \uAD00\uB828 \uC774\uBCA4\uD2B8"
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a54058bb288634983cd919dd2bf817, type: 3}
+  m_Name: EventDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventDatabase
+  _data:
+  - {fileID: 1935177373461395095}
+  - {fileID: -5830798250177859100}
+  - {fileID: -2273603435802450816}
+  - {fileID: -2132062725697524896}
+  - {fileID: -869818532456595880}
+  - {fileID: 144977841751894796}
+  - {fileID: -3162561726629604612}
+  - {fileID: -2075330585243965876}
+  - {fileID: -8467108048538658670}
+  - {fileID: 7034084998268183578}
+  - {fileID: -5072863615527488214}
+  - {fileID: -8084645880763096831}
+  - {fileID: 2822705025999012583}
+  - {fileID: -1070291557985880446}
+  - {fileID: -5296854768378837015}
+  - {fileID: 158084651440307369}
+  - {fileID: 2480840938229480364}
+  - {fileID: 1598727331281551147}
+  - {fileID: 2786785852469876069}
+  - {fileID: 4619983581026478874}
+  - {fileID: 4586922876624524821}
+  - {fileID: 4854864906522107246}
+  - {fileID: -2806793107310306886}
+  - {fileID: -1772005318578232467}
+  - {fileID: -8322295794774228556}
+  - {fileID: -3781758634926981982}
+  - {fileID: -6721840024541505294}
+  - {fileID: -4445506090898336214}
+  - {fileID: -1208639634638926526}
+  - {fileID: -1966842308773730783}
+  - {fileID: -635421747675744606}
+  - {fileID: 277267436075256286}
+--- !u!114 &144977841751894796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_5
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_BIRTHDAY_015
+  NameKO: "15\uC138 \uC0DD\uC77C"
+  Type: Special
+  TriggerType: Date
+  TriggerValue: Date=1224
+  RequiredPreviousEvent: 
+  AgeMin: 15
+  AgeMax: 15
+  Month: 12
+  Day: 24
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Birthday_015.json
+  CGId: CG_Birthday_015
+  BGMId: BGM_Happy
+  NextEvent: EVT_AGE_015_GRADUATION
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 9
+  Description: "\uB8E8\uC544\uC758 15\uBC88\uC9F8 \uC0DD\uC77C"
+--- !u!114 &158084651440307369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_15
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_VALENTINE
+  NameKO: "\uBC1C\uB80C\uD0C0\uC778\uB370\uC774 (2\uC6D4 14\uC77C)"
+  Type: Fixed
+  TriggerType: Date
+  TriggerValue: Date=0214
+  RequiredPreviousEvent: 
+  AgeMin: 10
+  AgeMax: 18
+  Month: 2
+  Day: 14
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Season_Valentine.json
+  CGId: CG_Valentine
+  BGMId: BGM_Romantic
+  NextEvent: 
+  IsRepeatable: 1
+  IsHidden: 0
+  Priority: 6
+  Description: "\uBC1C\uB80C\uD0C0\uC778\uB370\uC774 \uC774\uBCA4\uD2B8 (10\uC138
+    \uC774\uC0C1)"
+--- !u!114 &277267436075256286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_31
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_RANDOM_STRESS
+  NameKO: "\uB79C\uB364 \uC2A4\uD2B8\uB808\uC2A4 \uC774\uBCA4\uD2B8"
+  Type: Random
+  TriggerType: Random
+  TriggerValue: Random=25%
+  RequiredPreviousEvent: 
+  AgeMin: 6
+  AgeMax: 18
+  Month: 0
+  Day: 0
+  StatCondition: Stress>=50
+  NPCCondition: 
+  ScriptPath: Events/Random_Stress.json
+  CGId: 
+  BGMId: BGM_Sad
+  NextEvent: 
+  IsRepeatable: 1
+  IsHidden: 0
+  Priority: 4
+  Description: "\uC2A4\uD2B8\uB808\uC2A4 \uB192\uC744 \uB54C \uBC1C\uC0DD \uC774\uBCA4\uD2B8"
+--- !u!114 &1598727331281551147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_17
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_CHILDRENDAY
+  NameKO: "\uC5B4\uB9B0\uC774\uB0A0 (5\uC6D4 5\uC77C)"
+  Type: Fixed
+  TriggerType: Date
+  TriggerValue: Date=0505
+  RequiredPreviousEvent: 
+  AgeMin: 6
+  AgeMax: 12
+  Month: 5
+  Day: 5
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Season_ChildrenDay.json
+  CGId: CG_ChildrenDay
+  BGMId: BGM_Happy
+  NextEvent: 
+  IsRepeatable: 1
+  IsHidden: 0
+  Priority: 5
+  Description: "\uC5B4\uB9B0\uC774\uB0A0 \uC774\uBCA4\uD2B8 (12\uC138 \uC774\uD558)"
+--- !u!114 &1935177373461395095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_0
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_PROLOGUE
+  NameKO: "\uD504\uB864\uB85C\uADF8"
+  Type: Fixed
+  TriggerType: Age
+  TriggerValue: Age=6
+  RequiredPreviousEvent: 
+  AgeMin: 6
+  AgeMax: 6
+  Month: 0
+  Day: 0
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Prologue.json
+  CGId: CG_Prologue
+  BGMId: BGM_Prologue
+  NextEvent: EVT_BIRTHDAY_006
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 10
+  Description: "\uAC8C\uC784 \uC2DC\uC791 \uC2DC \uC790\uB3D9 \uBC1C\uC0DD"
+--- !u!114 &2480840938229480364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_16
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_CHERRYBLOSSOM
+  NameKO: "\uBC9A\uAF43\uB180\uC774 (4\uC6D4)"
+  Type: Fixed
+  TriggerType: Date
+  TriggerValue: Date=0401-0430
+  RequiredPreviousEvent: 
+  AgeMin: 0
+  AgeMax: 0
+  Month: 4
+  Day: 0
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Season_CherryBlossom.json
+  CGId: CG_CherryBlossom
+  BGMId: BGM_Spring
+  NextEvent: 
+  IsRepeatable: 1
+  IsHidden: 0
+  Priority: 5
+  Description: "\uBD04 \uBC9A\uAF43\uB180\uC774 \uC774\uBCA4\uD2B8 (\uBC18\uBCF5)"
+--- !u!114 &2786785852469876069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_18
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_SUMMER_VACATION
+  NameKO: "\uC5EC\uB984\uBC29\uD559 (7-8\uC6D4)"
+  Type: Fixed
+  TriggerType: Date
+  TriggerValue: Date=0701-0831
+  RequiredPreviousEvent: 
+  AgeMin: 0
+  AgeMax: 0
+  Month: 7
+  Day: 8
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Season_Summer.json
+  CGId: CG_Summer_Beach
+  BGMId: BGM_Summer
+  NextEvent: 
+  IsRepeatable: 1
+  IsHidden: 0
+  Priority: 5
+  Description: "\uC5EC\uB984\uBC29\uD559 \uC774\uBCA4\uD2B8 (\uBC18\uBCF5)"
+--- !u!114 &2822705025999012583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_12
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_AGE_016_HIGH
+  NameKO: "16\uC138 \uACE0\uB4F1\uD559\uAD50 \uC785\uD559 (\uC9C4\uB85C \uC120\uD0DD)"
+  Type: Fixed
+  TriggerType: Age
+  TriggerValue: Age=16
+  RequiredPreviousEvent: EVT_BIRTHDAY_016
+  AgeMin: 16
+  AgeMax: 16
+  Month: 4
+  Day: 1
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Age_016_High.json
+  CGId: CG_School_High
+  BGMId: BGM_School
+  NextEvent: EVT_SCHOOL_ENTRANCE
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 8
+  Description: "16\uC138 \uACE0\uB4F1\uD559\uAD50 \uC785\uD559 \uBC0F \uC9C4\uB85C
+    \uC120\uD0DD"
+--- !u!114 &4586922876624524821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_20
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_AUTUMN
+  NameKO: "\uB2E8\uD48D\uB180\uC774 (11\uC6D4)"
+  Type: Fixed
+  TriggerType: Date
+  TriggerValue: Date=1101-1130
+  RequiredPreviousEvent: 
+  AgeMin: 0
+  AgeMax: 0
+  Month: 11
+  Day: 0
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Season_Autumn.json
+  CGId: CG_Autumn_Leaves
+  BGMId: BGM_Autumn
+  NextEvent: 
+  IsRepeatable: 1
+  IsHidden: 0
+  Priority: 5
+  Description: "\uAC00\uC744 \uB2E8\uD48D\uB180\uC774 \uC774\uBCA4\uD2B8 (\uBC18\uBCF5)"
+--- !u!114 &4619983581026478874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_19
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_SPORTS_DAY
+  NameKO: "\uC6B4\uB3D9\uD68C (10\uC6D4)"
+  Type: Fixed
+  TriggerType: Date
+  TriggerValue: Date=1001-1031
+  RequiredPreviousEvent: 
+  AgeMin: 6
+  AgeMax: 15
+  Month: 10
+  Day: 0
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Season_SportsDay.json
+  CGId: CG_Sports_Day
+  BGMId: BGM_Sports
+  NextEvent: 
+  IsRepeatable: 1
+  IsHidden: 0
+  Priority: 5
+  Description: "\uD559\uAD50 \uC6B4\uB3D9\uD68C \uC774\uBCA4\uD2B8 (\uBC18\uBCF5)"
+--- !u!114 &4854864906522107246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_21
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_CHRISTMAS
+  NameKO: "\uD06C\uB9AC\uC2A4\uB9C8\uC2A4 (12\uC6D4 25\uC77C)"
+  Type: Fixed
+  TriggerType: Date
+  TriggerValue: Date=1225
+  RequiredPreviousEvent: 
+  AgeMin: 0
+  AgeMax: 0
+  Month: 12
+  Day: 25
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Season_Christmas.json
+  CGId: CG_Christmas
+  BGMId: BGM_Christmas
+  NextEvent: 
+  IsRepeatable: 1
+  IsHidden: 0
+  Priority: 6
+  Description: "\uD06C\uB9AC\uC2A4\uB9C8\uC2A4 \uC774\uBCA4\uD2B8 (\uBC18\uBCF5)"
+--- !u!114 &7034084998268183578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ee159fc29e74040a9f291a3f1fc4e9, type: 3}
+  m_Name: EventData_9
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EventData
+  EventId: EVT_AGE_010_MIDDLE
+  NameKO: "10\uC138 \uC911\uD559\uAD50 \uC785\uD559"
+  Type: Fixed
+  TriggerType: Age
+  TriggerValue: Age=10
+  RequiredPreviousEvent: EVT_BIRTHDAY_010
+  AgeMin: 10
+  AgeMax: 10
+  Month: 4
+  Day: 1
+  StatCondition: 
+  NPCCondition: 
+  ScriptPath: Events/Age_010_Middle.json
+  CGId: CG_School_Middle
+  BGMId: BGM_School
+  NextEvent: EVT_SCHOOL_ENTRANCE
+  IsRepeatable: 0
+  IsHidden: 0
+  Priority: 8
+  Description: "10\uC138 \uC911\uD559\uAD50 \uC785\uD559"

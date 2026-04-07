@@ -15,11 +15,14 @@ namespace DessertKingdom.Core.Domain
         public Dictionary<string, int> FavorEffects { get; }
         public bool IsOneTime { get; }
         public bool IsHidden { get; }
+        public string RequiredPreviousEvent { get; }
+        public EventDialogue Dialogue { get; } // ★ 대사 추가
 
         public GameEvent(string id, string name, EventType type, int priority, string description,
                         Dictionary<string, object> conditions, List<EventChoice> choices,
                         Dictionary<StatType, int> statEffects, Dictionary<string, int> favorEffects,
-                        bool isOneTime, bool isHidden)
+                        bool isOneTime, bool isHidden, string requiredPreviousEvent = null,
+                        EventDialogue dialogue = null) // ★ 대사 파라미터 추가
         {
             Id = id;
             Name = name;
@@ -32,10 +35,18 @@ namespace DessertKingdom.Core.Domain
             FavorEffects = favorEffects ?? new Dictionary<string, int>();
             IsOneTime = isOneTime;
             IsHidden = isHidden;
+            RequiredPreviousEvent = requiredPreviousEvent;
+            Dialogue = dialogue; // ★ 대사 초기화
         }
 
         public bool CanTrigger(GameState state)
         {
+            // 프로로그 이벤트 체크 - 최초 1회만 실행
+            if (Type == EventType.Prologue)
+            {
+                return !state.PrologueShown && !state.CompletedEvents.Contains(Id);
+            }
+
             // 연령 체크
             if (Conditions.ContainsKey("minAge"))
             {
@@ -82,6 +93,13 @@ namespace DessertKingdom.Core.Domain
             // 이미 완료된 이벤트 체크
             if (IsOneTime && state.CompletedEvents.Contains(Id))
                 return false;
+            
+            // 선행 이벤트 체크
+            if (!string.IsNullOrEmpty(RequiredPreviousEvent))
+            {
+                if (!state.CompletedEvents.Contains(RequiredPreviousEvent))
+                    return false;
+            }
 
             return true;
         }

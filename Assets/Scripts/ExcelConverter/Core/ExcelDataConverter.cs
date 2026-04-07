@@ -40,7 +40,17 @@ namespace ExcelConverter.Core
 
                 foreach (var row in reader.GetDataRows())
                 {
-                    var instance = new T();
+                    T instance;
+                    
+                    // ScriptableObject인 경우 CreateInstance 사용
+                    if (typeof(T).IsSubclassOf(typeof(ScriptableObject)))
+                    {
+                        instance = ScriptableObject.CreateInstance(typeof(T)) as T;
+                    }
+                    else
+                    {
+                        instance = new T();
+                    }
                     
                     foreach (var mapping in fieldMappings)
                     {

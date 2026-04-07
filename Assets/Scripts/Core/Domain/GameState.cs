@@ -13,6 +13,11 @@ namespace DessertKingdom.Core.Domain
         public List<string> CompletedEvents { get; }
         public List<string> ChoiceHistory { get; }
         public GamePhase Phase { get; private set; }
+        public bool PrologueShown { get; set; }
+        
+        // 플레이어 및 육성대상 이름
+        public string PlayerName { get; set; } = "이노";      // 기본값: 이노
+        public string TargetName { get; set; } = "루아";     // 기본값: 루아
 
         public GameState()
         {

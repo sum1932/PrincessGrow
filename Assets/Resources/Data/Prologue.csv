@@ -1,0 +1,2 @@
+Event_ID,Name_KO,Type,Trigger_Type,Trigger_Value,Required_Previous_Event,Age_Min,Age_Max,Month,Day,Stat_Condition,NPC_Condition,Script_Path,CG_ID,BGM_ID,Next_Event,Is_Repeatable,Is_Hidden,Priority,Description
+EVT_PROLOGUE,프로로그,Fixed,Age,Age=6,,6,6,,,,,Events/Prologue.json,CG_Prologue,BGM_Prologue,EVT_BIRTHDAY_006,FALSE,FALSE,10,게임 시작 시 자동 발생

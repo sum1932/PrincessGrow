@@ -1,0 +1,934 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8516491005628965041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_15
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Job_6
+  NameKO: "\uBCA0\uC774\uCEE4\uB9AC \uC54C\uBC14"
+  Category: Job
+  Subcategory: Bakery
+  Description: "\uBE75\uACFC \uB514\uC800\uD2B8\uB97C \uB9CC\uB4ED\uB2C8\uB2E4. \uB8E8\uC544\uC758
+    \uBCF8\uCCB4\uC640 \uAD00\uB828 \uC788\uC5B4 \uD2B9\uBCC4\uD55C \uD6A8\uACFC."
+  EffectHP: 0
+  EffectCharm: 12
+  EffectInt: 0
+  EffectArt: 45
+  EffectMorality: 0
+  EffectStress: 7
+  CostSweets: 0
+  IncomeSweets: 400
+  RequiredStat: Art
+  RequiredValue: 100
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &-7209650858969225765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_24
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Special_1
+  NameKO: "\uCD95\uC81C \uCC38\uC5EC"
+  Category: Special
+  Subcategory: Festival
+  Description: "\uACC4\uC808\uBCC4 \uCD95\uC81C\uC5D0 \uCC38\uC5EC\uD569\uB2C8\uB2E4.
+    \uBAA8\uB4E0 NPC\uC640\uC758 \uAD00\uACC4\uAC00 \uAE4A\uC5B4\uC9C8 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+  EffectHP: 0
+  EffectCharm: 12
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 0
+  EffectStress: -40
+  CostSweets: 200
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 8
+  Season: All
+  Month: 8
+  IsRepeatable: 1
+--- !u!114 &-6900483954230046565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_9
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Lesson_Moral_2
+  NameKO: "\uB3C4\uB355 \uC218\uC5C5 - \uACE0\uAE09"
+  Category: Lesson
+  Subcategory: Morality
+  Description: "\uC2EC\uD654 \uB3C4\uB355 \uC218\uC5C5. \uB354 \uD070 \uD6A8\uACFC\uC640
+    \uC2A4\uD2B8\uB808\uC2A4."
+  EffectHP: 0
+  EffectCharm: 0
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 42
+  EffectStress: 8
+  CostSweets: 350
+  IncomeSweets: 0
+  RequiredStat: Morality
+  RequiredValue: 100
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &-6531355771177262067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_13
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Job_4
+  NameKO: "\uC11C\uC810 \uC54C\uBC14"
+  Category: Job
+  Subcategory: Bookstore
+  Description: "\uCC45 \uC815\uB9AC\uC640 \uACE0\uAC1D \uC751\uB300\uB97C \uD569\uB2C8\uB2E4.
+    \uB0AE\uC740 \uC2A4\uD2B8\uB808\uC2A4."
+  EffectHP: -5
+  EffectCharm: 0
+  EffectInt: 15
+  EffectArt: 18
+  EffectMorality: 0
+  EffectStress: 3
+  CostSweets: 0
+  IncomeSweets: 320
+  RequiredStat: Int
+  RequiredValue: 150
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &-6288092678268570891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_7
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Lesson_Art_2
+  NameKO: "\uC608\uC220 \uC218\uC5C5 - \uACE0\uAE09"
+  Category: Lesson
+  Subcategory: Art
+  Description: "\uC804\uBB38 \uC608\uC220 \uC218\uC5C5. \uB354 \uD070 \uD6A8\uACFC."
+  EffectHP: 0
+  EffectCharm: 0
+  EffectInt: -5
+  EffectArt: 60
+  EffectMorality: 0
+  EffectStress: 15
+  CostSweets: 550
+  IncomeSweets: 0
+  RequiredStat: Art
+  RequiredValue: 100
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &-5639320537109647369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_10
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Lesson_All
+  NameKO: "\uC885\uD569 \uAD50\uC721"
+  Category: Lesson
+  Subcategory: General
+  Description: "\uADE0\uD615 \uC7A1\uD78C \uAD50\uC721\uC73C\uB85C \uBAA8\uB4E0 \uB2A5\uB825\uC744
+    \uACE0\uB8E8 \uD0A4\uC6C1\uB2C8\uB2E4. \uBE44\uC6A9\uC740 \uBE44\uC2F8\uC9C0\uB9CC
+    \uBD80\uC791\uC6A9 \uC5C6\uC74C."
+  EffectHP: 15
+  EffectCharm: 15
+  EffectInt: 15
+  EffectArt: 15
+  EffectMorality: 15
+  EffectStress: 15
+  CostSweets: 500
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &-5351180715855765007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_16
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Job_7
+  NameKO: "\uACFC\uC678 \uC54C\uBC14"
+  Category: Job
+  Subcategory: Tutor
+  Description: "\uC5B4\uB9B0 \uC544\uC774\uB4E4\uC744 \uAC00\uB974\uCE69\uB2C8\uB2E4."
+  EffectHP: 0
+  EffectCharm: 0
+  EffectInt: 18
+  EffectArt: -15
+  EffectMorality: 12
+  EffectStress: 15
+  CostSweets: 0
+  IncomeSweets: 500
+  RequiredStat: Int
+  RequiredValue: 200
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &-3871775241353141092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_2
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Lesson_Charm_1
+  NameKO: "\uB9E4\uB825 \uC218\uC5C5 - \uAE30\uBCF8"
+  Category: Lesson
+  Subcategory: Charm
+  Description: "\uC678\uBAA8\uC640 \uD0DC\uB3C4\uB97C \uAC00\uAFB8\uC5B4 \uB9E4\uB825\uC744
+    \uB192\uC785\uB2C8\uB2E4."
+  EffectHP: 0
+  EffectCharm: 24
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 0
+  EffectStress: 8
+  CostSweets: 300
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &-3137791652169155426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_17
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Job_8
+  NameKO: "\uBAA8\uB378 \uC54C\uBC14"
+  Category: Job
+  Subcategory: Model
+  Description: "\uC0AC\uC9C4 \uCD2C\uC601\uC774\uB098 \uD328\uC158\uC1FC\uC5D0 \uCC38\uC5EC\uD569\uB2C8\uB2E4."
+  EffectHP: 0
+  EffectCharm: 60
+  EffectInt: -10
+  EffectArt: 0
+  EffectMorality: -15
+  EffectStress: 15
+  CostSweets: 0
+  IncomeSweets: 600
+  RequiredStat: Charm
+  RequiredValue: 250
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &-1426152657091319102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_20
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Rest_4
+  NameKO: "\uC5EC\uD589"
+  Category: Rest
+  Subcategory: Travel
+  Description: "\uBA40\uB9AC \uC5EC\uD589\uC744 \uB5A0\uB098 \uC644\uC804\uD788 \uD734\uC2DD\uC744
+    \uCDE8\uD569\uB2C8\uB2E4."
+  EffectHP: 18
+  EffectCharm: 6
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 0
+  EffectStress: -60
+  CostSweets: 500
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 10
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &-1318848620858596941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_8
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Lesson_Moral_1
+  NameKO: "\uB3C4\uB355 \uC218\uC5C5 - \uAE30\uBCF8"
+  Category: Lesson
+  Subcategory: Morality
+  Description: "\uB9C8\uC74C\uC744 \uB2E4\uC2A4\uB9AC\uACE0 \uC62C\uBC14\uB978 \uAC00\uCE58\uAD00\uC744
+    \uBC30\uC6C1\uB2C8\uB2E4."
+  EffectHP: 0
+  EffectCharm: 0
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 24
+  EffectStress: 5
+  CostSweets: 200
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &-1159845663638021903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_1
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Lesson_HP_2
+  NameKO: "\uCCB4\uB825 \uB2E8\uB828 - \uACE0\uAE09"
+  Category: Lesson
+  Subcategory: Physical
+  Description: "\uC804\uBB38\uC801\uC778 \uCCB4\uB825 \uB2E8\uB828. \uB354 \uD070
+    \uD6A8\uACFC\uC640 \uBD80\uC791\uC6A9."
+  EffectHP: 60
+  EffectCharm: -8
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 0
+  EffectStress: 15
+  CostSweets: 350
+  IncomeSweets: 0
+  RequiredStat: HP
+  RequiredValue: 100
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &-1044244205824631405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_5
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Lesson_Int_2
+  NameKO: "\uD559\uC5C5 \uACF5\uBD80 - \uACE0\uAE09"
+  Category: Lesson
+  Subcategory: Study
+  Description: "\uC2EC\uD654 \uD559\uC2B5. \uB354 \uD070 \uD6A8\uACFC\uC640 \uBD80\uC791\uC6A9."
+  EffectHP: -5
+  EffectCharm: 0
+  EffectInt: 32
+  EffectArt: -10
+  EffectMorality: 0
+  EffectStress: 18
+  CostSweets: 400
+  IncomeSweets: 0
+  RequiredStat: Int
+  RequiredValue: 100
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &-515719155990523866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_4
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Lesson_Int_1
+  NameKO: "\uD559\uC5C5 \uACF5\uBD80 - \uAE30\uBCF8"
+  Category: Lesson
+  Subcategory: Study
+  Description: "\uBA38\uB9AC\uB97C \uC368\uC11C \uC9C0\uC2DD\uC744 \uC313\uC2B5\uB2C8\uB2E4."
+  EffectHP: -3
+  EffectCharm: 0
+  EffectInt: 18
+  EffectArt: -5
+  EffectMorality: 0
+  EffectStress: 12
+  CostSweets: 250
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &-70609467318137009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_27
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Special_4
+  NameKO: "\uD06C\uB9AC\uC2A4\uB9C8\uC2A4 \uD30C\uD2F0"
+  Category: Special
+  Subcategory: Christmas
+  Description: "\uB8E8\uC544\uC758 \uC0DD\uC77C\uC774\uC790 \uD06C\uB9AC\uC2A4\uB9C8\uC2A4\uB97C
+    \uD568\uAED8 \uCD95\uD558\uD569\uB2C8\uB2E4. \uBAA8\uB4E0 NPC\uC640\uC758 \uAD00\uACC4\uAC00
+    \uAE4A\uC5B4\uC9D1\uB2C8\uB2E4."
+  EffectHP: 0
+  EffectCharm: 0
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 0
+  EffectStress: -50
+  CostSweets: 300
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 0
+  Season: Winter
+  Month: 12
+  IsRepeatable: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 145765918ced229409629ab6749aec51, type: 3}
+  m_Name: ActionDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionDatabase
+  _data:
+  - {fileID: 595032424153757182}
+  - {fileID: -1159845663638021903}
+  - {fileID: -3871775241353141092}
+  - {fileID: 5036592968664834295}
+  - {fileID: -515719155990523866}
+  - {fileID: -1044244205824631405}
+  - {fileID: 1212003486437300313}
+  - {fileID: -6288092678268570891}
+  - {fileID: -1318848620858596941}
+  - {fileID: -6900483954230046565}
+  - {fileID: -5639320537109647369}
+  - {fileID: 865115949908861754}
+  - {fileID: 6092568876791175520}
+  - {fileID: -6531355771177262067}
+  - {fileID: 825890360207478765}
+  - {fileID: -8516491005628965041}
+  - {fileID: -5351180715855765007}
+  - {fileID: -3137791652169155426}
+  - {fileID: 1881734084981774433}
+  - {fileID: 7358216876214136841}
+  - {fileID: -1426152657091319102}
+  - {fileID: 1646241787256936814}
+  - {fileID: 2600129217191765245}
+  - {fileID: 1580866560755737821}
+  - {fileID: -7209650858969225765}
+  - {fileID: 7630606859115045810}
+  - {fileID: 2171744144696580965}
+  - {fileID: -70609467318137009}
+--- !u!114 &595032424153757182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_0
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Lesson_HP_1
+  NameKO: "\uCCB4\uB825 \uB2E8\uB828 - \uAE30\uBCF8"
+  Category: Lesson
+  Subcategory: Physical
+  Description: "\uBAB8\uC744 \uB2E8\uB828\uD558\uC5EC \uAC74\uAC15\uACFC \uD65C\uB825\uC744
+    \uD0A4\uC6C1\uB2C8\uB2E4."
+  EffectHP: 42
+  EffectCharm: -5
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 0
+  EffectStress: 10
+  CostSweets: 200
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &825890360207478765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_14
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Job_5
+  NameKO: "\uACF5\uC6D0 \uCCAD\uC18C"
+  Category: Job
+  Subcategory: Volunteer
+  Description: "\uBD09\uC0AC\uD65C\uB3D9\uC73C\uB85C \uACF5\uC6D0\uC744 \uCCAD\uC18C\uD569\uB2C8\uB2E4.
+    \uD798\uB4E0 \uC77C\uC774\uC9C0\uB9CC \uBCF4\uB78C\uC788\uC2B5\uB2C8\uB2E4."
+  EffectHP: 0
+  EffectCharm: -5
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 35
+  EffectStress: 3
+  CostSweets: 0
+  IncomeSweets: 180
+  RequiredStat: Morality
+  RequiredValue: 50
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &865115949908861754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_11
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Job_1
+  NameKO: "\uD3B8\uC758\uC810 \uC54C\uBC14"
+  Category: Job
+  Subcategory: Store
+  Description: "\uACC4\uC0B0\uACFC \uC815\uB9AC\uB97C \uD558\uBA70 \uC0AC\uD68C\uC0DD\uD65C\uC744
+    \uBC30\uC6C1\uB2C8\uB2E4."
+  EffectHP: -8
+  EffectCharm: 0
+  EffectInt: 8
+  EffectArt: 0
+  EffectMorality: 8
+  EffectStress: 5
+  CostSweets: 0
+  IncomeSweets: 300
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &1212003486437300313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_6
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Lesson_Art_1
+  NameKO: "\uC608\uC220 \uC218\uC5C5 - \uAE30\uBCF8"
+  Category: Lesson
+  Subcategory: Art
+  Description: "\uAC10\uC131\uC744 \uD0A4\uC6B0\uB294 \uC608\uC220 \uD65C\uB3D9\uC744
+    \uD569\uB2C8\uB2E4."
+  EffectHP: 0
+  EffectCharm: 0
+  EffectInt: 0
+  EffectArt: 36
+  EffectMorality: 0
+  EffectStress: 10
+  CostSweets: 350
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &1580866560755737821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_23
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Out_Kyle
+  NameKO: "\uCE74\uC77C \uB9CC\uB098\uAE30"
+  Category: Outing
+  Subcategory: NPC_Meet
+  Description: "\uD638\uC704\uC6D0 \uCE74\uC77C\uACFC \uB300\uD654\uD569\uB2C8\uB2E4.
+    \uBB34\uB8CC, \uB4DC\uBB3C\uAC8C \uBC1C\uC0DD (10\uD134\uC5D0 1\uD68C)."
+  EffectHP: 0
+  EffectCharm: 0
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 6
+  EffectStress: 0
+  CostSweets: 0
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &1646241787256936814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_21
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Rest_5
+  NameKO: "\uCDE8\uBBF8 \uD65C\uB3D9"
+  Category: Rest
+  Subcategory: Hobby
+  Description: "\uADF8\uB9BC \uADF8\uB9AC\uAE30, \uC545\uAE30 \uC5F0\uC8FC \uB4F1
+    \uC790\uC2E0\uB9CC\uC758 \uCDE8\uBBF8\uB97C \uC990\uAE41\uB2C8\uB2E4."
+  EffectHP: 0
+  EffectCharm: 0
+  EffectInt: 0
+  EffectArt: 6
+  EffectMorality: 0
+  EffectStress: -25
+  CostSweets: 50
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &1881734084981774433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_18
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Rest_1
+  NameKO: "\uC9D1\uC5D0\uC11C \uC26C\uAE30"
+  Category: Rest
+  Subcategory: Home
+  Description: "\uC9D1\uC5D0\uC11C \uD3B8\uD558\uAC8C \uD734\uC2DD\uC744 \uCDE8\uD569\uB2C8\uB2E4.
+    \uAC00\uC7A5 \uAE30\uBCF8\uC801\uC778 \uD734\uC2DD \uBC29\uBC95."
+  EffectHP: 6
+  EffectCharm: 0
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 0
+  EffectStress: -30
+  CostSweets: 0
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &2171744144696580965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_26
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Special_3
+  NameKO: "\uB2E8\uD48D \uB180\uC774"
+  Category: Special
+  Subcategory: Autumn
+  Description: "\uAC00\uC744 \uB2E8\uD48D\uC744 \uAC10\uC0C1\uD558\uBA70 \uAC10\uC131\uC744
+    \uC790\uADF9\uD569\uB2C8\uB2E4."
+  EffectHP: 0
+  EffectCharm: 0
+  EffectInt: 0
+  EffectArt: 15
+  EffectMorality: 0
+  EffectStress: -30
+  CostSweets: 150
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 0
+  Season: Autumn
+  Month: 10
+  IsRepeatable: 1
+--- !u!114 &2600129217191765245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_22
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Out_Aileen
+  NameKO: "\uC544\uC774\uB9B0 \uB9CC\uB098\uAE30"
+  Category: Outing
+  Subcategory: NPC_Meet
+  Description: "\uC774\uB178\uC758 \uC18C\uAFC9\uCE5C\uAD6C \uC544\uC774\uB9B0\uACFC
+    \uB9CC\uB0A9\uB2C8\uB2E4."
+  EffectHP: 0
+  EffectCharm: 4
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 0
+  EffectStress: 0
+  CostSweets: 100
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 7
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &5036592968664834295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_3
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Lesson_Charm_2
+  NameKO: "\uB9E4\uB825 \uC218\uC5C5 - \uACE0\uAE09"
+  Category: Lesson
+  Subcategory: Charm
+  Description: "\uACE0\uAE09 \uB9E4\uB825 \uC218\uC5C5. \uB354 \uD070 \uD6A8\uACFC."
+  EffectHP: 0
+  EffectCharm: 42
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 0
+  EffectStress: 12
+  CostSweets: 500
+  IncomeSweets: 0
+  RequiredStat: Charm
+  RequiredValue: 100
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &6092568876791175520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_12
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Job_2
+  NameKO: "\uCE74\uD398 \uC54C\uBC14"
+  Category: Job
+  Subcategory: Cafe
+  Description: "\uCEE4\uD53C\uC640 \uB514\uC800\uD2B8\uB97C \uB9CC\uB4E4\uBA70 \uC190\uB2D8\uC744
+    \uC751\uB300\uD569\uB2C8\uB2E4. \uB8E8\uC544\uC5D0\uAC8C \uC801\uD569\uD55C \uD658\uACBD."
+  EffectHP: 0
+  EffectCharm: 25
+  EffectInt: 0
+  EffectArt: 12
+  EffectMorality: 0
+  EffectStress: 10
+  CostSweets: 0
+  IncomeSweets: 350
+  RequiredStat: Charm
+  RequiredValue: 150
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &7358216876214136841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_19
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Rest_2
+  NameKO: "\uACF5\uC6D0 \uC0B0\uCC45"
+  Category: Rest
+  Subcategory: Park
+  Description: "\uC790\uC5F0 \uC18D\uC5D0\uC11C \uC0B0\uCC45\uD558\uBA70 \uB9C8\uC74C\uC744
+    \uB2EC\uB78D\uB2C8\uB2E4."
+  EffectHP: 0
+  EffectCharm: 3
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 0
+  EffectStress: -35
+  CostSweets: 0
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 0
+  Season: All
+  Month: 0
+  IsRepeatable: 1
+--- !u!114 &7630606859115045810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd2f370bda4ae74e95e4499a24ca4cc, type: 3}
+  m_Name: ActionData_25
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.ActionData
+  ActionId: ACT_Special_2
+  NameKO: "\uC5EC\uB984 \uD574\uBCC0"
+  Category: Special
+  Subcategory: Beach
+  Description: "\uC5EC\uB984 \uD574\uBCC0\uC5D0\uC11C \uD734\uAC00\uB97C \uBCF4\uB0C5\uB2C8\uB2E4."
+  EffectHP: 24
+  EffectCharm: 10
+  EffectInt: 0
+  EffectArt: 0
+  EffectMorality: 0
+  EffectStress: -35
+  CostSweets: 400
+  IncomeSweets: 0
+  RequiredStat: None
+  RequiredValue: 0
+  RequiredAge: 8
+  Season: Summer
+  Month: 7
+  IsRepeatable: 1

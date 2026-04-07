@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4822140543962826254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: DialogueData_0
+  m_EditorClassIdentifier: Assembly-CSharp:GameData.ScriptableObjects:DialogueData
+  EventId: EVT_PROLOGUE
+  EventName: "\uD504\uB85C\uB85C\uADF8"
+  BackgroundImage: BG_Room_Night
+  BGM: BGM_Prologue
+  LinesJson: "[{\"Text\":\"\uD734... \uC624\uB298\uB3C4 \uC870\uC0AC \uC77C\uC9C0
+    \uC815\uB9AC\uB294 \uB05D\uB0AC\uACE0...\",\"CharacterId\":\"INO\",\"CharacterName\":\"{PLAYER_NAME}\",\"PortraitPath\":\"Characters/Portraits/Ino_Normal\",\"DisplayDuration\":0},{\"Text\":\"\uB0B4\uC77C\uC740
+    \uC5B4\uB5A4 \uBCC0\uD654\uAC00 \uC788\uC744\uAE4C?\",\"CharacterId\":\"INO\",\"CharacterName\":\"{PLAYER_NAME}\",\"PortraitPath\":\"Characters/Portraits/Ino_Normal\",\"DisplayDuration\":0},{\"Text\":\"...\",\"CharacterId\":\"NARRATOR\",\"CharacterName\":\"\",\"PortraitPath\":\"\",\"DisplayDuration\":1.0},{\"Text\":\"\uAC11\uC790\uAE30
+    \uBC29 \uD55C\uAC00\uC6B4\uB370\uC5D0\uC11C \uBE5B\uC758 \uBB38\uC774 \uC5F4\uB9AC\uAE30
+    \uC2DC\uC791\uD588\uB2E4.\",\"CharacterId\":\"NARRATOR\",\"CharacterName\":\"\",\"PortraitPath\":\"\",\"DisplayDuration\":0},{\"Text\":\"\uC774\uAC74...
+    \uCC28\uC6D0\uC758 \uBB38? \uC65C \uC5EC\uAE30\uC5D0...?\",\"CharacterId\":\"INO\",\"CharacterName\":\"{PLAYER_NAME}\",\"PortraitPath\":\"Characters/Portraits/Ino_Surprise\",\"DisplayDuration\":0},{\"Text\":\"\uBB38
+    \uC548\uC5D0\uC11C \uC791\uC740 \uAE08\uBC1C\uC758 \uC544\uC774\uAC00 \uB098\uD0C0\uB0AC\uB2E4.\",\"CharacterId\":\"NARRATOR\",\"CharacterName\":\"\",\"PortraitPath\":\"\",\"DisplayDuration\":0},{\"Text\":\"\uB3D9\uC2DC\uC5D0
+    \uC740\uC740\uD55C \uB808\uBAAC \uD5A5\uAE30\uAC00 \uBC29 \uC548\uC744 \uAC00\uB4DD
+    \uCC44\uC6E0\uB2E4.\",\"CharacterId\":\"NARRATOR\",\"CharacterName\":\"\",\"PortraitPath\":\"\",\"DisplayDuration\":0},{\"Text\":\"\uC5B4,
+    \uC5B4... \uC548\uB155\uD558\uC138\uC694?\",\"CharacterId\":\"INO\",\"CharacterName\":\"{PLAYER_NAME}\",\"PortraitPath\":\"Characters/Portraits/Ino_Surprise\",\"DisplayDuration\":0},{\"Text\":\"...\",\"CharacterId\":\"LUA\",\"CharacterName\":\"{TARGET_NAME}\",\"PortraitPath\":\"Characters/Portraits/Lua_Shy\",\"DisplayDuration\":0},{\"Text\":\"\uC544\uC774\uC640
+    \uD568\uAED8 \uD3B8\uC9C0 \uD55C \uC7A5\uC774 \uBC14\uB2E5\uC5D0 \uB5A8\uC5B4\uC84C\uB2E4.\",\"CharacterId\":\"NARRATOR\",\"CharacterName\":\"\",\"PortraitPath\":\"\",\"DisplayDuration\":0},{\"Text\":\"\u300E\uC774
+    \uC544\uC774\uB294 {TARGET_NAME}. \uC6B0\uB9AC \uC655\uAD6D\uC758 \uCC28\uAE30
+    \uC5EC\uC655 \uD6C4\uBCF4\uC774\uB2E4.\u300F\",\"CharacterId\":\"LETTER\",\"CharacterName\":\"\uD3B8\uC9C0\",\"PortraitPath\":\"\",\"DisplayDuration\":0},{\"Text\":\"\u300E\uC778\uAC04
+    \uC138\uACC4\uC5D0 \uB300\uD55C \uACBD\uD5D8\uC774 \uD544\uC694\uD558\uB2E4\uACE0
+    \uC5EC\uC655\uAED8\uC11C \uD310\uB2E8\uD558\uC168\uB2E4.\u300F\",\"CharacterId\":\"LETTER\",\"CharacterName\":\"\uD3B8\uC9C0\",\"PortraitPath\":\"\",\"DisplayDuration\":0},{\"Text\":\"\u300E18\uC138\uAC00
+    \uB420 \uB54C\uAE4C\uC9C0 \uC774 \uC544\uC774\uB97C \uC778\uAC04 \uC138\uACC4\uC5D0\uC11C
+    \uD0A4\uC6CC\uC8FC\uAE30\uB97C \uBC14\uB780\uB2E4.\u300F\",\"CharacterId\":\"LETTER\",\"CharacterName\":\"\uD3B8\uC9C0\",\"PortraitPath\":\"\",\"DisplayDuration\":0},{\"Text\":\"\u300E\uB2E8,
+    \uC774 \uC544\uC774\uAC00 \uC5EC\uC655\uC774 \uB418\uACE0 \uC2F6\uC9C0 \uC54A\uB2E4\uBA74
+    \uADF8 \uB73B\uC744 \uC874\uC911\uD574\uC8FC\uAE38 \uBC14\uB780\uB2E4.\u300F\",\"CharacterId\":\"LETTER\",\"CharacterName\":\"\uD3B8\uC9C0\",\"PortraitPath\":\"\",\"DisplayDuration\":0},{\"Text\":\"\u300E-
+    \uC655\uAD81\u300F\",\"CharacterId\":\"LETTER\",\"CharacterName\":\"\uD3B8\uC9C0\",\"PortraitPath\":\"\",\"DisplayDuration\":0.5},{\"Text\":\"\uC774
+    \uC544\uC774\uB294 {TARGET_NAME}... \uCC28\uAE30 \uC5EC\uC655 \uD6C4\uBCF4?\",\"CharacterId\":\"INO\",\"CharacterName\":\"{PLAYER_NAME}\",\"PortraitPath\":\"Characters/Portraits/Ino_Serious\",\"DisplayDuration\":0},{\"Text\":\"\uC778\uAC04
+    \uC138\uACC4\uC5D0\uC11C 12\uB144\uAC04 \uD0A4\uC6B0\uB77C\uACE0...?\",\"CharacterId\":\"INO\",\"CharacterName\":\"{PLAYER_NAME}\",\"PortraitPath\":\"Characters/Portraits/Ino_Serious\",\"DisplayDuration\":0},{\"Text\":\"\uADF8\uB9AC\uACE0...
+    \uC5EC\uC655\uC774 \uB418\uACE0 \uC2F6\uC9C0 \uC54A\uB2E4\uBA74 \uADF8 \uB73B\uC744
+    \uC874\uC911\uD558\uB77C\uACE0...\",\"CharacterId\":\"INO\",\"CharacterName\":\"{PLAYER_NAME}\",\"PortraitPath\":\"Characters/Portraits/Ino_Serious\",\"DisplayDuration\":0},{\"Text\":\"...\",\"CharacterId\":\"INO\",\"CharacterName\":\"{PLAYER_NAME}\",\"PortraitPath\":\"Characters/Portraits/Ino_Normal\",\"DisplayDuration\":1.0},{\"Text\":\"{PLAYER_NAME}\uB294
+    {TARGET_NAME}\uB97C \uBCF4\uBA70 \uAE4A\uC740 \uD55C\uC228\uC744 \uB0B4\uC26C\uC5C8\uB2E4.\",\"CharacterId\":\"NARRATOR\",\"CharacterName\":\"\",\"PortraitPath\":\"\",\"DisplayDuration\":0},{\"Text\":\"...\uC798
+    \uBD80\uD0C1\uD574\uC694, {TARGET_NAME}\uC528.\",\"CharacterId\":\"INO\",\"CharacterName\":\"{PLAYER_NAME}\",\"PortraitPath\":\"Characters/Portraits/Ino_Smile\",\"DisplayDuration\":0},{\"Text\":\"...\uC751.\",\"CharacterId\":\"LUA\",\"CharacterName\":\"{TARGET_NAME}\",\"PortraitPath\":\"Characters/Portraits/Lua_Shy\",\"DisplayDuration\":0},{\"Text\":\"\uADF8\uB807\uAC8C,
+    \uD55C \uC18C\uB140\uC758 \uC774\uC57C\uAE30\uAC00 \uC2DC\uC791\uB418\uC5C8\uB2E4.\",\"CharacterId\":\"NARRATOR\",\"CharacterName\":\"\",\"PortraitPath\":\"\",\"DisplayDuration\":0},{\"Text\":\"\uB514\uC800\uD2B8
+    \uC655\uAD6D\uC758 \uC6B4\uBA85\uC744 \uBC14\uAFC0,\",\"CharacterId\":\"NARRATOR\",\"CharacterName\":\"\",\"PortraitPath\":\"\",\"DisplayDuration\":0},{\"Text\":\"\uADF8\uB9AC\uACE0
+    \uADF8\uB140 \uC790\uC2E0\uC758 \uC6B4\uBA85\uC744 \uCC3E\uC544\uAC00\uB294 \uC774\uC57C\uAE30.\",\"CharacterId\":\"NARRATOR\",\"CharacterName\":\"\",\"PortraitPath\":\"\",\"DisplayDuration\":0}]"
+  ChoicesJson: "[{\"Text\":\"(\uC218\uC90D\uAC8C) \uC798 \uBD80\uD0C1\uD574\",\"Effects\":[]},{\"Text\":\"(\uACE0\uAC1C\uB9CC
+    \uB044\uB355\uC778\uB2E4)\",\"Effects\":[]}]"
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e9c397771063d4693dcb35897b8952, type: 3}
+  m_Name: DialogueDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.DialogueDatabase
+  _data:
+  - {fileID: -4822140543962826254}

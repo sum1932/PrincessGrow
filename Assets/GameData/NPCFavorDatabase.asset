@@ -1,0 +1,429 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8805645718341948995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_7
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Aileen
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &-8375324609860875220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_6
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Aileen
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &-6841223835720442238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_15
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Lian
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &-4448492963381005968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_0
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Ino
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &-3604329063914573860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_12
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Kyle
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &-1398616323490829375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_11
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Kyle
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &-950981484671144521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_2
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Ino
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &-130355942955339987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_14
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Kyle
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb29eda587faff54ea06f14dd7755b0e, type: 3}
+  m_Name: NPCFavorDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorDatabase
+  _data:
+  - {fileID: -4448492963381005968}
+  - {fileID: 1801531899947789194}
+  - {fileID: -950981484671144521}
+  - {fileID: 8609829421220181972}
+  - {fileID: 975467844529991920}
+  - {fileID: 9041226677249525573}
+  - {fileID: -8375324609860875220}
+  - {fileID: -8805645718341948995}
+  - {fileID: 8432970086626301894}
+  - {fileID: 6424913202976391211}
+  - {fileID: 4675565218284498522}
+  - {fileID: -1398616323490829375}
+  - {fileID: -3604329063914573860}
+  - {fileID: 978612743024947799}
+  - {fileID: -130355942955339987}
+  - {fileID: -6841223835720442238}
+  - {fileID: 2680745348771376176}
+  - {fileID: 3148169961302946703}
+--- !u!114 &975467844529991920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_4
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Ino
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &978612743024947799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_13
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Kyle
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &1801531899947789194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_1
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Ino
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &2680745348771376176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_16
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Lian
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &3148169961302946703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_17
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Lian
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &4675565218284498522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_10
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Kyle
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &6424913202976391211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_9
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Aileen
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &8432970086626301894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_8
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Aileen
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &8609829421220181972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_3
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Ino
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0
+--- !u!114 &9041226677249525573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44ee45eff073d74e866f44de2450c52, type: 3}
+  m_Name: NPCFavorData_5
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.NPCFavorData
+  NPCId: NPC_Aileen
+  FavorLevel0: 
+  FavorLevel1: 
+  FavorLevel2: 
+  FavorLevel3: 
+  FavorLevel4: 
+  Threshold1: 0
+  Threshold2: 0
+  Threshold3: 0
+  Threshold4: 0

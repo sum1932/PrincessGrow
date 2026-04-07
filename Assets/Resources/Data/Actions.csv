@@ -29,9 +29,9 @@ ACT_Rest_1,집에서 쉬기,Rest,Home,6,0,0,0,0,-30,0,0,None,0,0,집에서 편�
 ACT_Rest_2,공원 산책,Rest,Park,0,3,0,0,0,-35,0,0,None,0,0,자연 속에서 산책하며 마음을 달랍니다.,TRUE
 ACT_Rest_4,여행,Rest,Travel,18,6,0,0,0,-60,500,0,None,0,10,멀리 여행을 떠나 완전히 휴식을 취합니다.,TRUE
 ACT_Rest_5,취미 활동,Rest,Hobby,0,0,0,6,0,-25,50,0,None,0,0,"그림 그리기, 악기 연주 등 자신만의 취미를 즐깁니다.",TRUE
-ACT_Out_Aileen,아이린 만나기,Outing,NPC_Meet,0,4,0,0,0,0,100,0,None,0,0,이노의 소꿉친구 아이린과 만납니다.,TRUE
+ACT_Out_Aileen,아이린 만나기,Outing,NPC_Meet,0,4,0,0,0,0,100,0,None,0,8,이노의 소꿉친구 아이린과 만납니다. 8세 이상 가능.,TRUE
 ACT_Out_Kyle,카일 만나기,Outing,NPC_Meet,0,0,0,0,6,0,0,0,None,0,0,"호위원 카일과 대화합니다. 무료, 드물게 발생 (10턴에 1회).",TRUE
 ACT_Special_1,축제 참여,Special,Festival,0,12,0,0,0,-40,200,0,None,0,8,계절별 축제에 참여합니다. 모든 NPC와의 관계가 깊어질 수 있습니다.,TRUE
 ACT_Special_2,여름 해변,Special,Beach,24,10,0,0,0,-35,400,0,None,0,8,여름 해변에서 휴가를 보냅니다.,TRUE
-ACT_Special_3,단풍 놀이,Special,Autumn,0,0,0,15,0,-30,150,0,None,0,0,가을 단풍을 감상하며 감성을 자극합니다.,TRUE
-ACT_Special_4,크리스마스 파티,Special,Christmas,0,0,0,0,0,-50,300,0,None,0,0,루아의 생일이자 크리스마스를 함께 축하합니다. 모든 NPC와의 관계가 깊어집니다.,FALSE
+ACT_Special_3,단풍 놀이,Special,Autumn,0,0,0,15,0,-30,150,0,None,0,8,가을 단풍을 감상하며 감성을 자극합니다. 8세 이상 가능.,TRUE
+ACT_Special_4,크리스마스 파티,Special,Christmas,0,0,0,0,0,-50,300,0,None,0,8,루아의 생일이자 크리스마스를 함께 축하합니다. 모든 NPC와의 관계가 깊어집니다. 8세 이상 가능.,FALSE

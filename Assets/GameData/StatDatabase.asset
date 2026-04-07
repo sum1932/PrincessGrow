@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5908908231543465981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae977b483dbd704fb7c2bb5ad2d1831, type: 3}
+  m_Name: StatData_1
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.StatData
+  StatId: CHARM
+  NameKO: "\uB9E4\uB825"
+  NameEN: Charm
+  Description: "\uC678\uBAA8\uC640 \uB9E4\uB825. \uC544\uC774\uB3CC \uBC0F \uC0AC\uAD50\uC801
+    \uC5D4\uB529\uC5D0 \uD544\uC694"
+  MinValue: 0
+  MaxValue: 999
+  InitialValue: 70
+  GrowthRate: 1
+  IsPrimary: 1
+  IconPath: Stats/charm.png
+  ColorCode: '#FFB347'
+--- !u!114 &-5385823950315374683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae977b483dbd704fb7c2bb5ad2d1831, type: 3}
+  m_Name: StatData_3
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.StatData
+  StatId: ART
+  NameKO: "\uC608\uC220"
+  NameEN: Art
+  Description: "\uC608\uC220\uC801 \uAC10\uAC01\uACFC \uCC3D\uC758\uC131. \uC608\uC220\uAC00
+    \uC5D4\uB529\uC5D0 \uD544\uC694"
+  MinValue: 0
+  MaxValue: 999
+  InitialValue: 70
+  GrowthRate: 1
+  IsPrimary: 1
+  IconPath: Stats/art.png
+  ColorCode: '#9B59B6'
+--- !u!114 &-16452827070804247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae977b483dbd704fb7c2bb5ad2d1831, type: 3}
+  m_Name: StatData_2
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.StatData
+  StatId: INT
+  NameKO: "\uC9C0\uB2A5"
+  NameEN: Intelligence
+  Description: "\uD559\uC2B5 \uB2A5\uB825\uACFC \uC9C0\uC2DD. \uD559\uC790 \uBC0F
+    \uC5EC\uC655 \uC5D4\uB529\uC5D0 \uD544\uC694"
+  MinValue: 0
+  MaxValue: 999
+  InitialValue: 70
+  GrowthRate: 1
+  IsPrimary: 1
+  IconPath: Stats/int.png
+  ColorCode: '#4ECDC4'
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db4a6e8196910484cbcb6c2338e28829, type: 3}
+  m_Name: StatDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.StatDatabase
+  _data:
+  - {fileID: 4693987684159399959}
+  - {fileID: -5908908231543465981}
+  - {fileID: -16452827070804247}
+  - {fileID: -5385823950315374683}
+  - {fileID: 5298155837944150439}
+  - {fileID: 4565201292702766848}
+--- !u!114 &4565201292702766848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae977b483dbd704fb7c2bb5ad2d1831, type: 3}
+  m_Name: StatData_5
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.StatData
+  StatId: STRESS
+  NameKO: "\uC2A4\uD2B8\uB808\uC2A4"
+  NameEN: Stress
+  Description: "\uC815\uC2E0\uC801 \uBD80\uB2F4\uACFC \uC555\uBC15. \uB0AE\uC744\uC218\uB85D
+    \uC88B\uC74C (\uC790\uC720\uB85C\uC6B4 \uC601\uD63C \uC5D4\uB529)"
+  MinValue: 0
+  MaxValue: 150
+  InitialValue: 0
+  GrowthRate: 0.5
+  IsPrimary: 0
+  IconPath: Stats/stress.png
+  ColorCode: '#E74C3C'
+--- !u!114 &4693987684159399959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae977b483dbd704fb7c2bb5ad2d1831, type: 3}
+  m_Name: StatData_0
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.StatData
+  StatId: HP
+  NameKO: "\uCCB4\uB825"
+  NameEN: Health
+  Description: "\uC2E0\uCCB4\uC801 \uAC74\uAC15\uACFC \uD65C\uB825. \uC6B4\uB3D9\uC120\uC218
+    \uC5D4\uB529\uC5D0 \uD544\uC694"
+  MinValue: 0
+  MaxValue: 999
+  InitialValue: 80
+  GrowthRate: 1
+  IsPrimary: 1
+  IconPath: Stats/hp.png
+  ColorCode: '#FF6B6B'
+--- !u!114 &5298155837944150439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae977b483dbd704fb7c2bb5ad2d1831, type: 3}
+  m_Name: StatData_4
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.StatData
+  StatId: MORALITY
+  NameKO: "\uB3C4\uB355\uC131"
+  NameEN: Morality
+  Description: "\uB3C4\uB355\uC801 \uAE30\uC900\uACFC \uC591\uC2EC. \uC131\uB140
+    \uBC0F \uAD50\uC0AC \uC5D4\uB529\uC5D0 \uD544\uC694"
+  MinValue: 0
+  MaxValue: 999
+  InitialValue: 80
+  GrowthRate: 1
+  IsPrimary: 1
+  IconPath: Stats/morality.png
+  ColorCode: '#F1C40F'

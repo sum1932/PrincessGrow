@@ -29,6 +29,7 @@ namespace DessertKingdom.Core.Domain
 
     public enum EventType
     {
+        Prologue,
         Fixed,
         Random,
         NPC,
@@ -38,13 +39,14 @@ namespace DessertKingdom.Core.Domain
 
     public enum GamePhase
     {
-        Prologue,
-        ScheduleSelection,
-        ActivityProcessing,
-        EventCheck,
-        EventProcessing,
-        TurnEnd,
-        Ending
+        NameSetting,        // 이름 설정
+        Prologue,            // 프로로그
+        ScheduleSelection,     // 스케줄 선택
+        ActivityProcessing, // 활동 진행
+        EventCheck,          // 이벤트 체크
+        EventProcessing,     // 이벤트 진행
+        TurnEnd,             // 턴 종료
+        Ending               // 엔딩
     }
 
     public enum StatGrade

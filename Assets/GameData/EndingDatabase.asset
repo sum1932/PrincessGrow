@@ -1,0 +1,555 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8721317198194486782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_3
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_004
+  NameKO: "\uC608\uC220\uAC00\uC758 \uAE38"
+  NameEN: Path of Artist
+  Type: Basic
+  Priority: 6
+  ReqHP: 
+  ReqCharm: 
+  ReqInt: 400+
+  ReqArt: 650+
+  ReqMorality: 
+  ReqStress: 
+  ReqFavorIno: '>=60'
+  ReqFavorAileen: 
+  ReqFavorKyle: 
+  ReqFavorLian: 
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: 
+  CGPath: Endings/Artist.json
+  BGMPath: CG/Ending_Artist.png
+  Description: BGM/Ending_Artist.mp3
+  UnlockNextRun: 0
+--- !u!114 &-8657059206722050421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_14
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_HIDDEN_002
+  NameKO: "\uC0C8\uB85C\uC6B4 \uC5EC\uC655"
+  NameEN: New Queen
+  Type: Hidden
+  Priority: 2
+  ReqHP: 500+
+  ReqCharm: 600+
+  ReqInt: 600+
+  ReqArt: 400+
+  ReqMorality: 500+
+  ReqStress: <=400
+  ReqFavorIno: 80-100
+  ReqFavorAileen: 
+  ReqFavorKyle: 
+  ReqFavorLian: 
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: Flag_Lover_Route=TRUE
+  CGPath: Endings/Hidden_Queen.json
+  BGMPath: CG/Hidden_Queen.png
+  Description: BGM/Hidden_Queen.mp3
+  UnlockNextRun: 0
+--- !u!114 &-8472312679831933838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_7
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_008
+  NameKO: "\uB530\uB73B\uD55C \uAD50\uC0AC"
+  NameEN: Kind Teacher
+  Type: Basic
+  Priority: 8
+  ReqHP: 
+  ReqCharm: 
+  ReqInt: 600+
+  ReqArt: 500+
+  ReqMorality: 
+  ReqStress: 
+  ReqFavorIno: '>=60'
+  ReqFavorAileen: 
+  ReqFavorKyle: 
+  ReqFavorLian: 
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: 
+  CGPath: Endings/Teacher.json
+  BGMPath: CG/Ending_Teacher.png
+  Description: BGM/Ending_Teacher.mp3
+  UnlockNextRun: 0
+--- !u!114 &-6859007040280609086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_12
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_013
+  NameKO: "\uC790\uC720\uB85C\uC6B4 \uC601\uD63C"
+  NameEN: Free Spirit
+  Type: Basic
+  Priority: 18
+  ReqHP: 
+  ReqCharm: 
+  ReqInt: 
+  ReqArt: 
+  ReqMorality: 
+  ReqStress: <=400
+  ReqFavorIno: 
+  ReqFavorAileen: 
+  ReqFavorKyle: 
+  ReqFavorLian: 
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: 
+  CGPath: Endings/Free.json
+  BGMPath: CG/Ending_Free.png
+  Description: BGM/Ending_Free.mp3
+  UnlockNextRun: 0
+--- !u!114 &-4889319022136263802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_5
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_006
+  NameKO: "\uC131\uC2A4\uB7EC\uC6B4 \uC131\uB140"
+  NameEN: Holy Saint
+  Type: Basic
+  Priority: 8
+  ReqHP: 
+  ReqCharm: 
+  ReqInt: 
+  ReqArt: 400+
+  ReqMorality: 750+
+  ReqStress: 
+  ReqFavorIno: '>=70'
+  ReqFavorAileen: 
+  ReqFavorKyle: 
+  ReqFavorLian: 
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: 
+  CGPath: Endings/Saint.json
+  BGMPath: CG/Ending_Saint.png
+  Description: BGM/Ending_Saint.mp3
+  UnlockNextRun: 0
+--- !u!114 &-4258039205513393115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_6
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_007
+  NameKO: "\uC778\uAC04 \uC138\uACC4 \uD0D0\uAD6C\uC790"
+  NameEN: Human World Explorer
+  Type: Basic
+  Priority: 9
+  ReqHP: 
+  ReqCharm: 500+
+  ReqInt: 
+  ReqArt: 
+  ReqMorality: 
+  ReqStress: 
+  ReqFavorIno: '>=70'
+  ReqFavorAileen: 
+  ReqFavorKyle: 
+  ReqFavorLian: 
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: 
+  CGPath: Endings/Explorer.json
+  BGMPath: CG/Ending_Explorer.png
+  Description: BGM/Ending_Explorer.mp3
+  UnlockNextRun: 0
+--- !u!114 &-2501131231175163164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_9
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_010
+  NameKO: "\uC0AC\uAD50\uC801 \uB9AC\uB354"
+  NameEN: Social Leader
+  Type: Basic
+  Priority: 6
+  ReqHP: 500+
+  ReqCharm: 700+
+  ReqInt: 
+  ReqArt: 
+  ReqMorality: 
+  ReqStress: 
+  ReqFavorIno: '>=50'
+  ReqFavorAileen: '>=50'
+  ReqFavorKyle: '>=50'
+  ReqFavorLian: '>=50'
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: 
+  CGPath: Endings/Leader.json
+  BGMPath: CG/Ending_Leader.png
+  Description: BGM/Ending_Leader.mp3
+  UnlockNextRun: 0
+--- !u!114 &-2281686567883628470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_4
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_005
+  NameKO: "\uAC15\uC778\uD55C \uC6B4\uB3D9\uC120\uC218"
+  NameEN: Athlete
+  Type: Basic
+  Priority: 7
+  ReqHP: 700+
+  ReqCharm: 
+  ReqInt: 
+  ReqArt: 400+
+  ReqMorality: 
+  ReqStress: 
+  ReqFavorIno: '>=60'
+  ReqFavorAileen: 
+  ReqFavorKyle: 
+  ReqFavorLian: 
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: 
+  CGPath: Endings/Athlete.json
+  BGMPath: CG/Ending_Athlete.png
+  Description: BGM/Ending_Athlete.mp3
+  UnlockNextRun: 0
+--- !u!114 &-1964716039298435915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_11
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_012
+  NameKO: "\uD3C9\uBC94\uD55C \uD589\uBCF5"
+  NameEN: Ordinary Happiness
+  Type: Basic
+  Priority: 17
+  ReqHP: 300+
+  ReqCharm: 
+  ReqInt: 
+  ReqArt: 
+  ReqMorality: 
+  ReqStress: 
+  ReqFavorIno: 
+  ReqFavorAileen: 
+  ReqFavorKyle: 
+  ReqFavorLian: 
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: 
+  CGPath: Endings/Normal.json
+  BGMPath: CG/Ending_Normal.png
+  Description: BGM/Ending_Normal.mp3
+  UnlockNextRun: 0
+--- !u!114 &-1859993733902087091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_13
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_HIDDEN_001
+  NameKO: "\uCC28\uC6D0\uC758 \uC5F0\uACB0\uC790"
+  NameEN: Dimensional Connector
+  Type: Hidden
+  Priority: 1
+  ReqHP: 
+  ReqCharm: 500+
+  ReqInt: 
+  ReqArt: 
+  ReqMorality: 
+  ReqStress: <=400
+  ReqFavorIno: 
+  ReqFavorAileen: 
+  ReqFavorKyle: 
+  ReqFavorLian: 
+  ReqEvents: 80-100
+  ReqChoices: EVT_Lian_Secret
+  ReqFlags: 
+  ScriptPath: Flag_Lian_Secret=TRUE
+  CGPath: Endings/Hidden_Connector.json
+  BGMPath: CG/Hidden_Connector.png
+  Description: BGM/Hidden_Connector.mp3
+  UnlockNextRun: 0
+--- !u!114 &-1591450917235514553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_0
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_001
+  NameKO: "\uC5EC\uC655\uC758 \uAE38"
+  NameEN: Path of Queen
+  Type: Basic
+  Priority: 5
+  ReqHP: 600+
+  ReqCharm: 800+
+  ReqInt: 800+
+  ReqArt: 
+  ReqMorality: 600+
+  ReqStress: 
+  ReqFavorIno: '>=80'
+  ReqFavorAileen: 
+  ReqFavorKyle: 
+  ReqFavorLian: 
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: 
+  CGPath: Endings/Queen.json
+  BGMPath: CG/Ending_Queen.png
+  Description: BGM/Ending_Queen.mp3
+  UnlockNextRun: 0
+--- !u!114 &-590422759385758688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_1
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_002
+  NameKO: "\uD604\uBA85\uD55C \uD559\uC790"
+  NameEN: Wise Scholar
+  Type: Basic
+  Priority: 6
+  ReqHP: 
+  ReqCharm: 
+  ReqInt: 700+
+  ReqArt: 400+
+  ReqMorality: 
+  ReqStress: 
+  ReqFavorIno: '>=60'
+  ReqFavorAileen: 
+  ReqFavorKyle: 
+  ReqFavorLian: 
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: 
+  CGPath: Endings/Scholar.json
+  BGMPath: CG/Ending_Scholar.png
+  Description: BGM/Ending_Scholar.mp3
+  UnlockNextRun: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd907892b9f12c649a77bebd585d46a5, type: 3}
+  m_Name: EndingDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingDatabase
+  _data:
+  - {fileID: -1591450917235514553}
+  - {fileID: -590422759385758688}
+  - {fileID: 7785113372605653788}
+  - {fileID: -8721317198194486782}
+  - {fileID: -2281686567883628470}
+  - {fileID: -4889319022136263802}
+  - {fileID: -4258039205513393115}
+  - {fileID: -8472312679831933838}
+  - {fileID: 5927861528567170266}
+  - {fileID: -2501131231175163164}
+  - {fileID: 2481485398563783898}
+  - {fileID: -1964716039298435915}
+  - {fileID: -6859007040280609086}
+  - {fileID: -1859993733902087091}
+  - {fileID: -8657059206722050421}
+--- !u!114 &2481485398563783898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_10
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_011
+  NameKO: "\uADE0\uD615\uC7A1\uD78C \uC778\uC7AC"
+  NameEN: Well-Rounded Talent
+  Type: Basic
+  Priority: 16
+  ReqHP: 450+
+  ReqCharm: 450+
+  ReqInt: 450+
+  ReqArt: 450+
+  ReqMorality: 450+
+  ReqStress: 
+  ReqFavorIno: '>=40'
+  ReqFavorAileen: '>=40'
+  ReqFavorKyle: '>=40'
+  ReqFavorLian: '>=40'
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: 
+  CGPath: Endings/Balanced.json
+  BGMPath: CG/Ending_Balanced.png
+  Description: BGM/Ending_Balanced.mp3
+  UnlockNextRun: 0
+--- !u!114 &5927861528567170266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_8
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_009
+  NameKO: "\uC694\uB9AC \uC5F0\uAD6C\uAC00"
+  NameEN: Cooking Researcher
+  Type: Basic
+  Priority: 7
+  ReqHP: 
+  ReqCharm: 
+  ReqInt: 500+
+  ReqArt: 600+
+  ReqMorality: 
+  ReqStress: 
+  ReqFavorIno: '>=60'
+  ReqFavorAileen: 
+  ReqFavorKyle: 
+  ReqFavorLian: 
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: 
+  CGPath: Endings/Cook.json
+  BGMPath: CG/Ending_Cook.png
+  Description: BGM/Ending_Cook.mp3
+  UnlockNextRun: 0
+--- !u!114 &7785113372605653788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ebdb3453675c4e85b6537a18b3e6c, type: 3}
+  m_Name: EndingData_2
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.EndingData
+  EndingId: END_003
+  NameKO: "\uBC18\uC9DD\uC774\uB294 \uC544\uC774\uB3CC"
+  NameEN: Shining Idol
+  Type: Basic
+  Priority: 7
+  ReqHP: 
+  ReqCharm: 700+
+  ReqInt: 
+  ReqArt: 
+  ReqMorality: 500+
+  ReqStress: 
+  ReqFavorIno: '>=60'
+  ReqFavorAileen: 
+  ReqFavorKyle: 
+  ReqFavorLian: 
+  ReqEvents: 
+  ReqChoices: 
+  ReqFlags: 
+  ScriptPath: 
+  CGPath: Endings/Idol.json
+  BGMPath: CG/Ending_Idol.png
+  Description: BGM/Ending_Idol.mp3
+  UnlockNextRun: 0

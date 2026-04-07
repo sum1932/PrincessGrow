@@ -1,0 +1,315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9126050194297220280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94cad40b72181b4a842752d61591b30, type: 3}
+  m_Name: QuestData_2
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.QuestData
+  QuestId: Q_003
+  NameKO: "\uCE74\uC77C\uC758 \uD638\uC2E0\uC220 \uD2B9\uD6C8"
+  Steps: 2
+  TotalTurns: 4
+  TriggerType: Random_Talk
+  TriggerValue: Kyle
+  RequiredNPC: Kyle
+  RequiredFavor: 50
+  RequiredAge: 12
+  RequiredStat: HP
+  StatValue: '>=150'
+  RewardType: Favor
+  RewardValue: 20
+  SpecialReward: SKILL_Self_Defense
+  RelatedEnding: None
+  Description: "\uCE74\uC77C\uC5D0\uAC8C \uD638\uC2E0\uC220 \uBC30\uC6B0\uAE30. \uC2E4\uC804
+    \uD14C\uC2A4\uD2B8 \uD3EC\uD568"
+--- !u!114 &-1439734027637130296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94cad40b72181b4a842752d61591b30, type: 3}
+  m_Name: QuestData_0
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.QuestData
+  QuestId: Q_001
+  NameKO: "\uC774\uB178\uC758 \uC694\uB9AC \uAD50\uC2E4"
+  Steps: 3
+  TotalTurns: 6
+  TriggerType: Random_Talk
+  TriggerValue: Ino
+  RequiredNPC: Ino
+  RequiredFavor: 40
+  RequiredAge: 9
+  RequiredStat: Stress
+  StatValue: <=50
+  RewardType: Favor
+  RewardValue: 25
+  SpecialReward: ITEM_Special_Lemon_Scone
+  RelatedEnding: None
+  Description: "\uC774\uB178\uC640 \uD568\uAED8 \uC694\uB9AC \uC5F0\uC2B5. 6\uD134\uC5D0
+    \uAC78\uCCD0 3\uB2E8\uACC4 \uC9C4\uD589"
+--- !u!114 &-1166968993723944949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94cad40b72181b4a842752d61591b30, type: 3}
+  m_Name: QuestData_7
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.QuestData
+  QuestId: Q_008
+  NameKO: "\uBE44\uBC00\uC758 \uC77C\uAE30\uC7A5"
+  Steps: 2
+  TotalTurns: 99
+  TriggerType: Random_Home
+  TriggerValue: Special
+  RequiredNPC: None
+  RequiredFavor: 0
+  RequiredAge: 12
+  RequiredStat: Int+Charm
+  StatValue: '>=400'
+  RewardType: Stat
+  RewardValue: Int+20
+  SpecialReward: HINT_Hidden
+  RelatedEnding: None
+  Description: "\uC9D1\uC5D0\uC11C \uB0A1\uC740 \uC77C\uAE30\uC7A5 \uBC1C\uACAC.
+    \uB8E8\uC544\uC640 \uAD00\uB828\uB41C \uC9C4\uC2E4"
+--- !u!114 &-144575715571081337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94cad40b72181b4a842752d61591b30, type: 3}
+  m_Name: QuestData_6
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.QuestData
+  QuestId: Q_007
+  NameKO: "\uAE38 \uC783\uC740 \uB514\uC800\uD2B8 \uC815\uB839"
+  Steps: 3
+  TotalTurns: 4
+  TriggerType: Random_Out
+  TriggerValue: 5%
+  RequiredNPC: None
+  RequiredFavor: 0
+  RequiredAge: 11
+  RequiredStat: Any_Dessert
+  StatValue: '>=200'
+  RewardType: Stat
+  RewardValue: Morality+10
+  SpecialReward: ITEM_Fairy_Dust
+  RelatedEnding: Hidden_1
+  Description: "\uC678\uCD9C \uC2DC \uB79C\uB364 \uBC1C\uC0DD. \uB514\uC800\uD2B8
+    \uC815\uB839 \uAD6C\uCD9C"
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22faa36120bd11f4f8984e5b55b886e2, type: 3}
+  m_Name: QuestDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.QuestDatabase
+  _data:
+  - {fileID: -1439734027637130296}
+  - {fileID: 7143463850057874249}
+  - {fileID: -9126050194297220280}
+  - {fileID: 7282092059581670767}
+  - {fileID: 5037022905021676024}
+  - {fileID: 8402776886874853832}
+  - {fileID: -144575715571081337}
+  - {fileID: -1166968993723944949}
+  - {fileID: 6737852821410322761}
+  - {fileID: 5680305959352840842}
+--- !u!114 &5037022905021676024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94cad40b72181b4a842752d61591b30, type: 3}
+  m_Name: QuestData_4
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.QuestData
+  QuestId: Q_005
+  NameKO: "\uB514\uC800\uD2B8 \uD398\uC2A4\uD2F0\uBC8C"
+  Steps: 2
+  TotalTurns: 1
+  TriggerType: Date
+  TriggerValue: Month=10
+  RequiredNPC: None
+  RequiredFavor: 0
+  RequiredAge: 10
+  RequiredStat: None
+  StatValue: 0
+  RewardType: Favor
+  RewardValue: 8_All
+  SpecialReward: ITEM_Festival_Souvenir
+  RelatedEnding: None
+  Description: "10\uC6D4 \uB514\uC800\uD2B8 \uC655\uAD6D \uD398\uC2A4\uD2F0\uBC8C.
+    \uBAA8\uB4E0 NPC \uD638\uAC10\uB3C4 \uC0C1\uC2B9"
+--- !u!114 &5680305959352840842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94cad40b72181b4a842752d61591b30, type: 3}
+  m_Name: QuestData_9
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.QuestData
+  QuestId: Q_010
+  NameKO: "\uCD5C\uC885 \uC120\uD0DD\uC758 \uC900\uBE44"
+  Steps: 2
+  TotalTurns: 2
+  TriggerType: Age
+  TriggerValue: 17
+  RequiredNPC: None
+  RequiredFavor: 0
+  RequiredAge: 17
+  RequiredStat: Event_Complete
+  StatValue: '>=70%'
+  RewardType: Stat
+  RewardValue: All+10
+  SpecialReward: CHOICE_Hidden
+  RelatedEnding: Both_Hidden
+  Description: "17\uC138 \uB9C8\uC9C0\uB9C9 ~ 18\uC138 \uCCAB \uB2EC. \uD788\uB4E0
+    \uC120\uD0DD\uC9C0 \uD574\uAE08"
+--- !u!114 &6737852821410322761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94cad40b72181b4a842752d61591b30, type: 3}
+  m_Name: QuestData_8
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.QuestData
+  QuestId: Q_009
+  NameKO: "\uC6B0\uC815\uC758 \uC99D\uD45C"
+  Steps: 3
+  TotalTurns: 6
+  TriggerType: Date
+  TriggerValue: Birthday_Minus_1
+  RequiredNPC: Any_NPC
+  RequiredFavor: 65
+  RequiredAge: 99
+  RequiredStat: Gold
+  StatValue: '>=1000'
+  RewardType: Favor
+  RewardValue: 30_Specific
+  SpecialReward: CG_Unlocked
+  RelatedEnding: None
+  Description: "\uD2B9\uC815 NPC \uC0DD\uC77C 1\uB2EC \uC804 \uBC1C\uC0DD. \uD2B9\uBCC4
+    \uC120\uBB3C \uC900\uBE44"
+--- !u!114 &7143463850057874249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94cad40b72181b4a842752d61591b30, type: 3}
+  m_Name: QuestData_1
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.QuestData
+  QuestId: Q_002
+  NameKO: "\uC544\uC774\uB9B0\uC758 \uD328\uC158 \uD504\uB85C\uC81D\uD2B8"
+  Steps: 3
+  TotalTurns: 8
+  TriggerType: Random_Talk
+  TriggerValue: Aileen
+  RequiredNPC: Aileen
+  RequiredFavor: 45
+  RequiredAge: 11
+  RequiredStat: Charm
+  StatValue: '>=200'
+  RewardType: Favor
+  RewardValue: 30
+  SpecialReward: ITEM_Special_Dress
+  RelatedEnding: None
+  Description: "\uC544\uC774\uB9B0\uACFC \uD568\uAED8 \uD2B9\uBCC4\uD55C \uC637 \uC81C\uC791.
+    \uD328\uC158\uC1FC \uC774\uBCA4\uD2B8 \uD3EC\uD568"
+--- !u!114 &7282092059581670767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94cad40b72181b4a842752d61591b30, type: 3}
+  m_Name: QuestData_3
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.QuestData
+  QuestId: Q_004
+  NameKO: "\uB9AC\uC548\uC758 \uC218\uC218\uAED8\uB07C"
+  Steps: 3
+  TotalTurns: 99
+  TriggerType: Random_Talk
+  TriggerValue: Lian
+  RequiredNPC: Lian
+  RequiredFavor: 55
+  RequiredAge: 14
+  RequiredStat: Int
+  StatValue: '>=250'
+  RewardType: Favor
+  RewardValue: 25
+  SpecialReward: LOCATION_Secret_Garden
+  RelatedEnding: Hidden_1
+  Description: "\uC218\uC218\uAED8\uB07C 3\uAC1C \uD480\uAE30. \uD788\uB4E0 \uC5D4\uB529
+    1 \uC9C4\uD589\uB3C4 +20%"
+--- !u!114 &8402776886874853832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94cad40b72181b4a842752d61591b30, type: 3}
+  m_Name: QuestData_5
+  m_EditorClassIdentifier: Assembly-CSharp::GameData.ScriptableObjects.QuestData
+  QuestId: Q_006
+  NameKO: "\uD559\uAD50 \uCD95\uC81C \uC900\uBE44"
+  Steps: 3
+  TotalTurns: 99
+  TriggerType: Date
+  TriggerValue: Month=5
+  RequiredNPC: None
+  RequiredFavor: 0
+  RequiredAge: 13
+  RequiredStat: None
+  StatValue: 0
+  RewardType: Stat
+  RewardValue: Charm+15
+  SpecialReward: EVENT_School_Festival
+  RelatedEnding: None
+  Description: "5\uC6D4 \uD559\uAD50 \uCD95\uC81C \uC900\uBE44. \uBC18\uC7A5 \uC120\uCD9C
+    \uBC0F \uC6B4\uC601"

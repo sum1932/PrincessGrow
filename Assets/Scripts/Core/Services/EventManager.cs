@@ -34,14 +34,15 @@ namespace DessertKingdom.Core.Services
             
             foreach (var evt in _allEvents)
             {
+                // CanTrigger에서 이미 CompletedEvents 체크함
                 if (evt.CanTrigger(state))
                 {
                     availableEvents.Add(evt);
                 }
             }
             
-            // 우선순위 정렬
-            return availableEvents.OrderByDescending(e => e.Priority).ToList();
+            // 우선순위 정렬 (높은 우선순위 먼저, 같은 우선순위면 랜덤)
+            return availableEvents.OrderByDescending(e => e.Priority).ThenBy(e => _random.Next()).ToList();
         }
         
         public void ProcessEventChoice(GameEvent gameEvent, EventChoice choice, GameState state)

@@ -15,6 +15,13 @@ namespace DessertKingdom.Core.Data
         public static List<Dictionary<string, string>> Parse(string csvText, char delimiter = ',')
         {
             var result = new List<Dictionary<string, string>>();
+            
+            // ★ UTF-8 BOM 제거 (한글 깨짐 방지)
+            if (csvText.Length > 0 && csvText[0] == '\uFEFF')
+            {
+                csvText = csvText.Substring(1);
+            }
+            
             var lines = csvText.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
             
             if (lines.Length == 0) return result;
