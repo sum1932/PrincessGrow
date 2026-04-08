@@ -1,0 +1,698 @@
+{
+  "events": [
+    {
+      "id": "EVT_PROLOGUE",
+      "name": "프롤로그",
+      "type": "Fixed",
+      "priority": 10,
+      "description": "게임 시작 시 자동 발생",
+      "conditions": {
+        "minAge": 6,
+        "maxAge": 6
+      },
+      "choices": [
+        {
+          "id": "choice_prologue_start",
+          "text": "게임을 시작한다",
+          "statEffects": {},
+          "favorEffects": {},
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_BIRTHDAY_006",
+      "name": "6세 생일",
+      "type": "Fixed",
+      "priority": 9,
+      "description": "루아의 6번째 생일",
+      "conditions": {
+        "minAge": 6,
+        "maxAge": 6,
+        "month": 12,
+        "day": 24
+      },
+      "choices": [
+        {
+          "id": "choice_birthday_happy",
+          "text": "행복한 생일을 보낸다",
+          "statEffects": {
+            "HP": 10,
+            "Charm": 5
+          },
+          "favorEffects": {
+            "ino": 10
+          },
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_BIRTHDAY_007",
+      "name": "7세 생일",
+      "type": "Fixed",
+      "priority": 9,
+      "description": "루아의 7번째 생일",
+      "conditions": {
+        "minAge": 7,
+        "maxAge": 7,
+        "month": 12,
+        "day": 24
+      },
+      "choices": [
+        {
+          "id": "choice_birthday_cake",
+          "text": "특별한 케이크를 만든다",
+          "statEffects": {
+            "Art": 10
+          },
+          "favorEffects": {
+            "ino": 10
+          },
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_BIRTHDAY_010",
+      "name": "10세 생일",
+      "type": "Special",
+      "priority": 9,
+      "description": "루아의 10번째 생일 (특별 선물)",
+      "conditions": {
+        "minAge": 10,
+        "maxAge": 10,
+        "month": 12,
+        "day": 24
+      },
+      "choices": [
+        {
+          "id": "choice_special_gift",
+          "text": "특별한 선물을 받는다",
+          "statEffects": {
+            "Intelligence": 10,
+            "Charm": 10
+          },
+          "favorEffects": {
+            "ino": 15
+          },
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_BIRTHDAY_013",
+      "name": "13세 생일 (리안 첫 등장)",
+      "type": "Special",
+      "priority": 9,
+      "description": "루아의 13번째 생일 - 리안 첫 등장",
+      "conditions": {
+        "minAge": 13,
+        "maxAge": 13,
+        "month": 12,
+        "day": 24
+      },
+      "choices": [
+        {
+          "id": "choice_meet_lian",
+          "text": "리안을 만난다",
+          "statEffects": {
+            "Intelligence": 5
+          },
+          "favorEffects": {
+            "ino": 10,
+            "lian": 50
+          },
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_BIRTHDAY_016",
+      "name": "16세 생일 (반지 선물)",
+      "type": "Special",
+      "priority": 9,
+      "description": "루아의 16번째 생일 (약속의 반지)",
+      "conditions": {
+        "minAge": 16,
+        "maxAge": 16,
+        "month": 12,
+        "day": 24
+      },
+      "choices": [
+        {
+          "id": "choice_ring_promise",
+          "text": "반지를 받는다",
+          "statEffects": {
+            "Charm": 15
+          },
+          "favorEffects": {
+            "ino": 20
+          },
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_BIRTHDAY_018",
+      "name": "18세 생일 (최종 선택)",
+      "type": "Special",
+      "priority": 10,
+      "description": "루아의 18번째 생일 - 최종 엔딩 분기",
+      "conditions": {
+        "minAge": 18,
+        "maxAge": 18,
+        "month": 12,
+        "day": 24
+      },
+      "choices": [
+        {
+          "id": "choice_adult_ceremony",
+          "text": "성인식을 치른다",
+          "statEffects": {
+            "HP": 20,
+            "Charm": 20,
+            "Intelligence": 20,
+            "Art": 20,
+            "Morality": 20
+          },
+          "favorEffects": {
+            "ino": 30,
+            "aileen": 10,
+            "kyle": 10,
+            "lian": 10
+          },
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_AGE_006_SCHOOL",
+      "name": "6세 첫 입학식",
+      "type": "Fixed",
+      "priority": 8,
+      "description": "6세 첫 입학식",
+      "conditions": {
+        "minAge": 6,
+        "maxAge": 6,
+        "month": 4,
+        "day": 1
+      },
+      "choices": [
+        {
+          "id": "choice_school_start",
+          "text": "학교에 입학한다",
+          "statEffects": {
+            "Intelligence": 5,
+            "Morality": 3
+          },
+          "favorEffects": {},
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_AGE_012_PUBERTY",
+      "name": "12세 사춘기의 시작",
+      "type": "Fixed",
+      "priority": 7,
+      "description": "12세 사춘기 갈등 이벤트",
+      "conditions": {
+        "minAge": 12,
+        "maxAge": 12,
+        "stat_Stress": 30
+      },
+      "choices": [
+        {
+          "id": "choice_talk_ino",
+          "text": "이노와 대화한다",
+          "statEffects": {
+            "Stress": -20
+          },
+          "favorEffects": {
+            "ino": 10
+          },
+          "requirements": {}
+        },
+        {
+          "id": "choice_keep_distance",
+          "text": "거리를 둔다",
+          "statEffects": {
+            "Stress": 10
+          },
+          "favorEffects": {},
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_AGE_016_HIGH",
+      "name": "16세 고등학교 입학",
+      "type": "Fixed",
+      "priority": 8,
+      "description": "16세 고등학교 입학 및 진로 선택",
+      "conditions": {
+        "minAge": 16,
+        "maxAge": 16,
+        "month": 4,
+        "day": 1
+      },
+      "choices": [
+        {
+          "id": "choice_academic",
+          "text": "학문의 길을 선택한다",
+          "statEffects": {
+            "Intelligence": 15
+          },
+          "favorEffects": {},
+          "requirements": {}
+        },
+        {
+          "id": "choice_art",
+          "text": "예술의 길을 선택한다",
+          "statEffects": {
+            "Art": 15
+          },
+          "favorEffects": {},
+          "requirements": {}
+        },
+        {
+          "id": "choice_social",
+          "text": "사교의 길을 선택한다",
+          "statEffects": {
+            "Charm": 15
+          },
+          "favorEffects": {},
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_NEWYEAR",
+      "name": "새해",
+      "type": "Fixed",
+      "priority": 5,
+      "description": "새해 첫날 이벤트",
+      "conditions": {
+        "minAge": 6,
+        "maxAge": 18,
+        "month": 1,
+        "day": 1
+      },
+      "choices": [
+        {
+          "id": "choice_new_year",
+          "text": "새해를 맞이한다",
+          "statEffects": {
+            "Morality": 3
+          },
+          "favorEffects": {
+            "ino": 5
+          },
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": false,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_VALENTINE",
+      "name": "발렌타인데이",
+      "type": "Fixed",
+      "priority": 6,
+      "description": "발렌타인데이 이벤트 (10세 이상)",
+      "conditions": {
+        "minAge": 10,
+        "maxAge": 18,
+        "month": 2,
+        "day": 14
+      },
+      "choices": [
+        {
+          "id": "choice_make_chocolate",
+          "text": "초콜릿을 만든다",
+          "statEffects": {
+            "Art": 5
+          },
+          "favorEffects": {
+            "ino": 10
+          },
+          "requirements": {}
+        },
+        {
+          "id": "choice_buy_chocolate",
+          "text": "초콜릿을 산다",
+          "statEffects": {
+            "Charm": 3
+          },
+          "favorEffects": {
+            "aileen": 5
+          },
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": false,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_CHRISTMAS",
+      "name": "크리스마스",
+      "type": "Fixed",
+      "priority": 6,
+      "description": "크리스마스 이벤트",
+      "conditions": {
+        "minAge": 6,
+        "maxAge": 18,
+        "month": 12,
+        "day": 25
+      },
+      "choices": [
+        {
+          "id": "choice_christmas_party",
+          "text": "파티를 즐긴다",
+          "statEffects": {
+            "HP": 5,
+            "Charm": 5
+          },
+          "favorEffects": {
+            "ino": 5,
+            "aileen": 5,
+            "kyle": 5
+          },
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": false,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_AILEEN_CONFESSION",
+      "name": "아이린 - 이노에 대한 고백",
+      "type": "NPC",
+      "priority": 8,
+      "description": "아이린의 고백 이벤트",
+      "conditions": {
+        "minAge": 14,
+        "maxAge": 18,
+        "favor_aileen": 70
+      },
+      "choices": [
+        {
+          "id": "choice_support",
+          "text": "아이린을 응원한다",
+          "statEffects": {
+            "Morality": 10
+          },
+          "favorEffects": {
+            "aileen": 20
+          },
+          "requirements": {}
+        },
+        {
+          "id": "choice_stay_silent",
+          "text": "말없이 듣는다",
+          "statEffects": {
+            "Intelligence": 3
+          },
+          "favorEffects": {
+            "aileen": 5
+          },
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_KYLE_GROWTH",
+      "name": "카일 - 루아의 성장",
+      "type": "NPC",
+      "priority": 8,
+      "description": "카일의 성장 인정 이벤트",
+      "conditions": {
+        "minAge": 15,
+        "maxAge": 18,
+        "favor_kyle": 60
+      },
+      "choices": [
+        {
+          "id": "choice_thank",
+          "text": "감사 인사를 전한다",
+          "statEffects": {
+            "HP": 10,
+            "Morality": 5
+          },
+          "favorEffects": {
+            "kyle": 15
+          },
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_LIAN_SECRET",
+      "name": "리안 - 특별한 능력의 비밀",
+      "type": "NPC",
+      "priority": 9,
+      "description": "리안의 비밀 밝혀짐 이벤트",
+      "conditions": {
+        "minAge": 16,
+        "maxAge": 18,
+        "favor_lian": 80
+      },
+      "choices": [
+        {
+          "id": "choice_accept",
+          "text": "리안을 받아들인다",
+          "statEffects": {
+            "Intelligence": 10,
+            "Art": 10
+          },
+          "favorEffects": {
+            "lian": 20
+          },
+          "requirements": {}
+        },
+        {
+          "id": "choice_shocked",
+          "text": "충격받는다",
+          "statEffects": {
+            "Stress": 20
+          },
+          "favorEffects": {
+            "lian": -10
+          },
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_RANDOM_STUDY",
+      "name": "랜덤 학습 이벤트",
+      "type": "Random",
+      "priority": 3,
+      "description": "랜덤 발생 학습 관련 이벤트",
+      "conditions": {
+        "minAge": 6,
+        "maxAge": 18,
+        "random": 0.2,
+        "stat_Intelligence": 0,
+        "stat_Intelligence_max": 500
+      },
+      "choices": [
+        {
+          "id": "choice_study_hard",
+          "text": "열심히 공부한다",
+          "statEffects": {
+            "Intelligence": 10,
+            "Stress": 5
+          },
+          "favorEffects": {},
+          "requirements": {}
+        },
+        {
+          "id": "choice_rest_instead",
+          "text": "쉰다",
+          "statEffects": {
+            "Stress": -10
+          },
+          "favorEffects": {},
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": false,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_RANDOM_STRESS",
+      "name": "랜덤 스트레스 이벤트",
+      "type": "Random",
+      "priority": 4,
+      "description": "스트레스 높을 때 발생 이벤트",
+      "conditions": {
+        "minAge": 6,
+        "maxAge": 18,
+        "random": 0.25,
+        "stat_Stress": 50
+      },
+      "choices": [
+        {
+          "id": "choice_calm_down",
+          "text": "진정시킨다",
+          "statEffects": {
+            "Stress": -20,
+            "Morality": 3
+          },
+          "favorEffects": {},
+          "requirements": {}
+        },
+        {
+          "id": "choice_burst",
+          "text": "폭발한다",
+          "statEffects": {
+            "Stress": -10,
+            "HP": -10,
+            "Charm": -5
+          },
+          "favorEffects": {},
+          "requirements": {}
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": false,
+      "isHidden": false
+    },
+    {
+      "id": "EVT_HIDDEN_CONNECTOR",
+      "name": "차원의 연결자 (히든 엔딩 1)",
+      "type": "Hidden",
+      "priority": 1,
+      "description": "히든 엔딩 1 - 차원의 연결자",
+      "conditions": {
+        "minAge": 18,
+        "maxAge": 18,
+        "favor_lian": 100,
+        "flag_Lian_Secret": true
+      },
+      "choices": [
+        {
+          "id": "choice_hidden_ending_1",
+          "text": "차원의 연결자가 된다",
+          "statEffects": {
+            "Intelligence": 50,
+            "Art": 50
+          },
+          "favorEffects": {
+            "lian": 50
+          },
+          "requirements": {
+            "stat_Intelligence": 500
+          }
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": true
+    },
+    {
+      "id": "EVT_HIDDEN_QUEEN",
+      "name": "새로운 여왕 (히든 엔딩 2)",
+      "type": "Hidden",
+      "priority": 1,
+      "description": "히든 엔딩 2 - 새로운 여왕",
+      "conditions": {
+        "minAge": 18,
+        "maxAge": 18,
+        "favor_ino": 100,
+        "flag_Lover_Route": true
+      },
+      "choices": [
+        {
+          "id": "choice_hidden_ending_2",
+          "text": "새로운 여왕이 된다",
+          "statEffects": {
+            "HP": 50,
+            "Charm": 50,
+            "Intelligence": 50,
+            "Art": 50,
+            "Morality": 50
+          },
+          "favorEffects": {
+            "ino": 50
+          },
+          "requirements": {
+            "stat_HP": 500,
+            "stat_Charm": 700,
+            "stat_Intelligence": 700,
+            "stat_Art": 400,
+            "stat_Morality": 500
+          }
+        }
+      ],
+      "statEffects": {},
+      "favorEffects": {},
+      "isOneTime": true,
+      "isHidden": true
+    }
+  ]
+}

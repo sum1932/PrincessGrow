@@ -291,12 +291,12 @@ namespace DessertKingdom.Controllers
             if (data == null) return (null, null);
             
             // 대사 라인 변환
-            var lines = new List<DialogueLine>();
+            var lines = new List<EventDialogueLine>();
             if (data.Lines != null)
             {
                 foreach (var lineData in data.Lines)
                 {
-                    var line = new DialogueLine(lineData.Text);
+                    var line = new EventDialogueLine(lineData.Text);
                     lines.Add(line);
                 }
             }

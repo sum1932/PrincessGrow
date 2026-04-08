@@ -10,18 +10,18 @@ namespace DessertKingdom.Core.Domain
         public string CharacterId { get; }
         public string CharacterName { get; }
         public string PortraitPath { get; }
-        public List<DialogueLine> Lines { get; }
+        public List<EventDialogueLine> Lines { get; }
         public bool ShowStandIllustration { get; }
         public string StandIllustrationPath { get; }
 
         public EventDialogue(string characterId, string characterName, string portraitPath,
-                           List<DialogueLine> lines, bool showStandIllustration = false,
+                           List<EventDialogueLine> lines, bool showStandIllustration = false,
                            string standIllustrationPath = null)
         {
             CharacterId = characterId;
             CharacterName = characterName;
             PortraitPath = portraitPath;
-            Lines = lines ?? new List<DialogueLine>();
+            Lines = lines ?? new List<EventDialogueLine>();
             ShowStandIllustration = showStandIllustration;
             StandIllustrationPath = standIllustrationPath;
         }
@@ -30,13 +30,13 @@ namespace DessertKingdom.Core.Domain
     /// <summary>
     /// 개별 대사 라인
     /// </summary>
-    public class DialogueLine
+    public class EventDialogueLine
     {
         public string Text { get; }
         public DialogueEffect Effect { get; }
         public float DisplayDuration { get; }
 
-        public DialogueLine(string text, DialogueEffect effect = null, float displayDuration = 0f)
+        public EventDialogueLine(string text, DialogueEffect effect = null, float displayDuration = 0f)
         {
             Text = text;
             Effect = effect;

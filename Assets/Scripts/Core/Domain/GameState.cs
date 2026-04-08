@@ -14,6 +14,7 @@ namespace DessertKingdom.Core.Domain
         public List<string> ChoiceHistory { get; }
         public GamePhase Phase { get; private set; }
         public bool PrologueShown { get; set; }
+        public Inventory Inventory { get; }
         
         // 플레이어 및 육성대상 이름
         public string PlayerName { get; set; } = "이노";      // 기본값: 이노
@@ -25,6 +26,7 @@ namespace DessertKingdom.Core.Domain
             Character = new CharacterStats();
             Economy = new Economy();
             CurrentSchedule = new MonthlySchedule();
+            Inventory = new Inventory();
             NPCs = new List<NPCRelationship>();
             CompletedEvents = new List<string>();
             ChoiceHistory = new List<string>();

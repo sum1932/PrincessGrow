@@ -1,0 +1,2 @@
+# This folder contains .NET Core projects for standalone builds
+# Unity should ignore this folder and use Assets/Scripts/Core instead

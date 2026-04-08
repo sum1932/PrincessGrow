@@ -1,0 +1,252 @@
+{
+  "endings": [
+    {
+      "id": "END_001",
+      "name": "여왕의 길",
+      "priority": 5,
+      "requiredStats": {
+        "HP": 500,
+        "Charm": 700,
+        "Intelligence": 700,
+        "Morality": 500
+      },
+      "requiredFavor": {
+        "ino": 80
+      },
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": false,
+      "description": "왕국의 여왕이 되어 왕국을 이끄는 엔딩"
+    },
+    {
+      "id": "END_002",
+      "name": "현명한 학자",
+      "priority": 6,
+      "requiredStats": {
+        "Intelligence": 700,
+        "Art": 400
+      },
+      "requiredFavor": {
+        "ino": 60
+      },
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": false,
+      "description": "왕국 최고의 학자가 되는 엔딩"
+    },
+    {
+      "id": "END_003",
+      "name": "반짝이는 아이돌",
+      "priority": 7,
+      "requiredStats": {
+        "Charm": 700,
+        "Morality": 500
+      },
+      "requiredFavor": {
+        "ino": 60
+      },
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": false,
+      "description": "왕국 최고의 아이돌 스타가 되는 엔딩"
+    },
+    {
+      "id": "END_004",
+      "name": "예술가의 길",
+      "priority": 6,
+      "requiredStats": {
+        "Intelligence": 400,
+        "Art": 650
+      },
+      "requiredFavor": {
+        "ino": 60
+      },
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": false,
+      "description": "왕국을 대표하는 예술가가 되는 엔딩"
+    },
+    {
+      "id": "END_005",
+      "name": "강인한 운동선수",
+      "priority": 7,
+      "requiredStats": {
+        "HP": 700,
+        "Art": 400
+      },
+      "requiredFavor": {
+        "ino": 60
+      },
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": false,
+      "description": "왕국 최고의 운동선수가 되는 엔딩"
+    },
+    {
+      "id": "END_006",
+      "name": "성스러운 성녀",
+      "priority": 8,
+      "requiredStats": {
+        "Art": 400,
+        "Morality": 750
+      },
+      "requiredFavor": {
+        "ino": 70
+      },
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": false,
+      "description": "왕국의 정신적 지주가 되는 성녀 엔딩"
+    },
+    {
+      "id": "END_007",
+      "name": "인간 세계 탐구자",
+      "priority": 9,
+      "requiredStats": {
+        "Charm": 500
+      },
+      "requiredFavor": {
+        "ino": 70
+      },
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": false,
+      "description": "인간 세계에 남아 조사원이 되는 엔딩"
+    },
+    {
+      "id": "END_008",
+      "name": "따뜻한 교사",
+      "priority": 8,
+      "requiredStats": {
+        "Intelligence": 600,
+        "Art": 500
+      },
+      "requiredFavor": {
+        "ino": 60
+      },
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": false,
+      "description": "왕국의 교육자가 되는 엔딩"
+    },
+    {
+      "id": "END_009",
+      "name": "요리 연구가",
+      "priority": 7,
+      "requiredStats": {
+        "Intelligence": 500,
+        "Art": 600
+      },
+      "requiredFavor": {
+        "ino": 60
+      },
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": false,
+      "description": "디저트 요리 연구가가 되는 엔딩"
+    },
+    {
+      "id": "END_010",
+      "name": "사교적 리더",
+      "priority": 6,
+      "requiredStats": {
+        "HP": 500,
+        "Charm": 700
+      },
+      "requiredFavor": {
+        "ino": 50,
+        "aileen": 50,
+        "kyle": 50,
+        "lian": 50
+      },
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": false,
+      "description": "왕국 사교계의 중심이 되는 엔딩"
+    },
+    {
+      "id": "END_011",
+      "name": "균형잡힌 인재",
+      "priority": 16,
+      "requiredStats": {
+        "HP": 500,
+        "Charm": 500,
+        "Intelligence": 500,
+        "Art": 500,
+        "Morality": 500
+      },
+      "requiredFavor": {
+        "ino": 40,
+        "aileen": 40,
+        "kyle": 40,
+        "lian": 40
+      },
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": false,
+      "description": "모든 면에서 균형 잡힌 인재가 되는 엔딩"
+    },
+    {
+      "id": "END_012",
+      "name": "평범한 행복",
+      "priority": 17,
+      "requiredStats": {
+        "HP": 300
+      },
+      "requiredFavor": {},
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": false,
+      "description": "특별하지 않은 평범한 행복을 찾는 엔딩"
+    },
+    {
+      "id": "END_013",
+      "name": "자유로운 영혼",
+      "priority": 18,
+      "requiredStats": {
+        "Stress": 0
+      },
+      "requiredFavor": {},
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": false,
+      "description": "어떤 틀에도 얽매이지 않는 자유로운 삶의 엔딩"
+    },
+    {
+      "id": "END_HIDDEN_001",
+      "name": "차원의 연결자",
+      "priority": 1,
+      "requiredStats": {
+        "Intelligence": 500
+      },
+      "requiredFavor": {
+        "lian": 80
+      },
+      "requiredEvents": [
+        "EVT_LIAN_SECRET"
+      ],
+      "requiredChoices": [],
+      "isHidden": true,
+      "description": "인간 세계와 디저트 왕국의 다리가 되는 히든 엔딩"
+    },
+    {
+      "id": "END_HIDDEN_002",
+      "name": "새로운 여왕",
+      "priority": 2,
+      "requiredStats": {
+        "HP": 500,
+        "Charm": 700,
+        "Intelligence": 700,
+        "Art": 400,
+        "Morality": 500
+      },
+      "requiredFavor": {
+        "ino": 80
+      },
+      "requiredEvents": [],
+      "requiredChoices": [],
+      "isHidden": true,
+      "description": "이노와 함께 새로운 왕국을 건설하는 히든 엔딩"
+    }
+  ]
+}

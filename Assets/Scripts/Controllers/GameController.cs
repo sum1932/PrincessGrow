@@ -8,6 +8,7 @@ using GameData.ScriptableObjects;
 using DessertKingdom.Adapters.Interfaces;
 using DessertKingdom.Adapters.Unity;
 using DessertKingdom.Views;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -26,6 +27,9 @@ namespace DessertKingdom.Controllers
         [Header("Panel References")]
         [SerializeField] private GameObject monthlySchedulePanel;
         [SerializeField] private GameObject activityPanel;
+        [SerializeField] private GameObject statsPanel;  // 스탯 패널
+        [SerializeField] private GameObject inventoryPanel;  // 인벤토리 패널
+        [SerializeField] private GameObject shopPanel;  // 상점 패널
 
         [Header("Event System")]
         [SerializeField] private DialogueEventView dialogueEventView;
@@ -411,12 +415,30 @@ namespace DessertKingdom.Controllers
 
         /// <summary>
         /// 월간 스케줄 설정 패널 열기 (UI 버튼에서 호출)
+        /// DoTween Scale Pop 애니메이션 적용
         /// </summary>
         public void OpenMonthlySchedule()
         {
             if (monthlySchedulePanel != null)
             {
                 monthlySchedulePanel.SetActive(true);
+                
+                // 초기 상태 설정 (작은 크기, 투명)
+                RectTransform panelRect = monthlySchedulePanel.GetComponent<RectTransform>();
+                CanvasGroup panelCanvas = monthlySchedulePanel.GetComponent<CanvasGroup>();
+                
+                if (panelCanvas == null)
+                    panelCanvas = monthlySchedulePanel.AddComponent<CanvasGroup>();
+                
+                panelRect.localScale = Vector3.one * 0.7f;
+                panelCanvas.alpha = 0f;
+                
+                // Scale Pop 애니메이션
+                panelRect.DOScale(Vector3.one, 0.3f)
+                    .SetEase(Ease.OutBack, 0.5f);
+                panelCanvas.DOFade(1f, 0.25f)
+                    .SetEase(Ease.OutQuad);
+                
                 Debug.Log("[GameController] 월간 스케줄 설정 패널 열림");
             }
             else
@@ -429,6 +451,24 @@ namespace DessertKingdom.Controllers
                 var activities = GetAvailableActivities();
                 gamePresenter?.activityPanelView?.ShowActivities(activities, _gameState, 0);
                 activityPanel.SetActive(true);
+                
+                // ActivityPanel도 같은 애니메이션 적용
+                RectTransform activityRect = activityPanel.GetComponent<RectTransform>();
+                CanvasGroup activityCanvas = activityPanel.GetComponent<CanvasGroup>();
+                
+                if (activityCanvas == null)
+                    activityCanvas = activityPanel.AddComponent<CanvasGroup>();
+                
+                activityRect.localScale = Vector3.one * 0.7f;
+                activityCanvas.alpha = 0f;
+                
+                activityRect.DOScale(Vector3.one, 0.3f)
+                    .SetEase(Ease.OutBack, 0.5f)
+                    .SetDelay(0.05f);
+                activityCanvas.DOFade(1f, 0.25f)
+                    .SetEase(Ease.OutQuad)
+                    .SetDelay(0.05f);
+                
                 Debug.Log("[GameController] ActivityPanel 활성화");
             }
             else
@@ -439,20 +479,312 @@ namespace DessertKingdom.Controllers
 
         /// <summary>
         /// 월간 스케줄 설정 패널 닫기
+        /// DoTween Scale Shrink 애니메이션 적용
         /// </summary>
         public void CloseMonthlySchedule()
         {
             if (monthlySchedulePanel != null)
             {
-                monthlySchedulePanel.SetActive(false);
+                RectTransform panelRect = monthlySchedulePanel.GetComponent<RectTransform>();
+                CanvasGroup panelCanvas = monthlySchedulePanel.GetComponent<CanvasGroup>();
+                
+                if (panelCanvas == null)
+                    panelCanvas = monthlySchedulePanel.AddComponent<CanvasGroup>();
+                
+                // Scale Shrink + Fade Out 애니메이션
+                Sequence closeSequence = DOTween.Sequence();
+                closeSequence.Append(panelRect.DOScale(Vector3.one * 0.7f, 0.2f)
+                    .SetEase(Ease.InBack));
+                closeSequence.Join(panelCanvas.DOFade(0f, 0.2f)
+                    .SetEase(Ease.InQuad));
+                closeSequence.OnComplete(() => monthlySchedulePanel.SetActive(false));
             }
 
             if (activityPanel != null)
             {
-                activityPanel.SetActive(false);
+                RectTransform activityRect = activityPanel.GetComponent<RectTransform>();
+                CanvasGroup activityCanvas = activityPanel.GetComponent<CanvasGroup>();
+                
+                if (activityCanvas == null)
+                    activityCanvas = activityPanel.AddComponent<CanvasGroup>();
+                
+                // ActivityPanel도 같은 애니메이션 적용
+                Sequence closeSequence = DOTween.Sequence();
+                closeSequence.Append(activityRect.DOScale(Vector3.one * 0.7f, 0.2f)
+                    .SetEase(Ease.InBack)
+                    .SetDelay(0.02f));
+                closeSequence.Join(activityCanvas.DOFade(0f, 0.2f)
+                    .SetEase(Ease.InQuad)
+                    .SetDelay(0.02f));
+                closeSequence.OnComplete(() => activityPanel.SetActive(false));
+                
                 Debug.Log("[GameController] ActivityPanel 비활성화");
             }
         }
+
+        #region 스탯 패널 제어
+
+        /// <summary>
+        /// 스탯 패널 토글 (UI 버튼에서 호출)
+        /// </summary>
+        public void ToggleStats()
+        {
+            bool isCurrentlyActive = statsPanel?.activeSelf ?? false;
+            
+            if (isCurrentlyActive)
+            {
+                CloseStats();
+                Debug.Log("[GameController] 스탯 패널 닫힘");
+            }
+            else
+            {
+                OpenStats();
+            }
+        }
+
+        /// <summary>
+        /// 스탯 패널 열기 (DoTween Scale Pop 애니메이션)
+        /// </summary>
+        public void OpenStats()
+        {
+            if (statsPanel != null)
+            {
+                statsPanel.SetActive(true);
+                
+                // 스탯 데이터 갱신
+                if (_gameState != null)
+                {
+                    _presenter?.DisplayStats(_gameState.Character);
+                }
+                
+                // 초기 상태 설정 (작은 크기, 투명)
+                RectTransform panelRect = statsPanel.GetComponent<RectTransform>();
+                CanvasGroup panelCanvas = statsPanel.GetComponent<CanvasGroup>();
+                
+                if (panelCanvas == null)
+                    panelCanvas = statsPanel.AddComponent<CanvasGroup>();
+                
+                panelRect.localScale = Vector3.one * 0.7f;
+                panelCanvas.alpha = 0f;
+                
+                // Scale Pop 애니메이션
+                panelRect.DOScale(Vector3.one, 0.3f)
+                    .SetEase(Ease.OutBack, 0.5f);
+                panelCanvas.DOFade(1f, 0.25f)
+                    .SetEase(Ease.OutQuad);
+                
+                Debug.Log("[GameController] 스탯 패널 열림");
+            }
+            else
+            {
+                Debug.LogError("[GameController] StatsPanel이 연결되지 않았습니다!");
+            }
+        }
+
+        /// <summary>
+        /// 스탯 패널 닫기 (DoTween Scale Shrink 애니메이션)
+        /// </summary>
+        public void CloseStats()
+        {
+            if (statsPanel != null)
+            {
+                RectTransform panelRect = statsPanel.GetComponent<RectTransform>();
+                CanvasGroup panelCanvas = statsPanel.GetComponent<CanvasGroup>();
+                
+                if (panelCanvas == null)
+                    panelCanvas = statsPanel.AddComponent<CanvasGroup>();
+                
+                // Scale Shrink + Fade Out 애니메이션
+                Sequence closeSequence = DOTween.Sequence();
+                closeSequence.Append(panelRect.DOScale(Vector3.one * 0.7f, 0.2f)
+                    .SetEase(Ease.InBack));
+                closeSequence.Join(panelCanvas.DOFade(0f, 0.2f)
+                    .SetEase(Ease.InQuad));
+                closeSequence.OnComplete(() => statsPanel.SetActive(false));
+            }
+        }
+
+        #endregion
+
+        #region 인벤토리 패널 제어
+
+        /// <summary>
+        /// 인벤토리 패널 토글 (UI 버튼에서 호출)
+        /// </summary>
+        public void ToggleInventory()
+        {
+            bool isCurrentlyActive = inventoryPanel?.activeSelf ?? false;
+            
+            if (isCurrentlyActive)
+            {
+                CloseInventory();
+                Debug.Log("[GameController] 인벤토리 패널 닫힘");
+            }
+            else
+            {
+                OpenInventory();
+            }
+        }
+
+        /// <summary>
+        /// 인벤토리 패널 열기 (DoTween Scale Pop 애니메이션)
+        /// </summary>
+        public void OpenInventory()
+        {
+            if (inventoryPanel != null)
+            {
+                inventoryPanel.SetActive(true);
+                
+                // 인벤토리 데이터 갱신
+                if (_gameState != null && gamePresenter?.activityPanelView != null)
+                {
+                    // InventoryPanelView 초기화 호출 (있는 경우)
+                    var inventoryView = inventoryPanel.GetComponent<DessertKingdom.Views.InventoryPanelView>();
+                    if (inventoryView != null)
+                    {
+                        // ItemDatabase 필요 - GameController에 필드로 추가 필요
+                        // inventoryView.Initialize(_gameState.Inventory, itemDatabase, _gameState.Economy);
+                    }
+                }
+                
+                // 초기 상태 설정 (작은 크기, 투명)
+                RectTransform panelRect = inventoryPanel.GetComponent<RectTransform>();
+                CanvasGroup panelCanvas = inventoryPanel.GetComponent<CanvasGroup>();
+                
+                if (panelCanvas == null)
+                    panelCanvas = inventoryPanel.AddComponent<CanvasGroup>();
+                
+                panelRect.localScale = Vector3.one * 0.7f;
+                panelCanvas.alpha = 0f;
+                
+                // Scale Pop 애니메이션
+                panelRect.DOScale(Vector3.one, 0.3f)
+                    .SetEase(Ease.OutBack, 0.5f);
+                panelCanvas.DOFade(1f, 0.25f)
+                    .SetEase(Ease.OutQuad);
+                
+                Debug.Log("[GameController] 인벤토리 패널 열림");
+            }
+            else
+            {
+                Debug.LogError("[GameController] InventoryPanel이 연결되지 않았습니다!");
+            }
+        }
+
+        /// <summary>
+        /// 인벤토리 패널 닫기 (DoTween Scale Shrink 애니메이션)
+        /// </summary>
+        public void CloseInventory()
+        {
+            if (inventoryPanel != null)
+            {
+                RectTransform panelRect = inventoryPanel.GetComponent<RectTransform>();
+                CanvasGroup panelCanvas = inventoryPanel.GetComponent<CanvasGroup>();
+                
+                if (panelCanvas == null)
+                    panelCanvas = inventoryPanel.AddComponent<CanvasGroup>();
+                
+                // Scale Shrink + Fade Out 애니메이션
+                Sequence closeSequence = DOTween.Sequence();
+                closeSequence.Append(panelRect.DOScale(Vector3.one * 0.7f, 0.2f)
+                    .SetEase(Ease.InBack));
+                closeSequence.Join(panelCanvas.DOFade(0f, 0.2f)
+                    .SetEase(Ease.InQuad));
+                closeSequence.OnComplete(() => inventoryPanel.SetActive(false));
+            }
+        }
+
+        #endregion
+
+        #region 상점 패널 제어
+
+        /// <summary>
+        /// 상점 패널 토글 (UI 버튼에서 호출)
+        /// </summary>
+        public void ToggleShop()
+        {
+            bool isCurrentlyActive = shopPanel?.activeSelf ?? false;
+            
+            if (isCurrentlyActive)
+            {
+                CloseShop();
+                Debug.Log("[GameController] 상점 패널 닫힘");
+            }
+            else
+            {
+                OpenShop();
+            }
+        }
+
+        /// <summary>
+        /// 상점 패널 열기 (DoTween Scale Pop 애니메이션)
+        /// </summary>
+        public void OpenShop()
+        {
+            if (shopPanel != null)
+            {
+                shopPanel.SetActive(true);
+                
+                // 상점 데이터 갱신
+                if (_gameState != null)
+                {
+                    var shopView = shopPanel.GetComponent<DessertKingdom.Views.ShopPanelView>();
+                    if (shopView != null)
+                    {
+                        // ItemDatabase 필요
+                        // var availableItems = GetShopItems(); // 상점에 표시할 아이템 목록
+                        // shopView.Initialize(availableItems, _gameState.Economy, "상점");
+                    }
+                }
+                
+                // 초기 상태 설정 (작은 크기, 투명)
+                RectTransform panelRect = shopPanel.GetComponent<RectTransform>();
+                CanvasGroup panelCanvas = shopPanel.GetComponent<CanvasGroup>();
+                
+                if (panelCanvas == null)
+                    panelCanvas = shopPanel.AddComponent<CanvasGroup>();
+                
+                panelRect.localScale = Vector3.one * 0.7f;
+                panelCanvas.alpha = 0f;
+                
+                // Scale Pop 애니메이션
+                panelRect.DOScale(Vector3.one, 0.3f)
+                    .SetEase(Ease.OutBack, 0.5f);
+                panelCanvas.DOFade(1f, 0.25f)
+                    .SetEase(Ease.OutQuad);
+                
+                Debug.Log("[GameController] 상점 패널 열림");
+            }
+            else
+            {
+                Debug.LogError("[GameController] ShopPanel이 연결되지 않았습니다!");
+            }
+        }
+
+        /// <summary>
+        /// 상점 패널 닫기 (DoTween Scale Shrink 애니메이션)
+        /// </summary>
+        public void CloseShop()
+        {
+            if (shopPanel != null)
+            {
+                RectTransform panelRect = shopPanel.GetComponent<RectTransform>();
+                CanvasGroup panelCanvas = shopPanel.GetComponent<CanvasGroup>();
+                
+                if (panelCanvas == null)
+                    panelCanvas = shopPanel.AddComponent<CanvasGroup>();
+                
+                // Scale Shrink + Fade Out 애니메이션
+                Sequence closeSequence = DOTween.Sequence();
+                closeSequence.Append(panelRect.DOScale(Vector3.one * 0.7f, 0.2f)
+                    .SetEase(Ease.InBack));
+                closeSequence.Join(panelCanvas.DOFade(0f, 0.2f)
+                    .SetEase(Ease.InQuad));
+                closeSequence.OnComplete(() => shopPanel.SetActive(false));
+            }
+        }
+
+        #endregion
 
         private void ShowEnding()
         {

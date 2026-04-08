@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace DessertKingdom.Core.Domain
 {
@@ -41,15 +40,12 @@ namespace DessertKingdom.Core.Domain
             // 나이 체크
             if (currentAge < MinAge)
             {
-                Debug.Log($"[Activity:{Name}] 나이 불만족: 현재 {currentAge} < 필요 {MinAge}");
                 return false;
             }
 
             // 스탯 요구사항 체크
             if (stats != null && Requirements != null && Requirements.Count > 0)
             {
-                Debug.Log($"[Activity:{Name}] 스탯 체크 시작 - Requirements 수: {Requirements.Count}");
-                
                 foreach (var req in Requirements)
                 {
                     if (req.Key.StartsWith("stat_"))
@@ -64,7 +60,6 @@ namespace DessertKingdom.Core.Domain
                             
                             if (currentValue < requiredValue)
                             {
-                                Debug.Log($"[Activity:{Name}] 스탯 불만족: {statType}");
                                 return false;
                             }
                         }
@@ -84,7 +79,6 @@ namespace DessertKingdom.Core.Domain
             // 계절/월 체크
             if (!IsAvailableInMonth(currentMonth))
             {
-                Debug.Log($"[Activity:{Name}] 계절/월 불만족: 현재 {currentMonth}월, Season={Season}, Month={Month}");
                 return false;
             }
 

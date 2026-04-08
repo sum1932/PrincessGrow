@@ -7,7 +7,7 @@ namespace DessertKingdom.Core.Data
     {
         Activity GetById(string id);
         List<Activity> GetAll();
-        List<Activity> GetAvailable(int age, CharacterStats stats);
+        List<Activity> GetAvailable(int age);
         List<Activity> GetByType(ActivityType type);
     }
 

@@ -183,9 +183,9 @@ namespace DessertKingdom.Core.Data
             return _activities.ToList();
         }
 
-        public List<Activity> GetAvailable(int age, CharacterStats stats)
+        public List<Activity> GetAvailable(int age)
         {
-            return _activities.Where(a => a.IsAvailable(age, stats)).ToList();
+            return _activities.Where(a => a.MinAge <= age).ToList();
         }
 
         public List<Activity> GetByType(ActivityType type)
