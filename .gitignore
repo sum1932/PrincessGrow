@@ -25,6 +25,33 @@
 
 # Visual Studio cache directory
 .vs/
+**/.vs/
+
+# Node / web simulation dependencies
+node_modules/
+**/node_modules/
+
+# .NET build output
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Python cache / local virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+
+# Local scratch files
+nul
+result.txt
 
 # Gradle cache directory
 .gradle/
