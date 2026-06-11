@@ -53,6 +53,12 @@ appsettings.Development.json
 nul
 result.txt
 
+# Local planning and working documents
+/01_GameDesign/
+/02_Technical/
+/04_WorkDoce/
+/Implementation/Docs/
+
 # Gradle cache directory
 .gradle/
 

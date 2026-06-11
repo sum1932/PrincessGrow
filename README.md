@@ -2,31 +2,31 @@
 
 2D 비주얼 노벨 감성의 육성 시뮬레이션 게임 프로젝트입니다. Unity 화면/입력 계층과 순수 C# Core 로직을 분리하고, 랜덤/LLM 전략 기반 자동 플레이 시뮬레이션으로 월 진행, 이벤트, 엔딩, 경제 밸런스를 검증할 수 있도록 구성했습니다.
 
-- Portfolio Page: https://sum1932.github.io/PrincessGrow/
-- Repository: https://github.com/sum1932/PrincessGrow
+- 포트폴리오 페이지: https://sum1932.github.io/PrincessGrow/
+- GitHub 저장소: https://github.com/sum1932/PrincessGrow
 
 ![Dessert Princess title](docs/assets/title.jpg)
 
-## Overview
+## 프로젝트 개요
 
-- Genre: 2D, visual novel, simulation, casual
-- Period: 2026.03.27 - 2026.05.31
-- Engine: Unity 6 (`6000.2.15f1`)
-- Language: C#
-- Architecture: Headless POCO, Clean Architecture, Ports & Adapters
-- Data: CSV / JSON driven content pipeline
-- Simulation: Random strategy and LLM player strategy
+- 장르: 2D, 비주얼 노벨, 육성 시뮬레이션, 캐주얼
+- 개발 기간: 2026.03.27 - 2026.05.31
+- 엔진: Unity 6 (`6000.2.15f1`)
+- 언어: C#
+- 구조: Headless POCO, Clean Architecture, Ports & Adapters
+- 데이터: CSV / JSON 기반 콘텐츠 파이프라인
+- 시뮬레이션: 랜덤 전략 및 LLM 플레이어 전략
 
-## Responsibilities
+## 담당 역할
 
-- Core domain design for turn progression, stats, economy, events, inventory, and ending evaluation
-- Unity-independent C# Core implementation for simulation and testability
-- Unity adapter/view layer that presents Core state without embedding gameplay rules in UI code
-- CSV/JSON repository layer for activity, event, ending, NPC dialogue, and item data
-- Automated play simulation for balance checks and QA exploration
-- LLM strategy integration for AI-driven playtesting
+- 월 진행, 스탯, 경제, 이벤트, 인벤토리, 엔딩 판정을 담당하는 Core 도메인 설계
+- 시뮬레이션과 테스트를 위한 Unity 독립 C# Core 구현
+- 게임 규칙을 UI 코드에 넣지 않고 Core 상태를 표현하는 Unity Adapter/View 계층 구현
+- 활동, 이벤트, 엔딩, NPC 대화, 아이템 데이터를 위한 CSV/JSON Repository 계층 구현
+- 밸런스 확인과 QA 탐색을 위한 자동 플레이 시뮬레이션 구현
+- AI 기반 플레이 테스트를 위한 LLM 전략 연동
 
-## Screenshots
+## 주요 화면
 
 ![Main menu](docs/assets/main-menu.png)
 
@@ -34,46 +34,46 @@
 
 ![Monthly result](docs/assets/monthly-result.png)
 
-## Technical Highlights
+## 기술 포인트
 
-### Unity-independent Core
+### Unity 독립 Core 구조
 
-Core gameplay rules are implemented as plain C# domain models and services, so the same game logic can run both inside Unity and in standalone console simulations.
+핵심 게임 규칙은 순수 C# 도메인 모델과 서비스로 구현했습니다. 같은 게임 로직을 Unity 안에서도, 별도 콘솔 시뮬레이션에서도 실행할 수 있습니다.
 
-Key files:
+주요 파일:
 
 - `Assets/Scripts/Core/Domain/GameState.cs`
 - `Assets/Scripts/Core/Services/TurnManager.cs`
 - `Assets/Scripts/Core/Services/EventManager.cs`
 - `Assets/Scripts/Core/Services/EndingJudge.cs`
 
-### Ports & Adapters
+### Ports & Adapters 구조
 
-Unity UI depends on interfaces such as `IGamePresenter` and `IGameInput`, while Core logic does not know about Unity scenes, prefabs, or input devices.
+Unity UI는 `IGamePresenter`, `IGameInput` 같은 인터페이스에 의존하고, Core 로직은 Unity 씬, 프리팹, 입력 장치를 알지 못하도록 분리했습니다.
 
-Key files:
+주요 파일:
 
 - `Assets/Scripts/Adapters/Interfaces/IGamePresenter.cs`
 - `Assets/Scripts/Adapters/Interfaces/IGameInput.cs`
 - `Assets/Scripts/Adapters/Unity/UnityGamePresenter.cs`
 - `Assets/Scripts/Controllers/GameController.cs`
 
-### Data-driven Content
+### 데이터 기반 콘텐츠
 
-Activities, events, endings, NPC dialogue, and item data are managed through CSV/JSON and converted into domain objects through repository implementations.
+활동, 이벤트, 엔딩, NPC 대화, 아이템 데이터를 CSV/JSON으로 관리하고 Repository 구현을 통해 도메인 객체로 변환합니다.
 
-Key files:
+주요 파일:
 
 - `Assets/Scripts/Core/Data/IRepositories.cs`
 - `Assets/Scripts/Core/Data/CsvActivityRepository.cs`
 - `Assets/Scripts/Repositories/DatabaseActionRepository.cs`
 - `Assets/Scripts/ExcelConverter/`
 
-### Automated Simulation and LLM Playtesting
+### 자동 시뮬레이션과 LLM 플레이 테스트
 
-The standalone implementation can run repeated full-game simulations using interchangeable strategies. This makes it possible to compare random play, human-guided play, and LLM-guided play without opening Unity.
+Standalone 구현은 교체 가능한 전략을 사용해 전체 게임 시뮬레이션을 반복 실행할 수 있습니다. Unity를 열지 않고도 랜덤 플레이, 사람 기준 플레이, LLM 기반 플레이 흐름을 비교할 수 있습니다.
 
-Key files:
+주요 파일:
 
 - `Implementation/Simulation/GameSimulator.cs`
 - `Implementation/TestConsole/LLMStrategy.cs`
@@ -82,26 +82,26 @@ Key files:
 - `Implementation/TestConsole/GeminiClient.cs`
 - `Implementation/TestConsole/KimiClient.cs`
 
-## Repository Structure
+## 저장소 구조
 
 ```text
 Assets/Scripts/
-├── Core/               # Unity-independent gameplay logic
-├── Adapters/           # Interfaces and Unity adapter implementations
-├── Controllers/        # Thin MonoBehaviour orchestration layer
-├── Views/              # UI presentation components
-└── ExcelConverter/     # CSV/Excel data import tooling
+├── Core/               # Unity 독립 게임 로직
+├── Adapters/           # 인터페이스와 Unity Adapter 구현
+├── Controllers/        # 얇은 MonoBehaviour 조율 계층
+├── Views/              # UI 표현 컴포넌트
+└── ExcelConverter/     # CSV/Excel 데이터 가져오기 도구
 
 Implementation/
-├── Core/               # Standalone .NET Core logic
-├── Simulation/         # Automated simulation runner
-└── TestConsole/        # Interactive and LLM playtest console
+├── Core/               # Standalone .NET Core 로직
+├── Simulation/         # 자동 시뮬레이션 실행기
+└── TestConsole/        # 인터랙티브 및 LLM 플레이 테스트 콘솔
 
-docs/                   # GitHub Pages portfolio page
+docs/                   # GitHub Pages 포트폴리오 페이지
 ```
 
-## Run Notes
+## 실행 참고
 
-Unity gameplay is intended to run through the Unity Editor. Standalone Core and simulation projects are under `Implementation/`.
+Unity 게임 플레이는 Unity Editor에서 실행하는 것을 기준으로 합니다. Standalone Core와 시뮬레이션 프로젝트는 `Implementation/` 아래에 있습니다.
 
-API keys for LLM clients are not included in this repository. Use local environment variables or local configuration files that are excluded by `.gitignore`.
+LLM 클라이언트용 API 키는 저장소에 포함하지 않습니다. `.gitignore`에서 제외되는 로컬 환경 변수나 로컬 설정 파일을 사용합니다.
