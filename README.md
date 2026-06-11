@@ -1,6 +1,6 @@
 # Dessert Princess
 
-2D 육성 시뮬레이션 게임 프로젝트입니다. Unity 화면/입력 계층과 순수 C# Core 로직을 분리하고, 랜덤/LLM 전략 기반 자동 플레이 시뮬레이터로 턴 진행, 이벤트, 엔딩, 경제 밸런스를 검증할 수 있도록 구성했습니다.
+2D 비주얼 노벨 감성의 육성 시뮬레이션 게임 프로젝트입니다. Unity 화면/입력 계층과 순수 C# Core 로직을 분리하고, 랜덤/LLM 전략 기반 자동 플레이 시뮬레이션으로 월 진행, 이벤트, 엔딩, 경제 밸런스를 검증할 수 있도록 구성했습니다.
 
 - Portfolio Page: https://sum1932.github.io/PrincessGrow/
 - Repository: https://github.com/sum1932/PrincessGrow
@@ -22,7 +22,7 @@
 - Core domain design for turn progression, stats, economy, events, inventory, and ending evaluation
 - Unity-independent C# Core implementation for simulation and testability
 - Unity adapter/view layer that presents Core state without embedding gameplay rules in UI code
-- CSV/JSON repository layer for activity, event, and ending data
+- CSV/JSON repository layer for activity, event, ending, NPC dialogue, and item data
 - Automated play simulation for balance checks and QA exploration
 - LLM strategy integration for AI-driven playtesting
 
