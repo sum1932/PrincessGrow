@@ -39,10 +39,10 @@
 
 주요 파일:
 
-- `Assets/Scripts/Core/Domain/GameState.cs`
-- `Assets/Scripts/Core/Services/TurnManager.cs`
-- `Assets/Scripts/Core/Services/EventManager.cs`
-- `Assets/Scripts/Core/Services/EndingJudge.cs`
+- `GameState.cs`
+- `TurnManager.cs`
+- `EventManager.cs`
+- `EndingJudge.cs`
 
 ### Ports & Adapters 구조
 
@@ -50,10 +50,10 @@ Unity UI는 `IGamePresenter`, `IGameInput` 같은 인터페이스에 의존하�
 
 주요 파일:
 
-- `Assets/Scripts/Adapters/Interfaces/IGamePresenter.cs`
-- `Assets/Scripts/Adapters/Interfaces/IGameInput.cs`
-- `Assets/Scripts/Adapters/Unity/UnityGamePresenter.cs`
-- `Assets/Scripts/Controllers/GameController.cs`
+- `IGamePresenter.cs`
+- `IGameInput.cs`
+- `UnityGamePresenter.cs`
+- `GameController.cs`
 
 ### 데이터 기반 콘텐츠
 
@@ -61,10 +61,10 @@ Unity UI는 `IGamePresenter`, `IGameInput` 같은 인터페이스에 의존하�
 
 주요 파일:
 
-- `Assets/Scripts/Core/Data/IRepositories.cs`
-- `Assets/Scripts/Core/Data/CsvActivityRepository.cs`
-- `Assets/Scripts/Repositories/DatabaseActionRepository.cs`
-- `Assets/Scripts/ExcelConverter/`
+- `IRepositories.cs`
+- `CsvActivityRepository.cs`
+- `DatabaseActionRepository.cs`
+- `ExcelConverter/`
 
 ### 자동 시뮬레이션과 LLM 플레이 테스트
 
@@ -72,12 +72,12 @@ Standalone 구현은 교체 가능한 전략을 사용해 전체 게임 시뮬�
 
 주요 파일:
 
-- `Implementation/Simulation/GameSimulator.cs`
-- `Implementation/TestConsole/LLMStrategy.cs`
-- `Implementation/TestConsole/ILLMClient.cs`
-- `Implementation/TestConsole/OpenAIClient.cs`
-- `Implementation/TestConsole/GeminiClient.cs`
-- `Implementation/TestConsole/KimiClient.cs`
+- `GameSimulator.cs`
+- `LLMStrategy.cs`
+- `ILLMClient.cs`
+- `OpenAIClient.cs`
+- `GeminiClient.cs`
+- `IKimiClient.cs`
 
 ## 저장소 구조
 
