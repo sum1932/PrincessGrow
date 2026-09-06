@@ -2,9 +2,6 @@
 
 2D 비주얼 노벨 감성의 육성 시뮬레이션 게임 프로젝트입니다. Unity 화면/입력 계층과 순수 C# Core 로직을 분리하고, 랜덤/LLM 전략 기반 자동 플레이 시뮬레이션으로 월 진행, 이벤트, 엔딩, 경제 밸런스를 검증할 수 있도록 구성했습니다.
 
-- 포트폴리오 페이지: https://sum1932.github.io/PrincessGrow/
-- GitHub 저장소: https://github.com/sum1932/PrincessGrow
-
 ![Dessert Princess title](docs/assets/title.jpg)
 
 ## 프로젝트 개요
